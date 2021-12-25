@@ -65,11 +65,11 @@ Some conferences to be added in the future:
 
 ### SOSP
 
-####2017:
+#### 2017
 
 1. **DeepXplore: Automated Whitebox Testing of Deep Learning Systems** SOSP 2017
 
-####2019:
+#### 2019
 
 1. **PipeDream: Generalized Pipeline Parallelism for DNN Training** SOSP 2019
 2. **A Generic Communication Scheduler for Distributed DNN Training Acceleration** SOSP 2019
@@ -243,14 +243,14 @@ Some conferences to be added in the future:
 
 ### MICRO
 
-### 2017
+#### 2017
 
 1.	**Scale-Out Acceleration for Machine Learning** MICRO 2017
 2.	**Bit-Pragmatic Deep Neural Network Computing** MICRO 2017
 3.	**CirCNN: Accelerating and Compressing Deep Neural Networks Using Block-Circulant Weight Matrices** MICRO 2017
 4.	**DeftNN: Addressing Bottlenecks for DNN Execution on GPUs via Synapse Vector Elimination and Near-compute Data Fission** MICRO 2017
 
-### 2018
+#### 2018
 
 1.	**Addressing Irregularity in Sparse Neural Networks:A Cooperative Software/Hardware Approach** MICRO 2018
 2.	**Diffy: a Deja vu-Free Differential Deep Neural Network Accelerator** MICRO 2018
@@ -259,7 +259,7 @@ Some conferences to be added in the future:
 5.	**PermDNN: Efficient Compressed Deep Neural Network Architecture with Permuted Diagonal Matrices** MICRO 2018 
 6.	**Processing-in-Memory for Energy-efficient Neural Network Training: A Heterogeneous Approach** MICRO 2018
 
-### 2019
+#### 2019
 
 1.	**Wire-Aware Architecture and Dataflow for CNN Accelerators** MICRO 2019
 2.	**Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture** MICRO 2019
@@ -273,7 +273,7 @@ Some conferences to be added in the future:
 
 ### SC
 
-### 2016
+#### 2016
 
 1.	**SERF: Efficient Scheduling for Fast Deep Neural Network Serving via Judicious Parallelism** SC 2016
 2.	**Optimizing Memory Efficiency for Deep Convolutional Neural Networks on GPUs** SC 2016
@@ -281,7 +281,7 @@ Some conferences to be added in the future:
 4.	**GreenLA: Green Linear Algebra Software for GPU-Accelerated Heterogeneous Computing** SC 2016
 5.	**Merge-Based Parallel Sparse Matrix-Vector Multiplication (SpMV)** SC 2016
 
-### 2018
+#### 2018
 
 1.	**Large-Scale Hierarchical K-Means for Heterogeneous Many-Core Supercomputers** SC 2018
 2.	**TriCore: Parallel Triangle Counting on GPUs** SC 2018
@@ -293,7 +293,7 @@ Some conferences to be added in the future:
 8.	**Anatomy of High-Performance Deep Learning Convolutions on SIMD Architectures** SC 2018
 9.	**Fault Tolerant One-Sided Matrix Decompositions on Heterogeneous Systems with GPUs** SC 2018
 
-### 2019
+#### 2019
 
 1.	**Large-Batch Training for LSTM and Beyond** SC 2019
 2.	**Channel and Filter Parallelism for Large-Scale CNN Training** SC 2019
