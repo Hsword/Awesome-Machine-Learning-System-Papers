@@ -59,9 +59,102 @@ Some conferences to be added in the future:
 #### 2018
 
 1. **Ray: A Distributed Framework for Emerging AI Applications** OSDI 2018
+
+	*Philipp Moritz, Robert Nishihara, Stephanie Wang, Alexey Tumanov, Richard Liaw, Eric Liang, Melih Elibol, Zongheng Yang, William Paul, Michael I. Jordan, Ion Stoica*
+	
 2. **TVM: An Automated End-to-End Optimizing Compiler for Deep Learning** OSDI 2018
+
+	*Tianqi Chen, Thierry Moreau, Ziheng Jiang, Lianmin Zheng, Eddie Q. Yan, Haichen Shen, Meghan Cowan, Leyuan Wang, Yuwei Hu, Luis Ceze, Carlos Guestrin, Arvind Krishnamurthy*
+	
 3. **Gandiva: Introspective Cluster Scheduling for Deep Learning** OSDI 2018
+
+	*Wencong Xiao, Romil Bhardwaj, Ramachandran Ramjee, Muthian Sivathanu, Nipun Kwatra, Zhenhua Han, Pratyush Patel, Xuan Peng, Hanyu Zhao, Quanlu Zhang, Fan Yang, Lidong Zhou*
+	
 4. **PRETZEL: Opening the Black Box of Machine Learning Prediction Serving Systems** OSDI 2018
+
+	*Yunseong Lee, Alberto Scolari, Byung-Gon Chun, Marco Domenico Santambrogio, Markus Weimer, Matteo Interlandi*
+
+#### 2020
+
+1. **Serving DNNs like Clockwork: Performance Predictability from the Bottom Up** OSDI 2020
+
+   *Arpan Gujarati, Reza Karimi, Safya Alzayat, Wei Hao, Antoine Kaufmann, Ymir Vigfusson, Jonathan Mace*
+
+2. **A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters** OSDI 2020
+
+   *Yimin Jiang, Yibo Zhu, Chang Lan, Bairen Yi, Yong Cui, Chuanxiong Guo*
+
+3. **Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads** OSDI 2020
+
+   *Deepak Narayanan, Keshav Santhanam, Fiodar Kazhamiaka, Amar Phanishayee, Matei Zaharia*
+
+4. **PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications** OSDI 2020
+
+   *Zhihao Bai, Zhen Zhang, Yibo Zhu, Xin Jin*
+
+5. **HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees** OSDI 2020
+
+   *Hanyu Zhao, Zhenhua Han, Zhi Yang, Quanlu Zhang, Fan Yang, Lidong Zhou, Mao Yang, Francis C. M. Lau, Yuqi Wang, Yifan Xiong, Bin Wang*
+
+6. **AntMan: Dynamic Scaling on GPU Clusters for Deep Learning** OSDI 2020
+
+   *Wencong Xiao, Shiru Ren, Yong Li, Yang Zhang, Pengyang Hou, Zhi Li, Yihui Feng, Wei Lin, Yangqing Jia*
+	
+7. **Ansor: Generating High-Performance Tensor Programs for Deep Learning** OSDI 2020
+
+	*Lianmin Zheng, Chengfan Jia, Minmin Sun, Zhao Wu, Cody Hao Yu, Ameer Haj-Ali, Yida Wang, Jun Yang, Danyang Zhuo, Koushik Sen, Joseph E. Gonzalez, Ion Stoica*
+
+
+8. **Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks** OSDI 2020
+
+	*Lingxiao Ma, Zhiqiang Xie, Zhi Yang, Jilong Xue, Youshan Miao, Wei Cui, Wenxiang Hu, Fan Yang, Lintao Zhang, Lidong Zhou*
+
+9. **A Tensor Compiler for Unified Machine Learning Prediction Serving** OSDI 2020
+
+	*Supun Nakandala, Karla Saur, Gyeong-In Yu, Konstantinos Karanasos, Carlo Curino, Markus Weimer, Matteo Interlandi*
+
+10. **Retiarii: A Deep Learning Exploratory-Training Framework** OSDI 2020
+
+	*Quanlu Zhang, Zhenhua Han, Fan Yang, Yuge Zhang, Zhe Liu, Mao Yang, Lidong Zhou*
+
+11. **KungFu: Making Training in Distributed Machine Learning Adaptive**
+	
+	*Luo Mai, Guo Li, Marcel Wagenländer, Konstantinos Fertakis, Andrei-Octavian Brabete, Peter R. Pietzuch*
+
+#### 2021
+
+1. **Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning** OSDI 2021
+	
+	*Aurick Qiao, Sang Keun Choe, Suhas Jayaram Subramanya, Willie Neiswanger, Qirong Ho, Hao Zhang, Gregory R. Ganger, Eric P. Xing*
+
+
+2. **Oort: Efficient Federated Learning via Guided Participant Selection** OSDI 2021
+
+	*Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury*
+
+3. **PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections** OSDI 2021
+
+	*Haojie Wang, Jidong Zhai, Mingyu Gao, Zixuan Ma, Shizhi Tang, Liyan Zheng, Yuanzhi Li, Kaiyuan Rong, Yuanyong Chen, Zhihao Jia*
+	
+4. **Privacy Budget Scheduling** OSDI 2021
+
+	*Tao Luo, Mingen Pan, Pierre Tholoniat, Asaf Cidon, Roxana Geambasu, Mathias Lécuyer*
+
+5. **Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads** OSDI 2021
+
+	*John Thorpe, Yifan Qiao, Jonathan Eyolfson, Shen Teng, Guanzhou Hu, Zhihao Jia, Jinliang Wei, Keval Vora, Ravi Netravali, Miryung Kim, Guoqing Harry Xu*
+	
+6. **GNNAdvisor: An Adaptive and Efficient Runtime System for GNN Acceleration on GPUs** OSDI 2021
+
+	*Yuke Wang, Boyuan Feng, Gushu Li, Shuangchen Li, Lei Deng, Yuan Xie, Yufei Ding*
+
+7. **Marius: Learning Massive Graph Embeddings on a Single Machine** OSDI 2021
+
+	*Jason Mohoney, Roger Waleffe, Henry Xu, Theodoros Rekatsinas, Shivaram Venkataraman*
+
+8. **P3: Distributed Deep Graph Learning at Scale** OSDI 2021
+
+	*Swapnil Gandhi, Anand Padmanabha Iyer*
 
 ### SOSP
 
