@@ -9,18 +9,20 @@ Thanks to all the people who made contributions to this project. We strongly enc
 
 Currently, the listed papers are collected from the following conferences:
 
-- [OSDI](#osdi)
-- [SOSP](#sosp)
-- [SIGMOD](#sigmod)
-- [ASPLOS](#asplos)
-- [ATC](#atc)
-- [PPoPP](#ppopp)
-- [HPCA](#hpca)
-- [MICRO](#micro)
-- [SC](#sc)
-- [NSDI](#nsdi)
-- [ISCA](#isca)
 
+| Conferences | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
+|-------------|------|------|------|------|------|------|------|------|------|------|
+| [OSDI](#osdi)      |   3   |   -   |   4   |   -   |   11   |   8   |      |      |      |      |
+| [SOSP](#sosp)      |   -   |   1   |   -   |   10   |      |      |      |      |      |      |
+| [SIGMOD](#sigmod)  |   2   |   4   |   3   |   4   |   8   |   16   |      |      |      |      |
+| [ASPLOS](#asplos)  |   -   |   3   |   3   |   9   |   4   |      |      |      |      |      |
+| [ATC](#atc)        |   -   |   2   |   3   |   5   |      |      |      |      |      |      |
+| [PPoPP](#ppopp)    |   -   |   3   |   5   |   2   |      |      |      |      |      |      |
+| [HPCA](#hpca)    |   -   |   3   |   4   |   4   |   1   |      |      |      |      |      |
+| [MICRO](#micro)    |   -   |   4   |   6   |   9   |      |      |      |      |      |      |
+| [SC](#sc)   |    5  |   -   |   9   |   6   |      |      |      |      |      |      |
+| [NSDI](#nsdi)    |   -   |    3  |   -   |   3   |      |      |      |      |      |      |
+| [ISCA](#isca)    |   -   |   6   |   11   |   7   |      |      |      |      |      |      |
 
 Some conferences to be added in the future:
 
@@ -46,6 +48,8 @@ Some conferences to be added in the future:
 1. **TensorFlow: A System for Large-Scale Machine Learning** OSDI 2016
 
    *Martín Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Geoffrey Irving, Michael Isard, Manjunath Kudlur, Josh Levenberg, Rajat Monga, Sherry Moore, Derek Gordon Murray, Benoit Steiner, Paul A. Tucker, Vijay Vasudevan, Pete Warden, Martin Wicke, Yuan Yu, Xiaoqiang Zheng*
+   
+   Code: [https://github.com/tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
 
 2. **Exploring the Hidden Dimension in Graph Processing** OSDI 2016
 
@@ -54,6 +58,8 @@ Some conferences to be added in the future:
 3. **Gemini: A Computation-Centric Distributed Graph Processing System** OSDI 2016
 
 	*Xiaowei Zhu, Wenguang Chen, Weimin Zheng, Xiaosong Ma*
+	
+	Code: [https://github.com/thu-pacman/GeminiGraph](https://github.com/thu-pacman/GeminiGraph)
 
 
 #### 2018
@@ -62,9 +68,13 @@ Some conferences to be added in the future:
 
 	*Philipp Moritz, Robert Nishihara, Stephanie Wang, Alexey Tumanov, Richard Liaw, Eric Liang, Melih Elibol, Zongheng Yang, William Paul, Michael I. Jordan, Ion Stoica*
 	
+	Code: [https://github.com/ray-project/ray](https://github.com/ray-project/ray)
+	
 2. **TVM: An Automated End-to-End Optimizing Compiler for Deep Learning** OSDI 2018
 
 	*Tianqi Chen, Thierry Moreau, Ziheng Jiang, Lianmin Zheng, Eddie Q. Yan, Haichen Shen, Meghan Cowan, Leyuan Wang, Yuwei Hu, Luis Ceze, Carlos Guestrin, Arvind Krishnamurthy*
+	
+	Code: [https://github.com/apache/tvm](https://github.com/apache/tvm)
 	
 3. **Gandiva: Introspective Cluster Scheduling for Deep Learning** OSDI 2018
 
