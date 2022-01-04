@@ -39,23 +39,45 @@ Some conferences to be added in the future:
 - [INFOCOM](#infocom)
 - [SIGIR](#sigir)
 
+## Category Keywords
+
+- ![](https://img.shields.io/badge/Training-red) Model training
+- ![](https://img.shields.io/badge/Inference-blue) Model inference and serving
+- ![](https://img.shields.io/badge/Hardware-green) Hardware-efficient ML methods
+- ![](https://img.shields.io/badge/Security-85144b) Privacy and security for ML applications
+- ![](https://img.shields.io/badge/Debugging-orange) Testing, debugging, and monitoring of ML applications
+- ![](https://img.shields.io/badge/Data-ff69b4) Data preparation, feature selection, and feature extraction
+- ![](https://img.shields.io/badge/Parallel-blueviolet) Distributed and parallel learning algorithms
+- ![](https://img.shields.io/badge/Compiler-206777) ML compilers and runtime
+- ![](https://img.shields.io/badge/Resource-cc9e08) Resource scheduling for ML applications
+- ![](https://img.shields.io/badge/Graph-cc231e) Graph learning systems
+- ![](https://img.shields.io/badge/Others-gray) ...
+
+<!--
+- Fairness, interpretability and explainability for ML applications
+- ML programming models and abstractions
+- Programming languages for machine learning
+- Visualization of data, models, and predictions
+-->
+
+
 ## Papers
 
 ### OSDI 
 
 #### 2016
 
-1. **TensorFlow: A System for Large-Scale Machine Learning** OSDI 2016
+1. **TensorFlow: A System for Large-Scale Machine Learning** OSDI 2016 ![](https://img.shields.io/badge/Training-red)
 
    *Martín Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Geoffrey Irving, Michael Isard, Manjunath Kudlur, Josh Levenberg, Rajat Monga, Sherry Moore, Derek Gordon Murray, Benoit Steiner, Paul A. Tucker, Vijay Vasudevan, Pete Warden, Martin Wicke, Yuan Yu, Xiaoqiang Zheng*
    
    Code: [https://github.com/tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
 
-2. **Exploring the Hidden Dimension in Graph Processing** OSDI 2016
+2. **Exploring the Hidden Dimension in Graph Processing** OSDI 2016 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Graph-cc231e)
 
 	*Mingxing Zhang, Yongwei Wu, Kang Chen, Xuehai Qian, Xue Li, Weimin Zheng*
 
-3. **Gemini: A Computation-Centric Distributed Graph Processing System** OSDI 2016
+3. **Gemini: A Computation-Centric Distributed Graph Processing System** OSDI 2016 ![](https://img.shields.io/badge/Graph-cc231e)
 
 	*Xiaowei Zhu, Wenguang Chen, Weimin Zheng, Xiaosong Ma*
 	
@@ -64,23 +86,23 @@ Some conferences to be added in the future:
 
 #### 2018
 
-1. **Ray: A Distributed Framework for Emerging AI Applications** OSDI 2018
+1. **Ray: A Distributed Framework for Emerging AI Applications** OSDI 2018 ![](https://img.shields.io/badge/Training-red)
 
 	*Philipp Moritz, Robert Nishihara, Stephanie Wang, Alexey Tumanov, Richard Liaw, Eric Liang, Melih Elibol, Zongheng Yang, William Paul, Michael I. Jordan, Ion Stoica*
 	
 	Code: [https://github.com/ray-project/ray](https://github.com/ray-project/ray)
 	
-2. **TVM: An Automated End-to-End Optimizing Compiler for Deep Learning** OSDI 2018
+2. **TVM: An Automated End-to-End Optimizing Compiler for Deep Learning** OSDI 2018 ![](https://img.shields.io/badge/Compiler-206777)
 
 	*Tianqi Chen, Thierry Moreau, Ziheng Jiang, Lianmin Zheng, Eddie Q. Yan, Haichen Shen, Meghan Cowan, Leyuan Wang, Yuwei Hu, Luis Ceze, Carlos Guestrin, Arvind Krishnamurthy*
 	
 	Code: [https://github.com/apache/tvm](https://github.com/apache/tvm)
 	
-3. **Gandiva: Introspective Cluster Scheduling for Deep Learning** OSDI 2018
+3. **Gandiva: Introspective Cluster Scheduling for Deep Learning** OSDI 2018 ![](https://img.shields.io/badge/Resource-cc9e08)
 
 	*Wencong Xiao, Romil Bhardwaj, Ramachandran Ramjee, Muthian Sivathanu, Nipun Kwatra, Zhenhua Han, Pratyush Patel, Xuan Peng, Hanyu Zhao, Quanlu Zhang, Fan Yang, Lidong Zhou*
 	
-4. **PRETZEL: Opening the Black Box of Machine Learning Prediction Serving Systems** OSDI 2018
+4. **PRETZEL: Opening the Black Box of Machine Learning Prediction Serving Systems** OSDI 2018 ![](https://img.shields.io/badge/Inference-blue)
 
 	*Yunseong Lee, Alberto Scolari, Byung-Gon Chun, Marco Domenico Santambrogio, Markus Weimer, Matteo Interlandi*
 
