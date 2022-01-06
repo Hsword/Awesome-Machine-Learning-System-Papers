@@ -13,7 +13,7 @@ Currently, the listed papers are collected from the following conferences:
 | Conferences | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
 |-------------|------|------|------|------|------|------|------|------|------|------|
 | [OSDI](#osdi)      |   3   |   -   |   4   |   -   |   11   |   8   |      |      |      |      |
-| [SOSP](#sosp)      |   -   |   1   |   -   |   10   |      |      |      |      |      |      |
+| [SOSP](#sosp)      |   -   |   1   |   -   |   10   | - |   3   |      |      |      |      |
 | [SIGMOD](#sigmod)  |   2   |   4   |   3   |   4   |   8   |   16   |      |      |      |      |
 | [ASPLOS](#asplos)  |   -   |   3   |   3   |   9   |   4   |      |      |      |      |      |
 | [ATC](#atc)        |   -   |   2   |   3   |   5   |      |      |      |      |      |      |
@@ -108,83 +108,102 @@ Some conferences to be added in the future:
 
 #### 2020
 
-1. **Serving DNNs like Clockwork: Performance Predictability from the Bottom Up** OSDI 2020
+1. **Serving DNNs like Clockwork: Performance Predictability from the Bottom Up** OSDI 2020 ![](https://img.shields.io/badge/Inference-blue)
 
    *Arpan Gujarati, Reza Karimi, Safya Alzayat, Wei Hao, Antoine Kaufmann, Ymir Vigfusson, Jonathan Mace*
 
-2. **A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters** OSDI 2020
+2. **A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters** OSDI 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Hardware-green)
 
    *Yimin Jiang, Yibo Zhu, Chang Lan, Bairen Yi, Yong Cui, Chuanxiong Guo*
 
-3. **Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads** OSDI 2020
+3. **Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads** OSDI 2020 ![](https://img.shields.io/badge/Resource-cc9e08)
 
    *Deepak Narayanan, Keshav Santhanam, Fiodar Kazhamiaka, Amar Phanishayee, Matei Zaharia*
 
-4. **PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications** OSDI 2020
+4. **PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications** OSDI 2020 ![](https://img.shields.io/badge/Resource-cc9e08)
 
    *Zhihao Bai, Zhen Zhang, Yibo Zhu, Xin Jin*
 
-5. **HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees** OSDI 2020
+   Code: [https://github.com/netx-repo/PipeSwitch](https://github.com/netx-repo/PipeSwitch)
+
+5. **HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees** OSDI 2020 ![](https://img.shields.io/badge/Resource-cc9e08)
 
    *Hanyu Zhao, Zhenhua Han, Zhi Yang, Quanlu Zhang, Fan Yang, Lidong Zhou, Mao Yang, Francis C. M. Lau, Yuqi Wang, Yifan Xiong, Bin Wang*
 
-6. **AntMan: Dynamic Scaling on GPU Clusters for Deep Learning** OSDI 2020
+   Code: [https://github.com/microsoft/hivedscheduler](https://github.com/microsoft/hivedscheduler)
+
+6. **AntMan: Dynamic Scaling on GPU Clusters for Deep Learning** OSDI 2020 ![](https://img.shields.io/badge/Resource-cc9e08)
 
    *Wencong Xiao, Shiru Ren, Yong Li, Yang Zhang, Pengyang Hou, Zhi Li, Yihui Feng, Wei Lin, Yangqing Jia*
+
+   Code: [https://github.com/alibaba/GPU-scheduler-for-deep-learning](https://github.com/alibaba/GPU-scheduler-for-deep-learning)
 	
-7. **Ansor: Generating High-Performance Tensor Programs for Deep Learning** OSDI 2020
+7. **Ansor: Generating High-Performance Tensor Programs for Deep Learning** OSDI 2020 ![](https://img.shields.io/badge/Compiler-206777)
 
 	*Lianmin Zheng, Chengfan Jia, Minmin Sun, Zhao Wu, Cody Hao Yu, Ameer Haj-Ali, Yida Wang, Jun Yang, Danyang Zhuo, Koushik Sen, Joseph E. Gonzalez, Ion Stoica*
 
 
-8. **Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks** OSDI 2020
+8. **Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks** OSDI 2020 ![](https://img.shields.io/badge/Compiler-206777)
 
 	*Lingxiao Ma, Zhiqiang Xie, Zhi Yang, Jilong Xue, Youshan Miao, Wei Cui, Wenxiang Hu, Fan Yang, Lintao Zhang, Lidong Zhou*
 
-9. **A Tensor Compiler for Unified Machine Learning Prediction Serving** OSDI 2020
+	Code: [https://github.com/microsoft/nnfusion](https://github.com/microsoft/nnfusion)
+
+9. **A Tensor Compiler for Unified Machine Learning Prediction Serving** OSDI 2020 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Compiler-206777)
 
 	*Supun Nakandala, Karla Saur, Gyeong-In Yu, Konstantinos Karanasos, Carlo Curino, Markus Weimer, Matteo Interlandi*
 
-10. **Retiarii: A Deep Learning Exploratory-Training Framework** OSDI 2020
+10. **Retiarii: A Deep Learning Exploratory-Training Framework** OSDI 2020 ![](https://img.shields.io/badge/Training-red)
 
 	*Quanlu Zhang, Zhenhua Han, Fan Yang, Yuge Zhang, Zhe Liu, Mao Yang, Lidong Zhou*
 
-11. **KungFu: Making Training in Distributed Machine Learning Adaptive**
+11. **KungFu: Making Training in Distributed Machine Learning Adaptive** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
 	
 	*Luo Mai, Guo Li, Marcel Wagenländer, Konstantinos Fertakis, Andrei-Octavian Brabete, Peter R. Pietzuch*
 
 #### 2021
 
-1. **Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning** OSDI 2021
+1. **Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning** OSDI 2021 ![](https://img.shields.io/badge/Resource-cc9e08)
 	
 	*Aurick Qiao, Sang Keun Choe, Suhas Jayaram Subramanya, Willie Neiswanger, Qirong Ho, Hao Zhang, Gregory R. Ganger, Eric P. Xing*
 
+	Code: [https://github.com/petuum/adaptdl](https://github.com/petuum/adaptdl)
 
-2. **Oort: Efficient Federated Learning via Guided Participant Selection** OSDI 2021
+2. **Oort: Efficient Federated Learning via Guided Participant Selection** OSDI 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
 
 	*Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, Mosharaf Chowdhury*
 
-3. **PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections** OSDI 2021
+	Code: [https://github.com/SymbioticLab/Oort](https://github.com/SymbioticLab/Oort)
+
+3. **PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections** OSDI 2021 ![](https://img.shields.io/badge/Data-ff69b4)
 
 	*Haojie Wang, Jidong Zhai, Mingyu Gao, Zixuan Ma, Shizhi Tang, Liyan Zheng, Yuanzhi Li, Kaiyuan Rong, Yuanyong Chen, Zhihao Jia*
+
+	Code: [https://github.com/thu-pacman/PET](https://github.com/thu-pacman/PET)
 	
-4. **Privacy Budget Scheduling** OSDI 2021
+4. **Privacy Budget Scheduling** OSDI 2021 ![](https://img.shields.io/badge/Security-85144b)
 
 	*Tao Luo, Mingen Pan, Pierre Tholoniat, Asaf Cidon, Roxana Geambasu, Mathias Lécuyer*
 
-5. **Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads** OSDI 2021
+5. **Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads** OSDI 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
 
 	*John Thorpe, Yifan Qiao, Jonathan Eyolfson, Shen Teng, Guanzhou Hu, Zhihao Jia, Jinliang Wei, Keval Vora, Ravi Netravali, Miryung Kim, Guoqing Harry Xu*
 	
-6. **GNNAdvisor: An Adaptive and Efficient Runtime System for GNN Acceleration on GPUs** OSDI 2021
+	Code: [https://github.com/uclasystem/dorylus](https://github.com/uclasystem/dorylus)
+	
+6. **GNNAdvisor: An Adaptive and Efficient Runtime System for GNN Acceleration on GPUs** OSDI 2021 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Graph-cc231e)
 
 	*Yuke Wang, Boyuan Feng, Gushu Li, Shuangchen Li, Lei Deng, Yuan Xie, Yufei Ding*
 
-7. **Marius: Learning Massive Graph Embeddings on a Single Machine** OSDI 2021
+	Code: [https://github.com/YukeWang96/OSDI21_AE](https://github.com/YukeWang96/OSDI21_AE)
+
+7. **Marius: Learning Massive Graph Embeddings on a Single Machine** OSDI 2021 ![](https://img.shields.io/badge/Graph-cc231e)
 
 	*Jason Mohoney, Roger Waleffe, Henry Xu, Theodoros Rekatsinas, Shivaram Venkataraman*
 
-8. **P3: Distributed Deep Graph Learning at Scale** OSDI 2021
+	Code: [https://github.com/marius-team/marius](https://github.com/marius-team/marius)
+
+8. **P3: Distributed Deep Graph Learning at Scale** OSDI 2021 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet)
 
 	*Swapnil Gandhi, Anand Padmanabha Iyer*
 
@@ -192,77 +211,244 @@ Some conferences to be added in the future:
 
 #### 2017
 
-1. **DeepXplore: Automated Whitebox Testing of Deep Learning Systems** SOSP 2017
+1. **DeepXplore: Automated Whitebox Testing of Deep Learning Systems** SOSP 2017 ![](https://img.shields.io/badge/Debugging-orange)
+
+	*Kexin Pei, Yinzhi Cao, Junfeng Yang, Suman Jana*
+
+  Code: [https://github.com/peikexin9/deepxplore](https://github.com/peikexin9/deepxplore)
 
 #### 2019
 
-1. **PipeDream: Generalized Pipeline Parallelism for DNN Training** SOSP 2019
-2. **A Generic Communication Scheduler for Distributed DNN Training Acceleration** SOSP 2019
-3. **Parity Models: Erasure-Coded Resilience for Prediction Serving Systems** SOSP 2019
-4. **TASO: Optimizing Deep Learning Computation with Automated Generation of Graph Substitutions** SOSP 2019
-5. **Optimizing Data-Intensive Computations in Existing Libraries with Split Annotations** SOSP 2019
-6. **Niijima: Sound and Automated Computation Consolidation for Efficient Multilingual Data-Parallel Pipelines** SOSP 2019
-7. **Nexus: A GPU Cluster Engine for Accelerating DNN-Based Video Analysis** SOSP 2019
-8. **AutoMine: Harmonizing High-Level Abstraction and High Performance for Graph Mining** SOSP 2019
-9. **KnightKing: A Fast Distributed Graph Random Walk Engine** SOSP 2019
-10. **Gerenuk: Thin Computation over Big Native Data Using Speculative Program Transformation** SOSP 2019
+1. **PipeDream: Generalized Pipeline Parallelism for DNN Training** SOSP 2019 ![](https://img.shields.io/badge/Training-red)
+
+	*Deepak Narayanan, Aaron Harlap, Amar Phanishayee, Vivek Seshadri, Nikhil R. Devanur, Gregory R. Ganger, Phillip B. Gibbons, Matei Zaharia*
+
+2. **A Generic Communication Scheduler for Distributed DNN Training Acceleration** SOSP 2019![](https://img.shields.io/badge/Training-red)![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Yanghua Peng, Yibo Zhu, Yangrui Chen, Yixin Bao, Bairen Yi, Chang Lan, Chuan Wu, Chuanxiong Guo*
+
+3. **Parity Models: Erasure-Coded Resilience for Prediction Serving Systems** SOSP 2019 ![](https://img.shields.io/badge/Inference-blue)
+
+	*Jack Kosaian, K. V. Rashmi, Shivaram Venkataraman*
+
+4. **TASO: Optimizing Deep Learning Computation with Automated Generation of Graph Substitutions** SOSP 2019 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Zhihao Jia, Oded Padon, James Thomas, Todd Warszawski, Matei Zaharia, Alex Aiken*
+
+5. **Optimizing Data-Intensive Computations in Existing Libraries with Split Annotations** SOSP 2019 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Shoumik Palkar, Matei Zaharia*
+
+6. **Niijima: Sound and Automated Computation Consolidation for Efficient Multilingual Data-Parallel Pipelines** SOSP 2019 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Guoqing Harry Xu, Margus Veanes, Michael Barnett, Madan Musuvathi, Todd Mytkowicz, Ben Zorn, Huan He, Haibo Lin*
+
+7. **Nexus: A GPU Cluster Engine for Accelerating DNN-Based Video Analysis** SOSP 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Haichen Shen, Lequn Chen, Yuchen Jin, Liangyu Zhao, Bingyu Kong, Matthai Philipose, Arvind Krishnamurthy, Ravi Sundaram*
+
+8. **AutoMine: Harmonizing High-Level Abstraction and High Performance for Graph Mining** SOSP 2019 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Daniel Mawhirter, Bo Wu*
+
+9. **KnightKing: A Fast Distributed Graph Random Walk Engine** SOSP 2019 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Ke Yang, MingXing Zhang, Kang Chen, Xiaosong Ma, Yang Bai, Yong Jiang*
+
+	Code: [https://github.com/KnightKingWalk/KnightKing](https://github.com/KnightKingWalk/KnightKing)
+
+10. **Gerenuk: Thin Computation over Big Native Data Using Speculative Program Transformation** SOSP 2019 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Christian Navasca, Cheng Cai, Khanh Nguyen, Brian Demsky, Shan Lu, Miryung Kim, Guoqing Harry Xu*
+
+#### 2021
+
+1. **Gradient Compression Supercharged High-Performance Data Parallel DNN Training** SOSP 2021 ![](https://img.shields.io/badge/Training-red)![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Youhui Bai, Cheng Li, Quan Zhou, Jun Yi, Ping Gong, Feng Yan, Ruichuan Chen, Yinlong Xu*
+
+2. **Generating Complex, Realistic Cloud Workloads using Recurrent Neural Networks** SOSP 2021 ![](https://img.shields.io/badge/Resource-cc9e08)
+	*Shane Bergsma, Timothy Zeyl, Arik Senderovich, J. Christopher Beck*
+
+3. **Random Walks on Huge Graphs at Cache Efficiency** SOSP 2021 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Ke Yang, Xiaosong Ma, Saravanan Thirumuruganathan, Kang Chen, Yongwei Wu*
+ 
+
 
 ### SIGMOD
 
 #### 2016
 
-1. **Building Machine Learning Systems that Understand** SIGMOD 2016
-2. **M3: Scaling Up Machine Learning via Memory Mapping** SIGMOD 2016
+1. **Building Machine Learning Systems that Understand** SIGMOD 2016 ![](https://img.shields.io/badge/Others-gray)
+
+	*Jeff Dean*
+
+2. **M3: Scaling Up Machine Learning via Memory Mapping** SIGMOD 2016 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Dezhi Fang, Duen Horng Chau*
 
 #### 2017
 
-1. **Heterogeneity-aware Distributed Parameter Servers** SIGMOD 2017
-2. **Bolt-on Differential Privacy for Scalable Stochastic Gradient Descent-based Analytics** SIGMOD 2017
-3. **Data Management in Machine Learning: Challenges, Techniques, and Systems** SIGMOD 2017
-4. **Data Management Challenges in Production Machine Learning** SIGMOD 2017
+1. **Heterogeneity-aware Distributed Parameter Servers** SIGMOD 2017 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Jiawei Jiang, Bin Cui, Ce Zhang, Lele Yu*
+
+2. **Bolt-on Differential Privacy for Scalable Stochastic Gradient Descent-based Analytics** SIGMOD 2017 ![](https://img.shields.io/badge/Security-85144b)
+
+	*Xi Wu, Fengan Li, Arun Kumar, Kamalika Chaudhuri, Somesh Jha, Jeffrey F. Naughton*
+
+3. **Data Management in Machine Learning: Challenges, Techniques, and Systems** SIGMOD 2017 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Arun Kumar, Matthias Boehm, Jun Yang*
+
+4. **Data Management Challenges in Production Machine Learning** SIGMOD 2017 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Neoklis Polyzotis, Sudip Roy, Steven Euijong Whang, Martin Zinkevich*
 
 #### 2018
 
-1.	**DimBoost: Boosting Gradient Boosting Decision Tree to Higher Dimensions** SIGMOD 2018
-2.	**SketchML: Accelerating Distributed Machine Learning with Data Sketches** SIGMOD 2018
-3.	**Accelerating Machine Learning Inference with Probabilistic Predicates** SIGMOD 2018
+1.	**DimBoost: Boosting Gradient Boosting Decision Tree to Higher Dimensions** SIGMOD 2018 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Jiawei Jiang, Bin Cui, Ce Zhang, Fangcheng Fu*
+
+2.	**SketchML: Accelerating Distributed Machine Learning with Data Sketches** SIGMOD 2018  ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Jiawei Jiang, Fangcheng Fu, Tong Yang, Bin Cui*
+
+3.	**Accelerating Machine Learning Inference with Probabilistic Predicates** SIGMOD 2018 ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Inference-blue)
+
+	*Yao Lu, Aakanksha Chowdhery, Srikanth Kandula, Surajit Chaudhuri*
 
 #### 2019
 
-1. **PS2: Parameter Server on Spark** SIGMOD 2019
-2.	**Large Scale Graph Mining with G-Miner** SIGMOD 2019
-3.	**BlinkML: Efficient Maximum Likelihood Estimation with Probabilistic Guarantees** SIGMOD 2019
-4.	**Democratizing Data Science through Interactive Curation of ML Pipelines** SIGMOD 2019
+1. **PS2: Parameter Server on Spark** SIGMOD 2019 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Zhipeng Zhang, Bin Cui, Yingxia Shao, Lele Yu, Jiawei Jiang, Xupeng Miao*
+
+2.	**Large Scale Graph Mining with G-Miner** SIGMOD 2019 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Hongzhi Chen, Xiaoxi Wang, Chenghuan Huang, Juncheng Fang, Yifan Hou, Changji Li, James Cheng*
+
+	Code: [https://github.com/yaobaiwei/GMiner](https://github.com/yaobaiwei/GMiner)
+
+3.	**BlinkML: Efficient Maximum Likelihood Estimation with Probabilistic Guarantees** SIGMOD 2019 ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Training-red)
+
+	*Yongjoo Park, Jingyi Qing, Xiaoyang Shen, Barzan Mozafari*
+
+4.	**Democratizing Data Science through Interactive Curation of ML Pipelines** SIGMOD 2019 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Zeyuan Shang, Emanuel Zgraggen, Benedetto Buratti, Ferdinand Kossmann, Philipp Eichmann, Yeounoh Chung, Carsten Binnig, Eli Upfal, Tim Kraska*
 
 #### 2020
 
-1.	**Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs** SIGMOD 2020
-2.	**TensorFlow Data Validation: Data Analysis and Validation in Continuous ML Pipelines** SIGMOD 2020
-3.	**Optimizing Machine Learning Workloads in Collaborative Environments** SIGMOD 2020
-4.	**Vertica-ML: Distributed Machine Learning in Vertica Database** SIGMOD 2020
-5.	**DB4ML - An In-Memory Database Kernel with Machine Learning Support** SIGMOD 2020
-6.	**Active Learning for ML Enhanced Database Systems** SIGMOD 2020
-7.	**MemFlow: Memory-Aware Distributed Deep Learning** SIGMOD 2020
+1.	**Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs** SIGMOD 2020 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Yingxia Shao, Shiyue Huang, Xupeng Miao, Bin Cui, Lei Chen*
+
+2.	**TensorFlow Data Validation: Data Analysis and Validation in Continuous ML Pipelines** SIGMOD 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Emily Caveness, Paul Suganthan G. C., Zhuo Peng, Neoklis Polyzotis, Sudip Roy, Martin Zinkevich*
+
+3.	**Optimizing Machine Learning Workloads in Collaborative Environments** SIGMOD 2020 ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Behrouz Derakhshan, Alireza Rezaei Mahdiraji, Ziawasch Abedjan, Tilmann Rabl, Volker Markl*
+
+4.	**Vertica-ML: Distributed Machine Learning in Vertica Database** SIGMOD 2020 ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Arash Fard, Anh Le, George Larionov, Waqas Dhillon, Chuck Bear*
+
+5.	**DB4ML - An In-Memory Database Kernel with Machine Learning Support** SIGMOD 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Matthias Jasny, Tobias Ziegler, Tim Kraska, Uwe Röhm, Carsten Binnig*
+
+6.	**Active Learning for ML Enhanced Database Systems** SIGMOD 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Lin Ma, Bailu Ding, Sudipto Das, Adith Swaminathan*
+
+7.	**MemFlow: Memory-Aware Distributed Deep Learning** SIGMOD 2020 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Neil Band*
+
 8.	**Systems and ML: When the Sum is Greater than Its Parts** SIGMOD 2020
+
+	*Ion Stoica*
 
 #### 2021
 
-1.	**Heterogeneity-Aware Distributed Machine Learning Training via Partial Reduce** SIGMOD 2021
-2.	**VF^2Boost: Very Fast Vertical Federated Gradient Boosting for Cross-Enterprise Learning** SIGMOD 2021
-3.	**ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks** SIGMOD 2021
-4.	**Agile and Accurate CTR Prediction Model Training for Massive-Scale Online Advertising Systems** SIGMOD 2021
-5.	**Production Machine Learning Pipelines: Empirical Analysis and Optimization Opportunities** SIGMOD 2021
-6.	**Vertex-Centric Visual Programming for Graph Neural Networks** SIGMOD 2021
-7.	**Deep Learning: Systems and Responsibility** SIGMOD 2021
-8.	**Expand your Training Limits! Generating Training Data for ML-based Data Management** SIGMOD 2021
-9.	**Towards Benchmarking Feature Type Inference for AutoML Platforms** SIGMOD 2021
-10. **LightNE: A Lightweight Graph Processing System for Network Embedding** SIGMOD 2021
-11.	**Scalable and Usable Relational Learning With Automatic Language Bias** SIGMOD 2021
-12.	**Model-Parallel Model Selection for Deep Learning Systems** SIGMOD 2021
-13.	**Automatic Optimization of Matrix Implementations for Distributed Machine Learning and Linear Algebra** SIGMOD 2021
-14.	**Automation of Data Prep, ML, and Data Science: New Cure or Snake Oil?** SIGMOD 2021
-15.	**Towards Demystifying Serverless Machine Learning Training** SIGMOD 2021
-16.	**AI Meets Database: AI4DB and DB4AI** SIGMOD 2021
+1.	**Heterogeneity-Aware Distributed Machine Learning Training via Partial Reduce** SIGMOD 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Xupeng Miao, Xiaonan Nie, Yingxia Shao, Zhi Yang, Jiawei Jiang, Lingxiao Ma, Bin Cui*
+
+2.	**VF^2Boost: Very Fast Vertical Federated Gradient Boosting for Cross-Enterprise Learning** SIGMOD 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Fangcheng Fu, Yingxia Shao, Lele Yu, Jiawei Jiang, Huanran Xue, Yangyu Tao, Bin Cui*
+
+3.	**ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks** SIGMOD 2021 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Wentao Zhang, Yu Shen, Yang Li, Lei Chen, Zhi Yang, Bin Cui*
+
+4.	**Agile and Accurate CTR Prediction Model Training for Massive-Scale Online Advertising Systems** SIGMOD 2021 ![](https://img.shields.io/badge/Inference-blue)
+
+	*Zhiqiang Xu, Dong Li, Weijie Zhao, Xing Shen, Tianbo Huang, Xiaoyun Li, Ping Li*
+
+5.	**Production Machine Learning Pipelines: Empirical Analysis and Optimization Opportunities** SIGMOD 2021 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Doris Xin, Hui Miao, Aditya G. Parameswaran, Neoklis Polyzotis*
+
+6.	**Vertex-Centric Visual Programming for Graph Neural Networks** SIGMOD 2021 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Yidi Wu, Yuntao Gui, Tatiana Jin, James Cheng, Xiao Yan, Peiqi Yin, Yufei Cai, Bo Tang, Fan Yu*
+
+7.	**Deep Learning: Systems and Responsibility** SIGMOD 2021 ![](https://img.shields.io/badge/Others-gray)
+
+	*Abdul Wasay, Subarna Chatterjee, Stratos Idreos*
+
+8.	**Expand your Training Limits! Generating Training Data for ML-based Data Management** SIGMOD 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Francesco Ventura, Zoi Kaoudi, Jorge-Arnulfo Quiané-Ruiz, Volker Markl*
+
+	Code: [https://github.com/agora-ecosystem/data-farm](https://github.com/agora-ecosystem/data-farm)
+
+9.	**Towards Benchmarking Feature Type Inference for AutoML Platforms** SIGMOD 2021 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Vraj Shah, Jonathan Lacanlale, Premanand Kumar, Kevin Yang, Arun Kumar*
+
+	Code: [https://github.com/pvn25/ML-Data-Prep-Zoo/tree/master/MLFeatureTypeInference](https://github.com/pvn25/ML-Data-Prep-Zoo/tree/master/MLFeatureTypeInference)
+
+10. **LightNE: A Lightweight Graph Processing System for Network Embedding** SIGMOD 2021 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Jiezhong Qiu, Laxman Dhulipala, Jie Tang, Richard Peng, Chi Wang*
+
+	Code: [https://github.com/xptree/LightNE](https://github.com/xptree/LightNE)
+
+11.	**Scalable and Usable Relational Learning With Automatic Language Bias** SIGMOD 2021 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Jose Picado, Arash Termehchy, Alan Fern, Sudhanshu Pathak, Praveen Ilango, John Davis*
+
+	Code: [https://github.com/OSU-IDEA-Lab/AutoBias](https://github.com/OSU-IDEA-Lab/AutoBias)
+
+12.	**Model-Parallel Model Selection for Deep Learning Systems** SIGMOD 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Kabir Nagrecha*
+
+13.	**Automatic Optimization of Matrix Implementations for Distributed Machine Learning and Linear Algebra** SIGMOD 2021 ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Shangyu Luo, Dimitrije Jankov, Binhang Yuan, Chris Jermaine*
+
+14.	**Automation of Data Prep, ML, and Data Science: New Cure or Snake Oil?** SIGMOD 2021 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Arun Kumar*
+
+15.	**Towards Demystifying Serverless Machine Learning Training** SIGMOD 2021 ![](https://img.shields.io/badge/Training-red)
+
+	*Jiawei Jiang, Shaoduo Gan, Yue Liu, Fanlin Wang, Gustavo Alonso, Ana Klimovic, Ankit Singla, Wentao Wu, Ce Zhang*
+
+	Code: [https://github.com/DS3Lab/LambdaML](https://github.com/DS3Lab/LambdaML)
+
+16.	**AI Meets Database: AI4DB and DB4AI** SIGMOD 2021 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Guoliang Li, Xuanhe Zhou, Lei Cao*
 
 ### ASPLOS
 
@@ -351,9 +537,9 @@ Some conferences to be added in the future:
 #### 2018
 
 1.	**Towards Efficient Microarchitectural Design for Accelerating Unsupervised GAN-based Deep Learning** HPCA 2018
-2.	**Making Memristive Neural Network Accelerators Reliable** HPCA 2018
-3.	**Compressing DMA Engine: Leveraging Activation Sparsity for Training Deep Neural Networks** HPCA 2018
-4.	**In-situ AI: Towards Autonomous and Incremental Deep Learning for IoT Systems** HPCA 2018
+	.	**Making Memristive Neural Network Accelerators Reliable** HPCA 2018
+	.	**Compressing DMA Engine: Leveraging Activation Sparsity for Training Deep Neural Networks** HPCA 2018
+	.	**In-situ AI: Towards Autonomous and Incremental Deep Learning for IoT Systems** HPCA 2018
 
 #### 2019
 
