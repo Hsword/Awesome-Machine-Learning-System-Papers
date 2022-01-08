@@ -15,8 +15,8 @@ Currently, the listed papers are collected from the following conferences:
 | [OSDI](#osdi)      |   3   |   -   |   4   |   -   |   11   |   8   |      |      |      |      |
 | [SOSP](#sosp)      |   -   |   1   |   -   |   10   | - |   3   |      |      |      |      |
 | [SIGMOD](#sigmod)  |   2   |   4   |   3   |   4   |   8   |   16   |      |      |      |      |
-| [ASPLOS](#asplos)  |   -   |   3   |   3   |   9   |   4   |      |      |      |      |      |
-| [ATC](#atc)        |   -   |   2   |   3   |   5   |      |      |      |      |      |      |
+| [ASPLOS](#asplos)  |   -   |   3   |   3   |   9   |   4   |    5   |      |      |      |      |
+| [ATC](#atc)        |   -   |   2   |   3   |   5   |   8   |   10   |      |      |      |      |
 | [PPoPP](#ppopp)    |   -   |   3   |   5   |   2   |      |      |      |      |      |      |
 | [HPCA](#hpca)    |   -   |   3   |   4   |   4   |   1   |      |      |      |      |      |
 | [MICRO](#micro)    |   -   |   4   |   6   |   9   |      |      |      |      |      |      |
@@ -454,56 +454,260 @@ Some conferences to be added in the future:
 
 #### 2017
 
-1.	**SaberLDA: Sparsity-Aware Learning of Topic Models on GPUs** ASPLOS 2017
-2.	**SC-DCNN: Highly-Scalable Deep Convolutional Neural Network using Stochastic Computing** ASPLOS 2017
-3.	**Optimizing CNNs on Multicores for Scalability, Performance and Goodput** ASPLOS 2017
+1.	**SaberLDA: Sparsity-Aware Learning of Topic Models on GPUs** ASPLOS 2017 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Kaiwei Li, Jianfei Chen, Wenguang Chen, Jun Zhu*
+
+2.	**SC-DCNN: Highly-Scalable Deep Convolutional Neural Network using Stochastic Computing** ASPLOS 2017 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Ao Ren, Zhe Li, Caiwen Ding, Qinru Qiu, Yanzhi Wang, Ji Li, Xuehai Qian, Bo Yuan*
+
+3.	**Optimizing CNNs on Multicores for Scalability, Performance and Goodput** ASPLOS 2017 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Samyam Rajbhandari, Yuxiong He, Olatunji Ruwase, Michael Carbin, Trishul M. Chilimbi*
 
 #### 2018
 
-1.	**Bridging the Gap Between Neural Networks and Neuromorphic Hardware with A Neural Network Compiler** ASPLOS 2018
-2.	**MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurable Interconnects** ASPLOS 2018
-3.	**VIBNN: Hardware Acceleration of Bayesian Neural Networks** ASPLOS 2018
+1.	**Bridge the Gap Between Neural Networks and Neuromorphic Hardware with A Neural Network Compiler** ASPLOS 2018 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Yu Ji, Youhui Zhang, Wenguang Chen, Yuan Xie*
+
+2.	**MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurable Interconnects** ASPLOS 2018 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Hyoukjun Kwon, Ananda Samajdar, Tushar Krishna*
+
+3.	**VIBNN: Hardware Acceleration of Bayesian Neural Networks** ASPLOS 2018 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Ruizhe Cai, Ao Ren, Ning Liu, Caiwen Ding, Luhao Wang, Xuehai Qian, Massoud Pedram, Yanzhi Wang*
+
 
 ### 2019
 
-1.	**PUMA: A Programmable Ultra-efficient Memristor-based Accelerator for Machine Learning Inference** ASPLOS 2019
-2.	**FPSA: A Full System Stack Solution for Reconfigurable ReRAM-based NN Accelerator Architecture** ASPLOS 2019
-3.	**Bit-Tactical: A Software/Hardware Approach to Exploiting Value and Bit Sparsity in Neural Networks** ASPLOS 20189
-4.	**TANGRAM: Optimized Coarse-Grained Dataflow for Scalable NN Accelerators** ASPLOS 2019
-5.	**Packing Sparse Convolutional Neural Networks for Efficient Systolic Array Implementations: Column Combining Under Joint Optimization** ASPLOS 2019
-6.	**Split-CNN: Splitting Window-based Operations in Convolutional Neural Networks for Memory System Optimization** ASPLOS 2019
-7.	**HOP: Heterogeneity-Aware Decentralized Training** ASPLOS 2019
-8.	**Astra: Exploiting Predictability to Optimize Deep Learning** ASPLOS 2019
-9.	**ADMM-NN: An Algorithm-Hardware Co-Design Framework of DNNs Using Alternating Direction Methods of Multipliers** ASPLOS 2019
+1.	**PUMA: A Programmable Ultra-efficient Memristor-based Accelerator for Machine Learning Inference** ASPLOS 2019 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Aayush Ankit, Izzat El Hajj, Sai Rahul Chalamalasetti, Geoffrey Ndu, Martin Foltin, R. Stanley Williams, Paolo Faraboschi, Wen-mei W. Hwu, John Paul Strachan, Kaushik Roy, Dejan S. Milojicic*
+
+2.	**FPSA: A Full System Stack Solution for Reconfigurable ReRAM-based NN Accelerator Architecture** ASPLOS 2019 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Yu Ji, Youyang Zhang, Xinfeng Xie, Shuangchen Li, Peiqi Wang, Xing Hu, Youhui Zhang, Yuan Xie*
+
+3.	**Bit-Tactical: A Software/Hardware Approach to Exploiting Value and Bit Sparsity in Neural Networks** ASPLOS 20189 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Alberto Delmas Lascorz, Patrick Judd, Dylan Malone Stuart, Zissis Poulos, Mostafa Mahmoud, Sayeh Sharify, Milos Nikolic, Kevin Siu, Andreas Moshovos*
+
+4.	**TANGRAM: Optimized Coarse-Grained Dataflow for Scalable NN Accelerators** ASPLOS 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Mingyu Gao, Xuan Yang, Jing Pu, Mark Horowitz, Christos Kozyrakis*
+
+5.	**Packing Sparse Convolutional Neural Networks for Efficient Systolic Array Implementations: Column Combining Under Joint Optimization** ASPLOS 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+	*H. T. Kung, Bradley McDanel, Sai Qian Zhang*
+
+6.	**Split-CNN: Splitting Window-based Operations in Convolutional Neural Networks for Memory System Optimization** ASPLOS 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Tian Jin, Seokin Hong*
+
+7.	**HOP: Heterogeneity-Aware Decentralized Training** ASPLOS 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Qinyi Luo, Jinkun Lin, Youwei Zhuo, Xuehai Qian*
+
+8.	**Astra: Exploiting Predictability to Optimize Deep Learning** ASPLOS 2019 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Muthian Sivathanu, Tapan Chugh, Sanjay S. Singapuram, Lidong Zhou*
+
+9.	**ADMM-NN: An Algorithm-Hardware Co-Design Framework of DNNs Using Alternating Direction Methods of Multipliers** ASPLOS 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Ao Ren, Tianyun Zhang, Shaokai Ye, Jiayu Li, Wenyao Xu, Xuehai Qian, Xue Lin, Yanzhi Wang*
+
+	Code: [https://github.com/bowenl0218/bpgan-signal-compression](https://github.com/bowenl0218/bpgan-signal-compression)
 
 ### 2020
 
-1.	**Prague: High-Performance Heterogeneity-Aware Asynchronouos Decentralized Training** ASPLOS 2020
-2.	**Capuchin: Tensor-based GPU Memory Management for Deep Learning** ASPLOS 2020
-3.	**DNN-Guard: An Elastic Heterogeneous Architecture for DNN Accelerator against Adversarial Attacks** ASPLOS 2020
-4.	**PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-based Weight Pruning** ASPLOS 2020
+1.	**Prague: High-Performance Heterogeneity-Aware Asynchronouos Decentralized Training** ASPLOS 2020 ![](https://img.shields.io/badge/Training-red)
 
+	*Qinyi Luo, Jiaao He, Youwei Zhuo, Xuehai Qian*
+
+2.	**Capuchin: Tensor-based GPU Memory Management for Deep Learning** ASPLOS 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Xuan Peng, Xuanhua Shi, Hulin Dai, Hai Jin, Weiliang Ma, Qian Xiong, Fan Yang, Xuehai Qian*
+
+3.	**DNNGuard: An Elastic Heterogeneous DNN Accelerator Architecture against Adversarial Attacks** ASPLOS 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Xingbin Wang, Rui Hou, Boyan Zhao, Fengkai Yuan, Jun Zhang, Dan Meng, Xuehai Qian*
+
+4.	**PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-based Weight Pruning** ASPLOS 2020 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Wei Niu, Xiaolong Ma, Sheng Lin, Shihao Wang, Xuehai Qian, Xue Lin, Yanzhi Wang, Bin Ren*
+
+### 2021
+
+1. **Neural architecture search as program transformation exploration** ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Jack Turner, Elliot J. Crowley, Michael F. P. O'Boyle*
+
+	Code: [https://github.com/jack-willturner/nas-as-program-transformation-exploration](https://github.com/jack-willturner/nas-as-program-transformation-exploration)
+
+2. **Analytical characterization and design space exploration for optimization of CNNs** ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Rui Li, Yufan Xu, Aravind Sukumaran-Rajam, Atanas Rountev, P. Sadayappan*
+
+	Code: [https://github.com/HPCRL/ASPLOS_artifact](https://github.com/HPCRL/ASPLOS_artifact)
+
+3. **Mind mappings: enabling efficient algorithm-accelerator mapping space search** ![](https://img.shields.io/badge/Hardware-green)
+
+	*Kartik Hegde, Po-An Tsai, Sitao Huang, Vikas Chandra, Angshuman Parashar, Christopher W. Fletcher*
+
+	Code: [https://github.com/kartik-hegde/mindMappings](https://github.com/kartik-hegde/mindMappings)
+
+4. **NeuroEngine: a hardware-based event-driven simulation system for advanced brain-inspired computing** ![](https://img.shields.io/badge/Hardware-green)
+
+	*Hunjun Lee, Chanmyeong Kim, Yujin Chung, Jangwoo Kim*
+
+5. **Defensive approximation: securing CNNs using approximate computing** ![](https://img.shields.io/badge/Security-85144b)
+
+	*Amira Guesmi, Ihsen Alouani, Khaled N. Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael B. Abu-Ghazaleh*
+
+	Code: [https://github.com/AG-X09/Defensive-Approximation](https://github.com/AG-X09/Defensive-Approximation)
 
 ### ATC
 
 #### 2017
 
-1.	**Poseidon: An Efficient Communication Architecture for Distributed Deep Learning on GPU Clusters** ATC 2017
-2.	**Garaph: Efficient GPU-accelerated Graph Processing on a Single Machine with Balanced Replication** ATC 2017
+1.	**Poseidon: An Efficient Communication Architecture for Distributed Deep Learning on GPU Clusters** ATC 2017 ![](https://img.shields.io/badge/Parallel-blueviolet)
 
-### 2018
+	*Hao Zhang, Zeyu Zheng, Shizhen Xu, Wei Dai, Qirong Ho, Xiaodan Liang, Zhiting Hu, Jinliang Wei, Pengtao Xie, Eric P. Xing*
 
-1.	**Litz: Elastic Framework for High-Performance Distributed Machine Learning** ATC 2018
-2.	**Cavs: An Efficient Runtime System for Dynamic Neural Networks** ATC 2018
-3.	**DeepCPU: Serving RNN-based Deep Learning Models 10x Faster** ATC 2018
+2.	**Garaph: Efficient GPU-accelerated Graph Processing on a Single Machine with Balanced Replication** ATC 2017 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Resource-cc9e08)
 
-### 2019
+	*Lingxiao Ma, Zhi Yang, Han Chen, Jilong Xue, Yafei Dai*
 
-1.	**STRADS-AP: Simplifying Distributed Machine Learning Programming without Introducing a New Programming Model** ATC 2019
-2.	**NeuGraph: Parallel Deep Neural Network Computation on Large Graphs** ATC 2019
-3.	**Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads** ATC 2019
-4.	**Optimizing CNN Model Inference on CPUs** ATC 2019
-5.	**MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving** ATC 2019
+#### 2018
+
+1.	**Litz: Elastic Framework for High-Performance Distributed Machine Learning** ATC 2018 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Aurick Qiao, Abutalib Aghayev, Weiren Yu, Haoyang Chen, Qirong Ho, Garth A. Gibson, Eric P. Xing*
+
+2.	**Cavs: An Efficient Runtime System for Dynamic Neural Networks** ATC 2018 ![](https://img.shields.io/badge/Compiler-206777) 
+
+	*Shizhen Xu, Hao Zhang, Graham Neubig, Wei Dai, Jin Kyu Kim, Zhijie Deng, Qirong Ho, Guangwen Yang, Eric P. Xing*
+
+3.	**DeepCPU: Serving RNN-based Deep Learning Models 10x Faster** ATC 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+	*Minjia Zhang, Samyam Rajbhandari, Wenhan Wang, Yuxiong He*
+
+#### 2019
+
+1.	**STRADS-AP: Simplifying Distributed Machine Learning Programming without Introducing a New Programming Model** ATC 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Jin Kyu Kim, Abutalib Aghayev, Garth A. Gibson, Eric P. Xing*
+
+2.	**NeuGraph: Parallel Deep Neural Network Computation on Large Graphs** ATC 2019 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Lingxiao Ma, Zhi Yang, Youshan Miao, Jilong Xue, Ming Wu, Lidong Zhou, Yafei Dai*
+
+3.	**Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads** ATC 2019 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Myeongjae Jeon, Shivaram Venkataraman, Amar Phanishayee, Junjie Qian, Wencong Xiao, Fan Yang*
+
+4.	**Optimizing CNN Model Inference on CPUs** ATC 2019 ![](https://img.shields.io/badge/Inference-blue)
+
+	*Yizhi Liu, Yao Wang, Ruofei Yu, Mu Li, Vin Sharma, Yida Wang*
+
+5.	**MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving** ATC 2019 ![](https://img.shields.io/badge/Inference-blue)
+
+	*Chengliang Zhang, Minchen Yu, Wei Wang, Feng Yan*
+
+#### 2020
+
+1.	**HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism** ![](https://img.shields.io/badge/Training-red)
+
+	*Jay H. Park, Gyeongchan Yun, Chang M. Yi, Nguyen T. Nguyen, Seungmin Lee, Jaesik Choi, Sam H. Noh, Young-ri Choi*
+
+2.	**AutoSys: The Design and Operation of Learning-Augmented Systems** ![](https://img.shields.io/badge/Others-gray)
+
+	*Chieh-Jan Mike Liang, Hui Xue, Mao Yang, Lidong Zhou, Lifei Zhu, Zhao Lucis Li, Zibo Wang, Qi Chen, Quanlu Zhang, Chuanjie Liu, Wenjun Dai*
+
+3.	**Daydream: Accurately Estimating the Efficacy of Optimizations for DNN Training** ![](https://img.shields.io/badge/Training-red)
+
+	*Hongyu Zhu, Amar Phanishayee, Gennady Pekhimenko*
+
+4. 	**ALERT: Accurate Learning for Energy and Timeliness** ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Chengcheng Wan, Muhammad Husni Santriaji, Eri Rogers, Henry Hoffmann, Michael Maire, Shan Lu*
+
+5.	**NeuOS: A Latency-Predictable Multi-Dimensional Optimization Framework for DNN-driven Autonomous Systems** ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Soroush Bateni, Cong Liu*
+
+	Code: [https://github.com/Soroosh129/NeuOS](https://github.com/Soroosh129/NeuOS)
+
+6.	**PERCIVAL: Making In-Browser Perceptual Ad Blocking Practical with Deep Learning** ![](https://img.shields.io/badge/Inference-blue)
+
+	*Zain ul Abi Din, Panagiotis Tigas, Samuel T. King, Benjamin Livshits*
+
+	Code: [https://github.com/dxaen/percival](https://github.com/dxaen/percival)
+
+7.	**GraphWalker: An I/O-Efficient and Resource-Friendly Graph Analytic System for Fast and Scalable Random Walks** ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Rui Wang, Yongkun Li, Hong Xie, Yinlong Xu, John C. S. Lui*
+
+8.	**Scaph: Scalable GPU-Accelerated Graph Processing with Value-Driven Differential Scheduling** ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Long Zheng, Xianliang Li, Yaohui Zheng, Yu Huang, Xiaofei Liao, Hai Jin, Jingling Xue, Zhiyuan Shao, Qiang-Sheng Hua*
+
+#### 2021
+
+1.	**Zico: Efficient GPU Memory Sharing for Concurrent DNN Training** ![](https://img.shields.io/badge/Training-red)
+
+	*Gangmuk Lim, Jeongseob Ahn, Wencong Xiao, Youngjin Kwon, Myeongjae Jeon*
+
+2.	**Octo: INT8 Training with Loss-aware Compensation and Backward Quantization for Tiny On-device Learning** ![](https://img.shields.io/badge/Training-red)
+
+	*Qihua Zhou, Song Guo, Zhihao Qu, Jingcai Guo, Zhenda Xu, Jiewei Zhang, Tao Guo, Boyuan Luo, Jingren Zhou*
+
+	Code: [https://github.com/kimihe/Octo](https://github.com/kimihe/Octo)
+
+3.	**GLIST: Towards In-Storage Graph Learning** ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Cangyuan Li, Ying Wang, Cheng Liu, Shengwen Liang, Huawei Li, Xiaowei Li*
+
+4.	**Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism** ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Saar Eliad, Ido Hakimi, Alon De Jagger, Mark Silberstein, Assaf Schuster*
+
+	Code: [https://github.com/saareliad/FTPipe](https://github.com/saareliad/FTPipe)
+
+5.	**INFaaS: Automated Model-less Inference Serving** ![](https://img.shields.io/badge/Inference-blue) 
+
+	*Francisco Romero, Qian Li, Neeraja J. Yadwadkar, Christos Kozyrakis*
+
+	Code: [https://github.com/stanford-mast/INFaaS](https://github.com/stanford-mast/INFaaS)
+
+6.	**Jump-Starting Multivariate Time Series Anomaly Detection for Online Service Systems** ![](https://img.shields.io/badge/Debugging-orange)
+
+	*Minghua Ma, Shenglin Zhang, Junjie Chen, Jim Xu, Haozhe Li, Yongliang Lin, Xiaohui Nie, Bo Zhou, Yong Wang, Dan Pei*
+
+	Code: [https://github.com/NetManAIOps/JumpStarter](https://github.com/NetManAIOps/JumpStarter)
+
+7.	**Palleon: A Runtime System for Efficient Video Processing toward Dynamic Class Skew** ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Boyuan Feng, Yuke Wang, Gushu Li, Yuan Xie, Yufei Ding*
+
+8.	**Habitat: A Runtime-Based Computational Performance Predictor for Deep Neural Network Training** ![](https://img.shields.io/badge/Training-red)
+
+	*Geoffrey X. Yu, Yubo Gao, Pavel Golikov, Gennady Pekhimenko*
+
+	Code: [https://github.com/geoffxy/habitat](https://github.com/geoffxy/habitat)
+
+9.	**Refurbish Your Training Data: Reusing Partially Augmented Samples for Faster Deep Neural Network Training** ![](https://img.shields.io/badge/Training-red)
+
+	*Gyewon Lee, Irene Lee, Hyeonmin Ha, Kyung-Geun Lee, Hwarim Hyun, Ahnjae Shin, Byung-Gon Chun*
+
+10.	**ZeRO-Offload: Democratizing Billion-Scale Model Training** ![](https://img.shields.io/badge/Training-red)
+	
+	*Jie Ren, Samyam Rajbhandari, Reza Yazdani Aminabadi, Olatunji Ruwase, Shuangyan Yang, Minjia Zhang, Dong Li, Yuxiong He*
+	
+	Code: [https://github.com/microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed)
 
 ### PPoPP
 
@@ -664,4 +868,4 @@ Some conferences to be added in the future:
 
 ## Contributors
 
-Contributed by [Xupeng Miao](https://github.com/Hsword).
+Contributed by [Xupeng Miao](https://github.com/Hsword), [Zihao Yu](https://github.com/Hankpipi).
