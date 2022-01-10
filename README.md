@@ -17,7 +17,7 @@ Currently, the listed papers are collected from the following conferences:
 | [SIGMOD](#sigmod)  |   2   |   4   |   3   |   4   |   8   |   16   |      |      |      |      |
 | [ASPLOS](#asplos)  |   -   |   3   |   3   |   9   |   4   |    5   |      |      |      |      |
 | [ATC](#atc)        |   -   |   2   |   3   |   5   |   8   |   10   |      |      |      |      |
-| [PPoPP](#ppopp)    |   -   |   3   |   5   |   2   |      |      |      |      |      |      |
+| [PPoPP](#ppopp)    |   -   |   3   |   5   |   2   |   1   |   17   |      |      |      |      |
 | [HPCA](#hpca)    |   -   |   3   |   4   |   4   |   1   |      |      |      |      |      |
 | [MICRO](#micro)    |   -   |   4   |   6   |   9   |      |      |      |      |      |      |
 | [SC](#sc)   |    5  |   -   |   9   |   6   |      |      |      |      |      |      |
@@ -713,22 +713,146 @@ Some conferences to be added in the future:
 
 #### 2017
 
-1.	**Groute: An Asynchronous Multi-GPU Programming Model for Irregular Computations** PPoPP 2017
-2.	**Exploiting Vector and Multicore Parallelism for Recursive Data- and Task-Parallel Programs** PPoPP 2017
-3.	**S-Caffe: Co-designing MPI Runtimes and Caffe for Scalable Deep Learning on Modern GPU Clusters** PPoPP 2017
+1.	**Groute: An Asynchronous Multi-GPU Programming Model for Irregular Computations** PPoPP 2017 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Tal Ben-Nun, Michael Sutton, Sreepathi Pai, Keshav Pingali:*
+
+	Code: [https://github.com/groute/ppopp17-artifact](https://github.com/groute/ppopp17-artifact)
+
+2.	**Exploiting Vector and Multicore Parallelism for Recursive Data- and Task-Parallel Programs** PPoPP 2017 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Bin Ren, Sriram Krishnamoorthy, Kunal Agrawal, Milind Kulkarn*
+
+3.	**S-Caffe: Co-designing MPI Runtimes and Caffe for Scalable Deep Learning on Modern GPU Clusters** PPoPP 2017 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Ammar Ahmad Awan, Khaled Hamidouche, Jahanzeb Maqbool Hashmi, Dhabaleswar K. Panda*
 
 #### 2018
 
-1.	**An Effective Fusion and Tile Size Model for Optimizing Image Processing Pipelines** PPoPP 2018
-2.	**Bridging the Gap between Deep Learning and Sparse Matrix Format Selection** PPoPP 2018
-3.	**LazyGraph: Lazy Data Coherency for Replicas in Distributed Graph-Parallel Computation** PPoPP 2018
-4.	**Making Pull-Based Graph Processing Performant** PPoPP 2018
-5.	**SuperNeurons: Dynamic GPU Memory Management for Training Deep Neural Networks** PPoPP 2018
+1.	**An Effective Fusion and Tile Size Model for Optimizing Image Processing Pipelines** PPoPP 2018 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Abhinav Jangda, Uday Bondhugula*
+
+2.	**Bridging the Gap between Deep Learning and Sparse Matrix Format Selection** PPoPP 2018 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Yue Zhao, Jiajia Li, Chunhua Liao, Xipeng Shen*
+
+3.	**LazyGraph: Lazy Data Coherency for Replicas in Distributed Graph-Parallel Computation** PPoPP 2018 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Lei Wang, Liangji Zhuang, Junhang Chen, Huimin Cui, Fang Lv, Ying Liu, Xiaobing Feng*
+
+4.	**Making Pull-Based Graph Processing Performant** PPoPP 2018 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Samuel Grossman, Heiner Litz, Christos Kozyrakis*
+
+	Code: [https://github.com/stanford-mast/Grazelle-PPoPP18](https://github.com/stanford-mast/Grazelle-PPoPP18)
+
+5.	**SuperNeurons: Dynamic GPU Memory Management for Training Deep Neural Networks** PPoPP 2018 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Linnan Wang, Jinmian Ye, Yiyang Zhao, Wei Wu, Ang Li, Shuaiwen Leon Song, Zenglin Xu, Tim Kraska*
+
 
 #### 2019
 
-1.	**Beyond Human-Level Accuracy: Computational Challenges in Deep Learning** PPoPP 2019
-2.	**A Pattern Based Algorithmic Autotuner for Graph Processing on GPUs** PPoPP 2019
+1.	**Beyond Human-Level Accuracy: Computational Challenges in Deep Learning** PPoPP 2019 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Joel Hestness, Newsha Ardalani, Gregory F. Diamos*
+
+	Code: [https://github.com/baidu-research/catamount](https://github.com/baidu-research/catamount)
+
+2.	**A Pattern Based Algorithmic Autotuner for Graph Processing on GPUs** PPoPP 2019 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Ke Meng, Jiajia Li, Guangming Tan, Ninghui Sun*
+
+	Code: [https://github.com/PAA-NCIC/gswitch](https://github.com/PAA-NCIC/gswitch)
+
+#### 2020
+
+1.	**Taming unbalanced training workloads in deep learning with partial collective operations** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Shigang Li, Tal Ben-Nun, Salvatore Di Girolamo, Dan Alistarh, Torsten Hoefler*
+
+#### 2021
+
+1.	**Understanding and bridging the gaps in current GNN performance optimizations** ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Kezhao Huang, Jidong Zhai, Zhen Zheng, Youngmin Yi, Xipeng Shen*
+
+2.	**Scaling implicit parallelism via dynamic control replication** ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Michael Bauer, Wonchan Lee, Elliott Slaughter, Zhihao Jia, Mario Di Renzo, Manolis Papadakis, Galen M. Shipman, Patrick S. McCormick, Michael Garland, Alex Aiken*
+
+3.	**Compiler support for near data computing** ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Mahmut Taylan Kandemir, Jihyun Ryoo, Xulong Tang, Mustafa Karaköy*
+
+4.	**BiPart: a parallel and deterministic hypergraph partitioner** ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Sepideh Maleki, Udit Agarwal, Martin Burtscher, Keshav Pingali*
+
+	Code: [https://github.com/IntelligentSoftwareSystems/Galois](https://github.com/IntelligentSoftwareSystems/Galois)
+	
+5.	**GPTune: multitask learning for autotuning exascale applications** ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Yang Liu, Wissam M. Sid-Lakhdar, Osni Marques, Xinran Zhu, Chang Meng, James Weldon Demmel, Xiaoye S. Li*
+
+	Code: [https://github.com/gptune/GPTune](https://github.com/gptune/GPTune)
+
+6.	**I/O lower bounds for auto-tuning of convolutions in CNNs** ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Xiaoyang Zhang, Junmin Xiao, Guangming Tan*
+
+7.	**ApproxTuner: a compiler and runtime system for adaptive approximations** ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Hashim Sharif, Yifan Zhao, Maria Kotsifakou, Akash Kothari, Ben Schreiber, Elizabeth Wang, Yasmin Sarita, Nathan Zhao, Keyur Joshi, Vikram S. Adve, Sasa Misailovic, Sarita V. Adve*
+
+8.	**TurboTransformers: an efficient GPU serving system for transformer models** ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Jiarui Fang, Yang Yu, Chengduo Zhao, Jie Zhou*
+
+	Code: [https://github.com/Tencent/TurboTransformers](https://github.com/Tencent/TurboTransformers)
+
+9.	**Extracting clean performance models from tainted programs** ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Marcin Copik, Alexandru Calotoiu, Tobias Grosser, Nicolas Wicki, Felix Wolf, Torsten Hoefler*
+
+	Code: [https://github.com/spcl/perf-taint](https://github.com/spcl/perf-taint)
+
+10.	**DAPPLE: a pipelined data parallel approach for training large models** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Shiqing Fan, Yi Rong, Chen Meng, Zongyan Cao, Siyu Wang, Zhen Zheng, Chuan Wu, Guoping Long, Jun Yang, Lixue Xia, Lansong Diao, Xiaoyong Liu, Wei Lin*
+
+	Code: [https://github.com/AlibabaPAI/DAPPLE](https://github.com/AlibabaPAI/DAPPLE)
+
+11.	**In-situ workflow auto-tuning through combining component models** ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Tong Shu, Yanfei Guo, Justin M. Wozniak, Xiaoning Ding, Ian T. Foster, Tahsin M. Kurç*
+
+12.	**Corder: cache-aware reordering for optimizing graph analytics** ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*YuAng Chen, Yeh-Ching Chung*
+
+13.	**DFOGraph: an I/O- and communication-efficient system for distributed fully-out-of-core graph processing** ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Jiping Yu, Wei Qin, Xiaowei Zhu, Zhenbo Sun, Jianqiang Huang, Xiaohan Li, Wenguang Chen*
+
+14.	**An efficient uncertain graph processing framework for heterogeneous architectures** ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Heng Zhang, Lingda Li, Donglin Zhuang, Rui Liu, Shuang Song, Dingwen Tao, Yanjun Wu, Shuaiwen Leon Song*
+
+15.	**Dynamic scaling for low-precision learning** ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Ruobing Han, Min Si, James Demmel, Yang You*
+
+	Code: [https://github.com/drcut/CPD](https://github.com/drcut/CPD)
+
+16.	**Exploring deep reuse in winograd CNN inference** ![](https://img.shields.io/badge/Inference-blue)
+
+	*Ruofan Wu, Feng Zhang, Zhen Zheng, Xiaoyong Du, Xipeng Shen*
+
+17.	**A novel memory-efficient deep learning training framework via error-bounded lossy compression** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Sian Jin, Guanpeng Li, Shuaiwen Leon Song, Dingwen Tao*
 
 ### HPCA
 
