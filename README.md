@@ -541,29 +541,29 @@ Some conferences to be added in the future:
 
 ### 2021
 
-1. **Neural architecture search as program transformation exploration** ![](https://img.shields.io/badge/Compiler-206777)
+1. **Neural architecture search as program transformation exploration** ASPLOS 2021 ![](https://img.shields.io/badge/Compiler-206777)
 
 	*Jack Turner, Elliot J. Crowley, Michael F. P. O'Boyle*
 
 	Code: [https://github.com/jack-willturner/nas-as-program-transformation-exploration](https://github.com/jack-willturner/nas-as-program-transformation-exploration)
 
-2. **Analytical characterization and design space exploration for optimization of CNNs** ![](https://img.shields.io/badge/Compiler-206777)
+2. **Analytical characterization and design space exploration for optimization of CNNs** ASPLOS 2021 ![](https://img.shields.io/badge/Compiler-206777)
 
 	*Rui Li, Yufan Xu, Aravind Sukumaran-Rajam, Atanas Rountev, P. Sadayappan*
 
 	Code: [https://github.com/HPCRL/ASPLOS_artifact](https://github.com/HPCRL/ASPLOS_artifact)
 
-3. **Mind mappings: enabling efficient algorithm-accelerator mapping space search** ![](https://img.shields.io/badge/Hardware-green)
+3. **Mind mappings: enabling efficient algorithm-accelerator mapping space search** ASPLOS 2021 ![](https://img.shields.io/badge/Hardware-green)
 
 	*Kartik Hegde, Po-An Tsai, Sitao Huang, Vikas Chandra, Angshuman Parashar, Christopher W. Fletcher*
 
 	Code: [https://github.com/kartik-hegde/mindMappings](https://github.com/kartik-hegde/mindMappings)
 
-4. **NeuroEngine: a hardware-based event-driven simulation system for advanced brain-inspired computing** ![](https://img.shields.io/badge/Hardware-green)
+4. **NeuroEngine: a hardware-based event-driven simulation system for advanced brain-inspired computing** ASPLOS 2021 ![](https://img.shields.io/badge/Hardware-green)
 
 	*Hunjun Lee, Chanmyeong Kim, Yujin Chung, Jangwoo Kim*
 
-5. **Defensive approximation: securing CNNs using approximate computing** ![](https://img.shields.io/badge/Security-85144b)
+5. **Defensive approximation: securing CNNs using approximate computing** ASPLOS 2021 ![](https://img.shields.io/badge/Security-85144b)
 
 	*Amira Guesmi, Ihsen Alouani, Khaled N. Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael B. Abu-Ghazaleh*
 
@@ -619,15 +619,15 @@ Some conferences to be added in the future:
 
 #### 2020
 
-1.	**HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism** ![](https://img.shields.io/badge/Training-red)
+1.	**HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism** ATC 2020 ![](https://img.shields.io/badge/Training-red)
 
 	*Jay H. Park, Gyeongchan Yun, Chang M. Yi, Nguyen T. Nguyen, Seungmin Lee, Jaesik Choi, Sam H. Noh, Young-ri Choi*
 
-2.	**AutoSys: The Design and Operation of Learning-Augmented Systems** ![](https://img.shields.io/badge/Others-gray)
+2.	**AutoSys: The Design and Operation of Learning-Augmented Systems** ATC 2020 ![](https://img.shields.io/badge/Others-gray)
 
 	*Chieh-Jan Mike Liang, Hui Xue, Mao Yang, Lidong Zhou, Lifei Zhu, Zhao Lucis Li, Zibo Wang, Qi Chen, Quanlu Zhang, Chuanjie Liu, Wenjun Dai*
 
-3.	**Daydream: Accurately Estimating the Efficacy of Optimizations for DNN Training** ![](https://img.shields.io/badge/Training-red)
+3.	**Daydream: Accurately Estimating the Efficacy of Optimizations for DNN Training** ATC 2020 ![](https://img.shields.io/badge/Training-red)
 
 	*Hongyu Zhu, Amar Phanishayee, Gennady Pekhimenko*
 
@@ -635,75 +635,75 @@ Some conferences to be added in the future:
 
 	*Chengcheng Wan, Muhammad Husni Santriaji, Eri Rogers, Henry Hoffmann, Michael Maire, Shan Lu*
 
-5.	**NeuOS: A Latency-Predictable Multi-Dimensional Optimization Framework for DNN-driven Autonomous Systems** ![](https://img.shields.io/badge/Resource-cc9e08)
+5.	**NeuOS: A Latency-Predictable Multi-Dimensional Optimization Framework for DNN-driven Autonomous Systems** ATC 2020 ![](https://img.shields.io/badge/Resource-cc9e08)
 
 	*Soroush Bateni, Cong Liu*
 
 	Code: [https://github.com/Soroosh129/NeuOS](https://github.com/Soroosh129/NeuOS)
 
-6.	**PERCIVAL: Making In-Browser Perceptual Ad Blocking Practical with Deep Learning** ![](https://img.shields.io/badge/Inference-blue)
+6.	**PERCIVAL: Making In-Browser Perceptual Ad Blocking Practical with Deep Learning** ATC 2020 ![](https://img.shields.io/badge/Inference-blue)
 
 	*Zain ul Abi Din, Panagiotis Tigas, Samuel T. King, Benjamin Livshits*
 
 	Code: [https://github.com/dxaen/percival](https://github.com/dxaen/percival)
 
-7.	**GraphWalker: An I/O-Efficient and Resource-Friendly Graph Analytic System for Fast and Scalable Random Walks** ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Resource-cc9e08)
+7.	**GraphWalker: An I/O-Efficient and Resource-Friendly Graph Analytic System for Fast and Scalable Random Walks** ATC 2020 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Resource-cc9e08)
 
 	*Rui Wang, Yongkun Li, Hong Xie, Yinlong Xu, John C. S. Lui*
 
-8.	**Scaph: Scalable GPU-Accelerated Graph Processing with Value-Driven Differential Scheduling** ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Resource-cc9e08)
+8.	**Scaph: Scalable GPU-Accelerated Graph Processing with Value-Driven Differential Scheduling** ATC 2020 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Resource-cc9e08)
 
 	*Long Zheng, Xianliang Li, Yaohui Zheng, Yu Huang, Xiaofei Liao, Hai Jin, Jingling Xue, Zhiyuan Shao, Qiang-Sheng Hua*
 
 #### 2021
 
-1.	**Zico: Efficient GPU Memory Sharing for Concurrent DNN Training** ![](https://img.shields.io/badge/Training-red)
+1.	**Zico: Efficient GPU Memory Sharing for Concurrent DNN Training** ATC 2021 ![](https://img.shields.io/badge/Training-red)
 
 	*Gangmuk Lim, Jeongseob Ahn, Wencong Xiao, Youngjin Kwon, Myeongjae Jeon*
 
-2.	**Octo: INT8 Training with Loss-aware Compensation and Backward Quantization for Tiny On-device Learning** ![](https://img.shields.io/badge/Training-red)
+2.	**Octo: INT8 Training with Loss-aware Compensation and Backward Quantization for Tiny On-device Learning** ATC 2021 ![](https://img.shields.io/badge/Training-red)
 
 	*Qihua Zhou, Song Guo, Zhihao Qu, Jingcai Guo, Zhenda Xu, Jiewei Zhang, Tao Guo, Boyuan Luo, Jingren Zhou*
 
 	Code: [https://github.com/kimihe/Octo](https://github.com/kimihe/Octo)
 
-3.	**GLIST: Towards In-Storage Graph Learning** ![](https://img.shields.io/badge/Graph-cc231e)
+3.	**GLIST: Towards In-Storage Graph Learning** ATC 2021 ![](https://img.shields.io/badge/Graph-cc231e)
 
 	*Cangyuan Li, Ying Wang, Cheng Liu, Shengwen Liang, Huawei Li, Xiaowei Li*
 
-4.	**Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism** ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Parallel-blueviolet)
+4.	**Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism** ATC 2021 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Parallel-blueviolet)
 
 	*Saar Eliad, Ido Hakimi, Alon De Jagger, Mark Silberstein, Assaf Schuster*
 
 	Code: [https://github.com/saareliad/FTPipe](https://github.com/saareliad/FTPipe)
 
-5.	**INFaaS: Automated Model-less Inference Serving** ![](https://img.shields.io/badge/Inference-blue) 
+5.	**INFaaS: Automated Model-less Inference Serving** ATC 2021 ![](https://img.shields.io/badge/Inference-blue) 
 
 	*Francisco Romero, Qian Li, Neeraja J. Yadwadkar, Christos Kozyrakis*
 
 	Code: [https://github.com/stanford-mast/INFaaS](https://github.com/stanford-mast/INFaaS)
 
-6.	**Jump-Starting Multivariate Time Series Anomaly Detection for Online Service Systems** ![](https://img.shields.io/badge/Debugging-orange)
+6.	**Jump-Starting Multivariate Time Series Anomaly Detection for Online Service Systems** ATC 2021 ![](https://img.shields.io/badge/Debugging-orange)
 
 	*Minghua Ma, Shenglin Zhang, Junjie Chen, Jim Xu, Haozhe Li, Yongliang Lin, Xiaohui Nie, Bo Zhou, Yong Wang, Dan Pei*
 
 	Code: [https://github.com/NetManAIOps/JumpStarter](https://github.com/NetManAIOps/JumpStarter)
 
-7.	**Palleon: A Runtime System for Efficient Video Processing toward Dynamic Class Skew** ![](https://img.shields.io/badge/Resource-cc9e08)
+7.	**Palleon: A Runtime System for Efficient Video Processing toward Dynamic Class Skew** ATC 2021 ![](https://img.shields.io/badge/Resource-cc9e08)
 
 	*Boyuan Feng, Yuke Wang, Gushu Li, Yuan Xie, Yufei Ding*
 
-8.	**Habitat: A Runtime-Based Computational Performance Predictor for Deep Neural Network Training** ![](https://img.shields.io/badge/Training-red)
+8.	**Habitat: A Runtime-Based Computational Performance Predictor for Deep Neural Network Training** ATC 2021 ![](https://img.shields.io/badge/Training-red)
 
 	*Geoffrey X. Yu, Yubo Gao, Pavel Golikov, Gennady Pekhimenko*
 
 	Code: [https://github.com/geoffxy/habitat](https://github.com/geoffxy/habitat)
 
-9.	**Refurbish Your Training Data: Reusing Partially Augmented Samples for Faster Deep Neural Network Training** ![](https://img.shields.io/badge/Training-red)
+9.	**Refurbish Your Training Data: Reusing Partially Augmented Samples for Faster Deep Neural Network Training** ATC 2021 ![](https://img.shields.io/badge/Training-red)
 
 	*Gyewon Lee, Irene Lee, Hyeonmin Ha, Kyung-Geun Lee, Hwarim Hyun, Ahnjae Shin, Byung-Gon Chun*
 
-10.	**ZeRO-Offload: Democratizing Billion-Scale Model Training** ![](https://img.shields.io/badge/Training-red)
+10.	**ZeRO-Offload: Democratizing Billion-Scale Model Training** ATC 2021 ![](https://img.shields.io/badge/Training-red)
 	
 	*Jie Ren, Samyam Rajbhandari, Reza Yazdani Aminabadi, Olatunji Ruwase, Shuangyan Yang, Minjia Zhang, Dong Li, Yuxiong He*
 	
@@ -768,89 +768,89 @@ Some conferences to be added in the future:
 
 #### 2020
 
-1.	**Taming unbalanced training workloads in deep learning with partial collective operations** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Resource-cc9e08)
+1.	**Taming unbalanced training workloads in deep learning with partial collective operations** PPoPP 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Resource-cc9e08)
 
 	*Shigang Li, Tal Ben-Nun, Salvatore Di Girolamo, Dan Alistarh, Torsten Hoefler*
 
 #### 2021
 
-1.	**Understanding and bridging the gaps in current GNN performance optimizations** ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet)
+1.	**Understanding and bridging the gaps in current GNN performance optimizations** PPoPP 2021 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet)
 
 	*Kezhao Huang, Jidong Zhai, Zhen Zheng, Youngmin Yi, Xipeng Shen*
 
-2.	**Scaling implicit parallelism via dynamic control replication** ![](https://img.shields.io/badge/Parallel-blueviolet)
+2.	**Scaling implicit parallelism via dynamic control replication** PPoPP 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
 
 	*Michael Bauer, Wonchan Lee, Elliott Slaughter, Zhihao Jia, Mario Di Renzo, Manolis Papadakis, Galen M. Shipman, Patrick S. McCormick, Michael Garland, Alex Aiken*
 
-3.	**Compiler support for near data computing** ![](https://img.shields.io/badge/Compiler-206777)
+3.	**Compiler support for near data computing** PPoPP 2021 ![](https://img.shields.io/badge/Compiler-206777)
 
 	*Mahmut Taylan Kandemir, Jihyun Ryoo, Xulong Tang, Mustafa Karaköy*
 
-4.	**BiPart: a parallel and deterministic hypergraph partitioner** ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet)
+4.	**BiPart: a parallel and deterministic hypergraph partitioner** PPoPP 2021 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet)
 
 	*Sepideh Maleki, Udit Agarwal, Martin Burtscher, Keshav Pingali*
 
 	Code: [https://github.com/IntelligentSoftwareSystems/Galois](https://github.com/IntelligentSoftwareSystems/Galois)
 	
-5.	**GPTune: multitask learning for autotuning exascale applications** ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Resource-cc9e08)
+5.	**GPTune: multitask learning for autotuning exascale applications** PPoPP 2021 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Resource-cc9e08)
 
 	*Yang Liu, Wissam M. Sid-Lakhdar, Osni Marques, Xinran Zhu, Chang Meng, James Weldon Demmel, Xiaoye S. Li*
 
 	Code: [https://github.com/gptune/GPTune](https://github.com/gptune/GPTune)
 
-6.	**I/O lower bounds for auto-tuning of convolutions in CNNs** ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Resource-cc9e08)
+6.	**I/O lower bounds for auto-tuning of convolutions in CNNs** PPoPP 2021 ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Resource-cc9e08)
 
 	*Xiaoyang Zhang, Junmin Xiao, Guangming Tan*
 
-7.	**ApproxTuner: a compiler and runtime system for adaptive approximations** ![](https://img.shields.io/badge/Compiler-206777)
+7.	**ApproxTuner: a compiler and runtime system for adaptive approximations** PPoPP 2021 ![](https://img.shields.io/badge/Compiler-206777)
 
 	*Hashim Sharif, Yifan Zhao, Maria Kotsifakou, Akash Kothari, Ben Schreiber, Elizabeth Wang, Yasmin Sarita, Nathan Zhao, Keyur Joshi, Vikram S. Adve, Sasa Misailovic, Sarita V. Adve*
 
-8.	**TurboTransformers: an efficient GPU serving system for transformer models** ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
+8.	**TurboTransformers: an efficient GPU serving system for transformer models** PPoPP 2021 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
 
 	*Jiarui Fang, Yang Yu, Chengduo Zhao, Jie Zhou*
 
 	Code: [https://github.com/Tencent/TurboTransformers](https://github.com/Tencent/TurboTransformers)
 
-9.	**Extracting clean performance models from tainted programs** ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Resource-cc9e08)
+9.	**Extracting clean performance models from tainted programs** PPoPP 2021 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Resource-cc9e08)
 
 	*Marcin Copik, Alexandru Calotoiu, Tobias Grosser, Nicolas Wicki, Felix Wolf, Torsten Hoefler*
 
 	Code: [https://github.com/spcl/perf-taint](https://github.com/spcl/perf-taint)
 
-10.	**DAPPLE: a pipelined data parallel approach for training large models** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+10.	**DAPPLE: a pipelined data parallel approach for training large models** PPoPP 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
 
 	*Shiqing Fan, Yi Rong, Chen Meng, Zongyan Cao, Siyu Wang, Zhen Zheng, Chuan Wu, Guoping Long, Jun Yang, Lixue Xia, Lansong Diao, Xiaoyong Liu, Wei Lin*
 
 	Code: [https://github.com/AlibabaPAI/DAPPLE](https://github.com/AlibabaPAI/DAPPLE)
 
-11.	**In-situ workflow auto-tuning through combining component models** ![](https://img.shields.io/badge/Resource-cc9e08)
+11.	**In-situ workflow auto-tuning through combining component models** PPoPP 2021 ![](https://img.shields.io/badge/Resource-cc9e08)
 
 	*Tong Shu, Yanfei Guo, Justin M. Wozniak, Xiaoning Ding, Ian T. Foster, Tahsin M. Kurç*
 
-12.	**Corder: cache-aware reordering for optimizing graph analytics** ![](https://img.shields.io/badge/Graph-cc231e)
+12.	**Corder: cache-aware reordering for optimizing graph analytics** PPoPP 2021 ![](https://img.shields.io/badge/Graph-cc231e)
 
 	*YuAng Chen, Yeh-Ching Chung*
 
-13.	**DFOGraph: an I/O- and communication-efficient system for distributed fully-out-of-core graph processing** ![](https://img.shields.io/badge/Graph-cc231e)
+13.	**DFOGraph: an I/O- and communication-efficient system for distributed fully-out-of-core graph processing** PPoPP 2021 ![](https://img.shields.io/badge/Graph-cc231e)
 
 	*Jiping Yu, Wei Qin, Xiaowei Zhu, Zhenbo Sun, Jianqiang Huang, Xiaohan Li, Wenguang Chen*
 
-14.	**An efficient uncertain graph processing framework for heterogeneous architectures** ![](https://img.shields.io/badge/Graph-cc231e)
+14.	**An efficient uncertain graph processing framework for heterogeneous architectures** PPoPP 2021 ![](https://img.shields.io/badge/Graph-cc231e)
 
 	*Heng Zhang, Lingda Li, Donglin Zhuang, Rui Liu, Shuang Song, Dingwen Tao, Yanjun Wu, Shuaiwen Leon Song*
 
-15.	**Dynamic scaling for low-precision learning** ![](https://img.shields.io/badge/Resource-cc9e08)
+15.	**Dynamic scaling for low-precision learning** PPoPP 2021 ![](https://img.shields.io/badge/Resource-cc9e08)
 
 	*Ruobing Han, Min Si, James Demmel, Yang You*
 
 	Code: [https://github.com/drcut/CPD](https://github.com/drcut/CPD)
 
-16.	**Exploring deep reuse in winograd CNN inference** ![](https://img.shields.io/badge/Inference-blue)
+16.	**Exploring deep reuse in winograd CNN inference** PPoPP 2021 ![](https://img.shields.io/badge/Inference-blue)
 
 	*Ruofan Wu, Feng Zhang, Zhen Zheng, Xiaoyong Du, Xipeng Shen*
 
-17.	**A novel memory-efficient deep learning training framework via error-bounded lossy compression** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Hardware-green)
+17.	**A novel memory-efficient deep learning training framework via error-bounded lossy compression** PPoPP 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Hardware-green)
 
 	*Sian Jin, Guanpeng Li, Shuaiwen Leon Song, Dingwen Tao*
 
