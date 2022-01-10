@@ -23,6 +23,7 @@ Currently, the listed papers are collected from the following conferences:
 | [SC](#sc)   |    5  |   -   |   9   |   6   |      |      |      |      |      |      |
 | [NSDI](#nsdi)    |   -   |    3  |   -   |   3   |      |      |      |      |      |      |
 | [ISCA](#isca)    |   -   |   6   |   11   |   7   |      |      |      |      |      |      |
+| [VLDB](#VLDB)    |   -   |   -   |   -   |   0   |   3   |   2   |      |      |      |      |
 
 Some conferences to be added in the future:
 
@@ -989,6 +990,35 @@ Some conferences to be added in the future:
 5.	**Eager Pruning: Algorithm and Architecture Support for Fast Training of Deep Neural Networks** ISCA 2019
 6.	**Laconic Deep Learning Inference Acceleration** ISCA 2019
 7.	**DeepAttest: An End-to-End Attestation Framework for Deep Neural Networks** ISCA 2019
+
+### VLDB
+
+#### 2020
+
+1.	**Tunable Streaming Graph Embeddings at Scale** VLDB 2020 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Serafeim Papadias*
+
+2.	**Intermediate Training of BERT for Product Matching** VLDB 2020 ![](https://img.shields.io/badge/Training-red)
+
+	*Ralph Peeters, Christian Bizer, Goran Glavas*
+
+	Code: [https://github.com/wbsg-uni-mannheim/productbert-intermediate](https://github.com/wbsg-uni-mannheim/productbert-intermediate)
+
+3.	**Integration of Fast-Evolving Data Sources Using a Deep Learning Approach** VLDB 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Zijie Wang, Lixi Zhou, Jia Zou*
+
+#### 2021
+
+1.	**Towards a Unified Knowledge Graph Data Management System** VLDB 2021 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Baozhu Liu, Xin Wang, Pengkai Liu, Sizhuo Li*
+
+2.	**Exploiting Data Distribution in Distributed Learning of Deep Classification Models under the Parameter Server Architecture** VLDB 2021 ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Nikodimos Provatas*
+
 
 ## Contributors
 
