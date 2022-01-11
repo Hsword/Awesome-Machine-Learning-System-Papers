@@ -24,13 +24,13 @@ Currently, the listed papers are collected from the following conferences:
 | [NSDI](#nsdi)    |   -   |    3  |   -   |   3   |      |      |      |      |      |      |
 | [ISCA](#isca)    |   -   |   6   |   11   |   7   |      |      |      |      |      |      |
 | [VLDB](#VLDB)    |   -   |   -   |   -   |   0   |   3   |   2   |      |      |      |      |
+| [SIGCOMM](#SIGCOMM)    |   -   |   -   |   -   |   0   |   3   |   2   |      |      |      |      |
 
 Some conferences to be added in the future:
 
 - [SysML](#sysml)
 - [NeurIPS](#neurips)
 - [ICML](#icml)
-- [VLDB](#vldb)
 - [SIGCOMM](#sigcomm)
 - [ICDE](#icde)
 - [SIGKDD](#sigkdd)
@@ -1019,6 +1019,23 @@ Some conferences to be added in the future:
 
 	*Nikodimos Provatas*
 
+### SIGCOMM
+
+#### 2019
+
+1.	**Learning scheduling algorithms for data processing clusters** SIGCOMM 2019 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Hongzi Mao, Malte Schwarzkopf, Shaileshh Bojja Venkatakrishnan, Zili Meng, Mohammad Alizadeh*
+
+2.	**An Edge Computing Marketplace for Distributed Machine Learning** SIGCOMM 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Susham Yerabolu, Samuel Gomena, Ehsan Aryafar, Carlee Joe-Wong*
+
+3.	**Challenging the generalization capabilities of Graph Neural Networks for network modeling** ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*José Suárez-Varela, Sergi Carol-Bosch, Krzysztof Rusek, Paul Almasan, Marta Arias, Pere Barlet-Ros, Albert Cabellos-Aparicio*
+
+	Code: [https://github.com/knowledgedefinednetworking/demo-routenet](https://github.com/knowledgedefinednetworking/demo-routenet)
 
 ## Contributors
 
