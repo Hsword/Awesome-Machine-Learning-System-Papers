@@ -24,7 +24,7 @@ Currently, the listed papers are collected from the following conferences:
 | [NSDI](#nsdi)    |   -   |    3  |   -   |   3   |      |      |      |      |      |      |
 | [ISCA](#isca)    |   -   |   6   |   11   |   7   |      |      |      |      |      |      |
 | [VLDB](#VLDB)    |   -   |   -   |   -   |   0   |   3   |   2   |      |      |      |      |
-| [SIGCOMM](#SIGCOMM)    |   -   |   -   |   -   |   0   |   3   |   2   |      |      |      |      |
+| [SIGCOMM](#SIGCOMM)    |   -   |   -   |   -   |   3   |   5   |   2   |      |      |      |      |
 
 Some conferences to be added in the future:
 
@@ -1031,11 +1031,50 @@ Some conferences to be added in the future:
 
 	*Susham Yerabolu, Samuel Gomena, Ehsan Aryafar, Carlee Joe-Wong*
 
-3.	**Challenging the generalization capabilities of Graph Neural Networks for network modeling** ![](https://img.shields.io/badge/Graph-cc231e)
+3.	**Challenging the generalization capabilities of Graph Neural Networks for network modeling** SIGCOMM 2019 ![](https://img.shields.io/badge/Graph-cc231e)
 
 	*José Suárez-Varela, Sergi Carol-Bosch, Krzysztof Rusek, Paul Almasan, Marta Arias, Pere Barlet-Ros, Albert Cabellos-Aparicio*
 
 	Code: [https://github.com/knowledgedefinednetworking/demo-routenet](https://github.com/knowledgedefinednetworking/demo-routenet)
+
+#### 2020
+
+1.	**Is Network the Bottleneck of Distributed Training?** SIGCOMM 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Zhen Zhang, Chaokun Chang, Haibin Lin, Yida Wang, Raman Arora, Xin Jin*
+
+	Code: [https://github.com/netx-repo/training-bottleneck](https://github.com/netx-repo/training-bottleneck)
+
+2.	**DeepBGP: A Machine Learning Approach for BGP Configuration Synthesis**  SIGCOMM 2020 ![](https://img.shields.io/badge/Others-gray)
+
+	*Mahmoud Bahnasy, Fenglin Li, Shihan Xiao, Xiangle Cheng*
+
+3.	**Challenges in Using ML for Networking Research: How to Label If You Must** SIGCOMM 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Yukhe Lavinia, Ramakrishnan Durairajan, Reza Rejaie, Walter Willinger*
+
+4.	**A Deep Learning Approach for IP Hijack Detection Based on ASN Embedding** SIGCOMM 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Tal Shapira, Yuval Shavitt*
+
+5.	**SAM: Self-Attention based Deep Learning Method for Online Traffic Classification** SIGCOMM 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Guorui Xie, Qing Li, Yong Jiang, Tao Dai, Gengbiao Shen, Rui Li, Richard O. Sinnott, Shutao Xia*
+
+#### 2021
+
+1.	**Hoplite: efficient and fault-tolerant collective communication for task-based distributed systems** ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Siyuan Zhuang, Zhuohan Li, Danyang Zhuo, Stephanie Wang, Eric Liang, Robert Nishihara, Philipp Moritz, Ion Stoica*
+
+	Code: [https://github.com/suquark/hoplite](https://github.com/suquark/hoplite)
+
+2.	**SiP-ML: high-bandwidth optical network interconnects for machine learning training** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+
+	*Mehrdad Khani Shirkoohi, Manya Ghobadi, Mohammad Alizadeh, Ziyi Zhu, Madeleine Glick, Keren Bergman, Amin Vahdat, Benjamin Klenk, Eiman Ebrahimi*
+
+	Code: [https://github.com/MLNetwork/rostam](https://github.com/MLNetwork/rostam)
 
 ## Contributors
 
