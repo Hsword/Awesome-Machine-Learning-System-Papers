@@ -25,14 +25,13 @@ Currently, the listed papers are collected from the following conferences:
 | [ISCA](#isca)    |   -   |   6   |   11   |   7   |      |      |      |      |      |      |
 | [VLDB](#VLDB)    |   -   |   -   |   -   |   0   |   3   |   2   |      |      |      |      |
 | [SIGCOMM](#SIGCOMM)    |   -   |   -   |   -   |   3   |   5   |   2   |      |      |      |      |
+| [ICDE](#icde)    |   -   |   -   |   -   |   7   |   7   |   4   |      |      |      |      |
 
 Some conferences to be added in the future:
 
 - [SysML](#sysml)
 - [NeurIPS](#neurips)
 - [ICML](#icml)
-- [SIGCOMM](#sigcomm)
-- [ICDE](#icde)
 - [SIGKDD](#sigkdd)
 - [WWW](#www)
 - [EuroSys](#eurosys)
@@ -1063,18 +1062,104 @@ Some conferences to be added in the future:
 
 #### 2021
 
-1.	**Hoplite: efficient and fault-tolerant collective communication for task-based distributed systems** ![](https://img.shields.io/badge/Parallel-blueviolet)
+1.	**Hoplite: efficient and fault-tolerant collective communication for task-based distributed systems** SIGCOMM 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
 
 	*Siyuan Zhuang, Zhuohan Li, Danyang Zhuo, Stephanie Wang, Eric Liang, Robert Nishihara, Philipp Moritz, Ion Stoica*
 
 	Code: [https://github.com/suquark/hoplite](https://github.com/suquark/hoplite)
 
-2.	**SiP-ML: high-bandwidth optical network interconnects for machine learning training** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+2.	**SiP-ML: high-bandwidth optical network interconnects for machine learning training** SIGCOMM 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
 
 
 	*Mehrdad Khani Shirkoohi, Manya Ghobadi, Mohammad Alizadeh, Ziyi Zhu, Madeleine Glick, Keren Bergman, Amin Vahdat, Benjamin Klenk, Eiman Ebrahimi*
 
 	Code: [https://github.com/MLNetwork/rostam](https://github.com/MLNetwork/rostam)
+
+### ICDE
+
+#### 2019
+
+1.	**Towards Explaining the Effects of Data Preprocessing on Machine Learning** ICDE 2019 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Carlos Vladimiro Gonzalez Zelaya*
+
+2.	**Exploiting Centrality Information with Graph Convolutions for Network Representation Learning** ICDE 2019 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Hongxu Chen, Hongzhi Yin, Tong Chen, Quoc Viet Hung Nguyen, Wen-Chih Peng, Xue Li*
+
+3.	**Learning Effective Embeddings From Crowdsourced Labels: An Educational Case Study** ICDE 2019 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Guowei Xu, Wenbiao Ding, Jiliang Tang, Songfan Yang, Gale Yan Huang, Zitao Liu*
+
+	Code: [https://github.com/tal-ai/Representation-Learning-with-crowdsourced-Labels](https://github.com/tal-ai/Representation-Learning-with-crowdsourced-Labels)
+
+4.	**CogLearn: A Cognitive Graph-Oriented Online Learning System** ICDE 2019 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Yang Pian, Yu Lu, Penghe Chen, Qinglong Duan*
+
+5.	**Don't Fear the REAPER: A Framework for Materializing and Reusing Deep-Learning Models** ICDE 2019 [](https://img.shields.io/badge/Others-gray)
+
+	*Melanie B. Sigl*
+
+6.	**Adaptive Deep Reuse: Accelerating CNN Training on the Fly** ICDE 2019 ![](https://img.shields.io/badge/Training-red)
+
+	*Lin Ning, Hui Guan, Xipeng Shen*
+
+7.	**MLlib*: Fast Training of GLMs Using Spark MLlib** ICDE 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Zhipeng Zhang, Jiawei Jiang, Wentao Wu, Ce Zhang, Lele Yu, Bin Cui*
+
+#### 2020
+
+1.	**ColumnSGD: A Column-oriented Framework for Distributed Stochastic Gradient Descent** ICDE 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Zhipeng Zhang, Wentao Wu, Jiawei Jiang, Lele Yu, Bin Cui, Ce Zhang*
+
+2.	**Efficient Diversity-Driven Ensemble for Deep Neural Networks** ICDE 2020 ![](https://img.shields.io/badge/Training-red)
+
+	*Wentao Zhang, Jiawei Jiang, Yingxia Shao, Bin Cui*
+
+3.	**PSGraph: How Tencent trains extremely large-scale graphs with Spark** ICDE 2020 ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Jiawei Jiang, Pin Xiao, Lele Yu, Xiaosen Li, Jiefeng Cheng, Xupeng Miao, Zhipeng Zhang, Bin Cui*
+
+4.	**HomoPAI: A Secure Collaborative Machine Learning Platform based on Homomorphic Encryption** ICDE 2020 ![](https://img.shields.io/badge/Security-85144b)
+
+	*Qifei Li, Zhicong Huang, Wen-jie Lu, Cheng Hong, Hunter Qu, Hui He, Weizhe Zhang*
+
+5.	**Machine Learning Meets Big Spatial Data** ICDE 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Ibrahim Sabek, Mohamed F. Mokbel*
+
+6.	**On the Integration of Machine Learning and Array Databases** ICDE 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Sebastián Villarroya, Peter Baumann*
+
+7.	**Fela: Incorporating Flexible Parallelism and Elastic Tuning to Accelerate Large-Scale DML** ICDE 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Jinkun Geng, Dan Li, Shuai Wang*
+
+#### 2021
+
+1.	**CuWide: Towards Efficient Flow-based Training for Sparse Wide Models on GPUs (Extended Abstract)** ICDE 2021 ![](https://img.shields.io/badge/Training-red)
+
+	*Xupeng Miao, Lingxiao Ma, Zhi Yang, Yingxia Shao, Bin Cui, Lele Yu, Jiawei Jiang*
+
+	Code: [https://github.com/DMALab/cuWide](https://github.com/DMALab/cuWide)
+
+2.	**CleanML: A Study for Evaluating the Impact of Data Cleaning on ML Classification Tasks** ICDE 2021 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Peng Li, Xi Rao, Jennifer Blase, Yue Zhang, Xu Chu, Ce Zhang*
+
+	Code: [https://github.com/chu-data-lab/CleanML](https://github.com/chu-data-lab/CleanML)
+
+3.	**MLCask: Efficient Management of Component Evolution in Collaborative Data Analytics Pipelines** ICDE 2021 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Zhaojing Luo, Sai Ho Yeung, Meihui Zhang, Kaiping Zheng, Lei Zhu, Gang Chen, Feiyi Fan, Qian Lin, Kee Yuan Ngiam, Beng Chin Ooi*
+
+4.	**Ranking Data Slices for ML Model Validation: A Shapley Value Approach** ICDE 2021 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Eitan Farchi, Ramasuri Narayanam, Lokesh Nagalapatti*
 
 ## Contributors
 
