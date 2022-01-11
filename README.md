@@ -1112,32 +1112,89 @@ Some conferences to be added in the future:
 
 #### 2016
 
-1.	**SERF: Efficient Scheduling for Fast Deep Neural Network Serving via Judicious Parallelism** SC 2016
-2.	**Optimizing Memory Efficiency for Deep Convolutional Neural Networks on GPUs** SC 2016
-3.	**dCUDA: Hardware Supported Overlap of Computation and Communication** SC 2016
-4.	**GreenLA: Green Linear Algebra Software for GPU-Accelerated Heterogeneous Computing** SC 2016
-5.	**Merge-Based Parallel Sparse Matrix-Vector Multiplication (SpMV)** SC 2016
+1. **SERF: Efficient Scheduling for Fast Deep Neural Network Serving via Judicious Parallelism** SC 2016
+
+   *Feng Yan, Olatunji Ruwase, Yuxiong He, Evgenia Smirni*
+
+2. **Optimizing Memory Efficiency for Deep Convolutional Neural Networks on GPUs** SC 2016
+
+   *Chao Li, Yi Yang, Min Feng, Srimat Chakradhar, Huiyang Zhou*
+
+3. **dCUDA: Hardware Supported Overlap of Computation and Communication** SC 2016
+
+   *Tobias Gysi, Jeremia Bär, Torsten Hoefler*
+
+4. **GreenLA: Green Linear Algebra Software for GPU-Accelerated Heterogeneous Computing** SC 2016
+
+   *Jieyang Chen, Li Tan, Panruo Wu, Dingwen Tao, Hongbo Li, Xin Liang, Sihuan Li, Rong Ge, Laxmi Bhuyan, Zizhong Chen*
+
+5. **Merge-Based Parallel Sparse Matrix-Vector Multiplication (SpMV)** SC 2016
+
+   *Duane Merrill, Michael Garland*
 
 #### 2018
 
-1.	**Large-Scale Hierarchical K-Means for Heterogeneous Many-Core Supercomputers** SC 2018
-2.	**TriCore: Parallel Triangle Counting on GPUs** SC 2018
-3.	**Distributed-Memory Hierarchical Compression of Dense SPD Matrices** SC 2018
-4.	**HiCOO: Hierarchical Storage of Sparse Tensors** SC 2018
-5.	**Distributed Memory Sparse Inverse Covariance Matrix Estimation on High-Performance Computing Architectures** SC 2018
-6.	**PruneJuice: Pruning Trillion-Edge Graphs to a Precise Pattern-Matching Solution** SC 2018
-7.	**Exploring Flexible Communications for Streamlining DNN Ensemble Training Pipelines** SC 2018
-8.	**Anatomy of High-Performance Deep Learning Convolutions on SIMD Architectures** SC 2018
-9.	**Fault Tolerant One-Sided Matrix Decompositions on Heterogeneous Systems with GPUs** SC 2018
+1. **Large-Scale Hierarchical K-Means for Heterogeneous Many-Core Supercomputers** SC 2018
+
+   *Liandeng Li, Teng Yu, Wenlai Zhao, Haohuan Fu, Chenyu Wang, Li Tan, Guangwen Yang, John Thomson*
+
+2. **TriCore: Parallel Triangle Counting on GPUs** SC 2018
+
+   *Yang Hu, Hang Liu, H. Howie Huang*
+
+3. **Distributed-Memory Hierarchical Compression of Dense SPD Matrices** SC 2018
+
+   *Chenhan D. Yu, Severin Reiz, George Biros*
+
+4. **HiCOO: Hierarchical Storage of Sparse Tensors** SC 2018
+
+   *Jiajia Li, Jimeng Sun, Richard Vuduc*
+
+5. **Distributed Memory Sparse Inverse Covariance Matrix Estimation on High-Performance Computing Architectures** SC 2018
+
+   *Aryan Eftekhari, Matthias BollhöFer, Olaf Schenk*
+
+6. **PruneJuice: Pruning Trillion-Edge Graphs to a Precise Pattern-Matching Solution** SC 2018
+
+   *Tahsin Reza, Matei Ripeanu, Nicolas Tripoul, Geoffrey Sanders, Roger Pearce*
+
+7. **Exploring Flexible Communications for Streamlining DNN Ensemble Training Pipelines** SC 2018
+
+   *Randall Pittman, Hui Guan, Xipeng Shen, Seung-Hwan Lim, Robert M. Patton*
+
+8. **Anatomy of High-Performance Deep Learning Convolutions on SIMD Architectures** SC 2018
+
+   *Evangelos Georganas, Sasikanth Avancha, Kunal Banerjee, Dhiraj Kalamkar, Greg Henry, Hans Pabst, Alexander Heinecke*
+
+9. **Fault Tolerant One-Sided Matrix Decompositions on Heterogeneous Systems with GPUs** SC 2018
+
+   *Jieyang Chen, Hongbo Li, Sihuan Li, Xin Liang, Panruo Wu, Dingwen Tao, Kaiming Ouyang, Yuanlai Liu, Kai Zhao, Qiang Guan, Zizhong Chen*
 
 #### 2019
 
-1.	**Large-Batch Training for LSTM and Beyond** SC 2019
-2.	**Channel and Filter Parallelism for Large-Scale CNN Training** SC 2019
-3.	**SparCML: High-Performance Sparse Communication for Machine Learning** SC 2019
-4.	**PruneTrain: Fast Neural Network Training by Dynamic Sparse Model Reconfiguration** SC 2019
-5.	**Scalable Reinforcement-Learning-Based Neural Architecture Search for Cancer Deep Learning Research** SC 2019
-6.	**BSTC: A Novel Binarized-Soft-Tensor-Core Design for Accelerating Bit-Based Approximated Neural Nets** SC 2019
+1. **Large-Batch Training for LSTM and Beyond** SC 2019
+
+   *Bojian Zheng, Nandita Vijaykumar, Gennady Pekhimenko*
+
+2. **Channel and Filter Parallelism for Large-Scale CNN Training** SC 2019
+
+   *Nikoli Dryden, Naoya Maruyama, Tim Moon, Tom Benson, Marc Snir, Brian Van Essen*
+
+3. **SparCML: High-Performance Sparse Communication for Machine Learning** SC 2019
+
+   *Cedric Renggli, Saleh Ashkboos, Mehdi Aghagolzadeh, Dan Alistarh, and Torsten Hoefler*
+
+4. **PruneTrain: Fast Neural Network Training by Dynamic Sparse Model Reconfiguration** SC 2019
+
+   *Sangkug Lym, Esha Choukse, Siavash Zangeneh, Wei Wen, Sujay Sanghavi, Mattan Erez*
+
+5. **Scalable Reinforcement-Learning-Based Neural Architecture Search for Cancer Deep Learning Research** SC 2019
+
+   *Prasanna Balaprakash, Romain Egele, Misha Salim, Stefan Wild, Venkatram Vishwanath, Fangfang Xia, Tom Brettin, Rick Stevens*
+
+6. **BSTC: A Novel Binarized-Soft-Tensor-Core Design for Accelerating Bit-Based Approximated Neural Nets** SC 2019
+
+   *Ang Li, Tong Geng, Tianqi Wang, Martin Herbordt, Shuaiwen Leon Song, Kevin Barker*
 
 ### NSDI
 
