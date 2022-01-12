@@ -21,7 +21,7 @@ Currently, the listed papers are collected from the following conferences:
 | [HPCA](#hpca)    |   -   |   3   |   4   |   4   |   1   | 12 |      |      |      |      |
 | [MICRO](#micro)    |   -   |   4   |   6   |   9   | 13 | 4 |      |      |      |      |
 | [SC](#sc)   |    5  |   -   |   9   |   6   | 14 | 15 |      |      |      |      |
-| [NSDI](#nsdi)    |   -   |    3  |   -   |   3   |      |      |      |      |      |      |
+| [NSDI](#nsdi)    |   -   |    3  |   -   |   3   | - | 4 |      |      |      |      |
 | [ISCA](#isca)    |   -   |   6   |   11   |   7   |      |      |      |      |      |      |
 
 Some conferences to be added in the future:
@@ -1384,15 +1384,53 @@ Some conferences to be added in the future:
 
 #### 2017
 
-1.	**Clipper: A Low-Latency Online Prediction Serving System** NSDI 2017
-2.	**Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds** NSDI 2017
-3.	**TUX2: Distributed Graph Computation for Machine Learning** NSDI 2017
+1. **Clipper: A Low-Latency Online Prediction Serving System** NSDI 2017 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Daniel Crankshaw, Xin Wang, Guilio Zhou, Michael J. Franklin, Joseph E. Gonzalez, Ion Stoica*
+
+2. **Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds** NSDI 2017 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Kevin Hsieh, Aaron Harlap, Nandita Vijaykumar, Dimitris Konomis, Gregory R. Ganger, and Phillip B. Gibbons, Onur Mutlu*
+
+3. **TUX2: Distributed Graph Computation for Machine Learning** NSDI 2017 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Wencong Xiao, Jilong Xue, Youshan Miao, Zhen Li, Cheng Chen, Ming Wu, Wei Li, Lidong Zhou*
 
 #### 2019
 
-1.	**Janus: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs** NSDI 2019
-2.	**BLAS-on-flash: An Efficient Alternative for Large Scale ML Training and Inference?** NSDI 2019
-3.	**Tiresias: A GPU Cluster Manager for Distributed Deep Learning** NSDI 2019
+1. **Janus: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs** NSDI 2019 ![](https://img.shields.io/badge/Training-red)
+
+   *Eunji Jeong, Sungwoo Cho, Gyeong-In Yu, Joo Seong Jeong, Dong-Jin Shin, and Byung-Gon Chun*
+
+2. **BLAS-on-flash: An Efficient Alternative for Large Scale ML Training and Inference?** NSDI 2019 ![](https://img.shields.io/badge/Training-red)
+
+   *Suhas Jayaram Subramanya and Harsha Vardhan Simhadri, Srajan Garg, Anil Kag and Venkatesh Balasubramanian*
+
+   Code: https://github.com/Microsoft/BLAS-on-flash
+
+3. **Tiresias: A GPU Cluster Manager for Distributed Deep Learning** NSDI 2019 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Juncheng Gu, Mosharaf Chowdhury, and Kang G. Shin, Yibo Zhu, Myeongjae Jeon, Junjie Qian, Hongqiang Liu, Chuanxiong Guo*
+
+   Code: https://github.com/SymbioticLab/Tiresias
+
+#### 2021
+
+1. **Elastic Resource Sharing for Distributed Deep Learning** NSDI 2021 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Changho Hwang and Taehyun Kim, Sunghyun Kim, Jinwoo Shin and KyoungSoo Park*
+
+2. **ATP: In-network Aggregation for Multi-tenant Learning** NSDI 2021 ![](https://img.shields.io/badge/Resource-cc9e08) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *ChonLam Lao, Yanfang Le and Kshiteej Mahajan, Yixi Chen and Wenfei Wu, Aditya Akella, Michael Swift*
+
+3. **On the Use of ML for Blackbox System Performance Prediction** NSDI 2021 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Silvery Fu, Saurabh Gupta and Radhika Mittal, Sylvia Ratnasamy*
+
+4. **Scaling Distributed Machine Learning with In-Network Aggregation** NSDI 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Amedeo Sapio, Marco Canini, Chen-Yu Ho, Jacob Nelson, Panos Kalnis, Changhoon Kim, Arvind Krishnamurthy, Masoud Moshref,  Dan Ports, Peter Richtarik*
 
 ### ISCA
 
