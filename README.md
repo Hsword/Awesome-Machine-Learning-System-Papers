@@ -26,13 +26,13 @@ Currently, the listed papers are collected from the following conferences:
 | [VLDB](#VLDB)    |   -   |   -   |   -   |   0   |   3   |   2   |      |      |      |      |
 | [SIGCOMM](#SIGCOMM)    |   -   |   -   |   -   |   3   |   5   |   2   |      |      |      |      |
 | [ICDE](#icde)    |   -   |   -   |   -   |   7   |   7   |   4   |      |      |      |      |
+| [SIGKDD](#sigkdd)    |   -   |   -   |   -   |   10   |   11   |   13   |      |      |      |      |
 
 Some conferences to be added in the future:
 
 - [SysML](#sysml)
 - [NeurIPS](#neurips)
 - [ICML](#icml)
-- [SIGKDD](#sigkdd)
 - [WWW](#www)
 - [EuroSys](#eurosys)
 - [SoCC](#socc)
@@ -1160,6 +1160,178 @@ Some conferences to be added in the future:
 4.	**Ranking Data Slices for ML Model Validation: A Shapley Value Approach** ICDE 2021 ![](https://img.shields.io/badge/Data-ff69b4)
 
 	*Eitan Farchi, Ramasuri Narayanam, Lokesh Nagalapatti*
+
+### SIGKDD
+
+#### 2019
+
+1. 	**A Permutation Approach to Assess Confounding in Machine Learning Applications for Digital Health** SIGKDD 2019 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Elias Chaibub Neto, Abhishek Pratap, Thanneer M. Perumal, Meghasyam Tummalacherla, Brian M. Bot, Lara Mangravite, Larsson Omberg*
+
+2.	**FDML: A Collaborative Machine Learning Framework for Distributed Features** SIGKDD 2019 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Yaochen Hu, Di Niu, Jianming Yang, Shengping Zhou*
+
+3.	**Machine Learning at Microsoft with ML.NET** SIGKDD 2019 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Zeeshan Ahmed, Saeed Amizadeh, Mikhail Bilenko, Rogan Carr, Wei-Sheng Chin, Yael Dekel, Xavier Dupré, Vadim Eksarevskiy, Senja Filipi, Tom Finley, Abhishek Goswami, Monte Hoover, Scott Inglis, Matteo Interlandi, Najeeb Kazmi, Gleb Krivosheev, Pete Luferenko, Ivan Matantsev, Sergiy Matusevych, Shahab Moradi, Gani Nazirov, Justin Ormont, Gal Oshri, Artidoro Pagnoni, Jignesh Parmar, Prabhat Roy, Mohammad Zeeshan Siddiqui, Markus Weimer, Shauheen Zahirazami, Yiwen Zhu*
+
+	Code: [https://github.com/dotnet/machinelearning](https://github.com/dotnet/machinelearning)
+
+4.	**Certifiable Robustness and Robust Training for Graph Convolutional Networks** SIGKDD 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Daniel Zügner, Stephan Günnemann*
+
+	Code: [https://github.com/danielzuegner/robust-gcn](https://github.com/danielzuegner/robust-gcn)
+
+5.	**Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks** SIGKDD 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Wei-Lin Chiang, Xuanqing Liu, Si Si, Yang Li, Samy Bengio, Cho-Jui Hsieh*
+
+	Code: [https://github.com/benedekrozemberczki/ClusterGCN](https://github.com/benedekrozemberczki/ClusterGCN)
+
+6.	**Towards Robust and Discriminative Sequential Data Learning: When and How to Perform Adversarial Training?** SIGKDD 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Xiaowei Jia, Sheng Li, Handong Zhao, Sungchul Kim, Vipin Kumar*
+
+7.	**Training and Meta-Training Binary Neural Networks with Quantum Computing** SIGKDD 2019 ![](https://img.shields.io/badge/Training-red)
+
+	*Abdulah Fawaz, Paul Klein, Sebastien Piat, Simone Severini, Peter Mountney*
+
+8.	**A Generalized Framework for Population Based Training** SIGKDD 2019 ![](https://img.shields.io/badge/Training-red)
+
+	*Ang Li, Ola Spyra, Sagi Perel, Valentin Dalibard, Max Jaderberg, Chenjie Gu, David Budden, Tim Harley, Pramod Gupta*
+
+9.	**Large-Scale Training Framework for Video Annotation** SIGKDD 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Seong Jae Hwang, Joonseok Lee, Balakrishnan Varadarajan, Ariel Gordon, Zheng Xu, Apostol Natsev*
+
+10.	**OBOE: Collaborative Filtering for AutoML Model Selection** SIGKDD 2019 ![](https://img.shields.io/badge/Others-gray)
+
+	*Chengrun Yang, Yuji Akimoto, Dae Won Kim, Madeleine Udell*
+	
+	Code: [https://github.com/udellgroup/oboe](https://github.com/udellgroup/oboe)
+
+#### 2020
+
+1.	**Building Continuous Integration Services for Machine Learning** ![](https://img.shields.io/badge/Debugging-orange)
+
+	*Bojan Karlas, Matteo Interlandi, Cédric Renggli, Wentao Wu, Ce Zhang, Deepak Mukunthu Iyappan Babu, Jordan Edwards, Chris Lauren, Andy Xu, Markus Weimer*
+
+2.	**An Empirical Analysis of Backward Compatibility in Machine Learning Systems** ![](https://img.shields.io/badge/Others-gray)
+
+	*Megha Srivastava, Besmira Nushi, Ece Kamar, Shital Shah, Eric Horvitz*
+
+3.	**Retrospective Loss: Looking Back to Improve Training of Deep Neural Networks** ![](https://img.shields.io/badge/Training-red)
+
+	*Surgan Jandial, Ayush Chopra, Mausoom Sarkar, Piyush Gupta, Balaji Krishnamurthy, Vineeth Balasubramanian*
+
+4.	**GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training** ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Jiezhong Qiu, Qibin Chen, Yuxiao Dong, Jing Zhang, Hongxia Yang, Ming Ding, Kuansan Wang, Jie Tang*
+
+	Code: [https://github.com/THUDM/GCC](https://github.com/THUDM/GCC)
+
+5.	**LayoutLM: Pre-training of Text and Layout for Document Image Understanding** ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Yiheng Xu, Minghao Li, Lei Cui, Shaohan Huang, Furu Wei, Ming Zhou*
+
+	Code: [https://github.com/microsoft/unilm/tree/master/layoutlm](https://github.com/microsoft/unilm/tree/master/layoutlm)
+
+6.	**FedFast: Going Beyond Average for Faster Training of Federated Recommender Systems** ![](https://img.shields.io/badge/Training-red)
+
+	*Khalil Muhammad, Qinqin Wang, Diarmuid O'Reilly-Morgan, Elias Z. Tragos, Barry Smyth, Neil Hurley, James Geraci, Aonghus Lawlor*
+
+7.	**Minimal Variance Sampling with Provable Guarantees for Fast Training of Graph Neural Networks** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Weilin Cong, Rana Forsati, Mahmut T. Kandemir, Mehrdad Mahdavi*
+
+8.	**GPT-GNN: Generative Pre-Training of Graph Neural Networks** ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Ziniu Hu, Yuxiao Dong, Kuansan Wang, Kai-Wei Chang, Yizhou Sun*
+
+	Code: [https://github.com/acbull/GPT-GNN](https://github.com/acbull/GPT-GNN)
+
+9.	**Large-Scale Training System for 100-Million Classification at Alibaba** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Liuyihan Song, Pan Pan, Kang Zhao, Hao Yang, Yiming Chen, Yingya Zhang, Yinghui Xu, Rong Jin*
+
+10.	**DeepLine: AutoML Tool for Pipelines Generation using Deep Reinforcement Learning and Hierarchical Actions Filtering** ![](https://img.shields.io/badge/Others-gray)
+
+	*Yuval Heffetz, Roman Vainshtein, Gilad Katz, Lior Rokach*
+
+11.	**AutoML Pipeline Selection: Efficiently Navigating the Combinatorial Space** ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Chengrun Yang, Jicong Fan, Ziyang Wu, Madeleine Udell*
+
+	Code: [https://github.com/udellgroup/oboe](https://github.com/udellgroup/oboe)
+
+#### 2021
+
+1.	**DeGNN: Improving Graph Neural Networks with Graph Decomposition** ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Xupeng Miao, Nezihe Merve Gürel, Wentao Zhang, Zhichao Han, Bo Li, Wei Min, Susie Xi Rao, Hansheng Ren, Yinan Shan, Yingxia Shao, Yujie Wang, Fan Wu, Hui Xue, Yaming Yang, Zitao Zhang, Yang Zhao, Shuai Zhang, Yujing Wang, Bin Cui, Ce Zhang*
+
+2.	**ROD: Reception-aware Online Distillation for Sparse Graphs** ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Wentao Zhang, Yuezihan Jiang, Yang Li, Zeang Sheng, Yu Shen, Xupeng Miao, Liang Wang, Zhi Yang, Bin Cui*
+
+3.	**OpenBox: A Generalized Black-box Optimization Service** ![](https://img.shields.io/badge/Others-gray)
+
+	*Yang Li, Yu Shen, Wentao Zhang, Yuanwei Chen, Huaijun Jiang, Mingchao Liu, Jiawei Jiang, Jinyang Gao, Wentao Wu, Zhi Yang, Ce Zhang, Bin Cui*
+
+	Code: [https://github.com/PKU-DAIR/open-box](https://github.com/PKU-DAIR/open-box)
+
+4.	**Amazon SageMaker Clarify: Machine Learning Bias Detection and Explainability in the Cloud** ![](https://img.shields.io/badge/Others-gray)
+
+	*Michaela Hardt, Xiaoguang Chen, Xiaoyi Cheng, Michele Donini, Jason Gelman, Satish Gollaprolu, John He, Pedro Larroy, Xinyu Liu, Nick McCarthy, Ashish Rathi, Scott Rees, Ankit A. Siva, ErhYuan Tsai, Keerthan Vasist, Pinar Yilmaz, Muhammad Bilal Zafar, Sanjiv Das, Kevin Haas, Tyler Hill, Krishnaram Kenthapadi*
+
+	Code: [https://github.com/aws/amazon-sagemaker-clarify](https://github.com/aws/amazon-sagemaker-clarify)
+
+5.	**AutoSmart: An Efficient and Automatic Machine Learning Framework for Temporal Relational Data** ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Zhipeng Luo, Zhixing He, Jin Wang, Manqing Dong, Jianqiang Huang, Mingjian Chen, Bohang Zheng*
+
+	Code: [https://github.com/DeepBlueAI/AutoSmart](https://github.com/DeepBlueAI/AutoSmart)
+
+6.	**Global Neighbor Sampling for Mixed CPU-GPU Training on Giant Graphs** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Jialin Dong, Da Zheng, Lin F. Yang, George Karypis*
+
+7.	**MixGCF: An Improved Training Method for Graph Neural Network-based Recommender Systems** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Tinglin Huang, Yuxiao Dong, Ming Ding, Zhen Yang, Wenzheng Feng, Xinyu Wang, Jie Tang*
+
+	Code: [https://github.com/huangtinglin/MixGCF](https://github.com/huangtinglin/MixGCF)
+
+8.	**Pre-training on Large-Scale Heterogeneous Graph** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Xunqiang Jiang, Tianrui Jia, Yuan Fang, Chuan Shi, Zhe Lin, Hui Wang*
+
+9.	**Analysis and Applications of Class-wise Robustness in Adversarial Training** ![](https://img.shields.io/badge/Training-red)
+
+	*Qi Tian, Kun Kuang, Kelu Jiang, Fei Wu, Yisen Wang*
+
+10.	**Meta Self-training for Few-shot Neural Sequence Labeling** ![](https://img.shields.io/badge/Training-red)
+
+	*Yaqing Wang, Subhabrata Mukherjee, Haoda Chu, Yuancheng Tu, Ming Wu, Jing Gao, Ahmed Hassan Awadallah*
+
+	Code: [https://github.com/microsoft/MetaST/](https://github.com/microsoft/MetaST/)
+
+11.	**Socially-Aware Self-Supervised Tri-Training for Recommendation** ![](https://img.shields.io/badge/Training-red)
+
+	*Junliang Yu, Hongzhi Yin, Min Gao, Xin Xia, Xiangliang Zhang, Nguyen Quoc Viet Hung*
+
+	Code: [https://github.com/Coder-Yu/QRec](https://github.com/Coder-Yu/QRec)
+
+12.	**Training Recommender Systems at Scale: Communication-Efficient Model and Data Parallelism** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Vipul Gupta, Dhruv Choudhary, Ping Tak Peter Tang, Xiaohan Wei, Xing Wang, Yuzhen Huang, Arun Kejariwal, Kannan Ramchandran, Michael W. Mahoney*
+
+13.	**Hierarchical Training: Scaling Deep Recommendation Models on Large CPU Clusters** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Yuzhen Huang, Xiaohan Wei, Xing Wang, Jiyan Yang, Bor-Yiing Su, Shivam Bharuka, Dhruv Choudhary, Zewei Jiang, Hai Zheng, Jack Langman*
 
 ## Contributors
 
