@@ -916,7 +916,7 @@ Some conferences to be added in the future:
 
 #### 2021
 
-1. **A Computational Stack for Cross-Domain Acceleration** HPCA 2021 ![](https://img.shields.io/badge/Others-gray)
+1. **A Computational Stack for Cross-Domain Acceleration** HPCA 2021 ![](https://img.shields.io/badge/Platform-034d0f)
 
    *Sean Kinzer, Joon Kyung Kim, Soroush Ghodrati, Brahmendra Yatham, Alric Althoff, Divya Mahajan, Sorin Lerner, Hadi Esmaeilzadeh*
 
@@ -1146,7 +1146,7 @@ Some conferences to be added in the future:
 
    *Tobias Gysi, Jeremia Bär, Torsten Hoefler*
 
-4. **GreenLA: Green Linear Algebra Software for GPU-Accelerated Heterogeneous Computing** SC 2016 ![](https://img.shields.io/badge/Others-gray)
+4. **GreenLA: Green Linear Algebra Software for GPU-Accelerated Heterogeneous Computing** SC 2016 ![](https://img.shields.io/badge/Platform-034d0f)
 
    *Jieyang Chen, Li Tan, Panruo Wu, Dingwen Tao, Hongbo Li, Xin Liang, Sihuan Li, Rong Ge, Laxmi Bhuyan, Zizhong Chen*
 
@@ -1312,7 +1312,7 @@ Some conferences to be added in the future:
 
    Code: https://github.com/gpauloski/kfac_pytorch
 
-2. **Tensor Processing Primitives: A Programming Abstraction for Efficiency And Portability in Deep Learning Workloads** SC 2021 ![](https://img.shields.io/badge/Others-gray)
+2. **Tensor Processing Primitives: A Programming Abstraction for Efficiency And Portability in Deep Learning Workloads** SC 2021 ![](https://img.shields.io/badge/Compiler-206777)
 
    *Evangelos Georganas, Dhiraj Kalamkar, Sasikanth Avancha, Menachem Adelman, Cristina Anderson, Alexander Breuer, Jeremy Bruestle, Narendra Chaudhary, Abhisek Kundu, Denise Kutnick, Frank Laub, Vasimuddin Md, Sanchit Misra, Ramanarayan Mohanty, Hans Pabst, Barukh Ziv, Alexander Heinecke*
 
@@ -1452,7 +1452,7 @@ Some conferences to be added in the future:
 
    *Yongming Shen, Michael Ferdman, Peter Milder*
 
-5. **Scalpel: Customizing DNN Pruning to the Underlying Hardware Parallelism** ISCA 2017 ![](https://img.shields.io/badge/Hardware-green)
+5. **Scalpel: Customizing DNN Pruning to the Underlying Hardware Parallelism** ISCA 2017 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Parallel-blueviolet)
 
    *Jiecao Yu, Andrew Lukefahr, David Palframan, Ganesh Dasika, Reetuparna Das, Scott Mahlke*
 
