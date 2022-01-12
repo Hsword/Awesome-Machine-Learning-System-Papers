@@ -22,7 +22,7 @@ Currently, the listed papers are collected from the following conferences:
 | [MICRO](#micro)    |   -   |   4   |   6   |   9   | 13 | 4 |      |      |      |      |
 | [SC](#sc)   |    5  |   -   |   9   |   6   | 14 | 15 |      |      |      |      |
 | [NSDI](#nsdi)    |   -   |    3  |   -   |   3   | - | 4 |      |      |      |      |
-| [ISCA](#isca)    |   -   |   6   |   11   |   7   | 13 |      |      |      |      |      |
+| [ISCA](#isca)    |   -   |   6   |   11   |   7   | 13 | 18 |      |      |      |      |
 
 Some conferences to be added in the future:
 
