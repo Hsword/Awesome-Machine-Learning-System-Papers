@@ -1072,7 +1072,7 @@ Some conferences to be added in the future:
 
 	*Lin Ning, Hui Guan, Xipeng Shen*
 
-7.	**MLlib*: Fast Training of GLMs Using Spark MLlib** ICDE 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+7.	**MLlib\*: Fast Training of GLMs Using Spark MLlib** ICDE 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
 
 	*Zhipeng Zhang, Jiawei Jiang, Wentao Wu, Ce Zhang, Lele Yu, Bin Cui*
 
