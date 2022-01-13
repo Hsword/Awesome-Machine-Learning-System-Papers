@@ -23,10 +23,11 @@ Currently, the listed papers are collected from the following conferences:
 | [SC](#sc)   |    5  |   -   |   9   |   6   |      |      |      |      |      |      |
 | [NSDI](#nsdi)    |   -   |    3  |   -   |   3   |      |      |      |      |      |      |
 | [ISCA](#isca)    |   -   |   6   |   11   |   7   |      |      |      |      |      |      |
-| [VLDB](#VLDB)    |   -   |   -   |   -   |   0   |   1   |   2   |      |      |      |      |
-| [SIGCOMM](#SIGCOMM)    |   -   |   -   |   -   |   3   |   5   |   2   |      |      |      |      |
-| [ICDE](#icde)    |   -   |   -   |   -   |   7   |   7   |   4   |      |      |      |      |
-| [SIGKDD](#sigkdd)    |   -   |   -   |   -   |   10   |   11   |   13   |      |      |      |      |
+| [VLDB](#VLDB)    |      |      |      |   0   |   1   |   2   |      |      |      |      |
+| [SIGCOMM](#sigcomm)    |      |      |      |   3   |   5   |   2   |      |      |      |      |
+| [ICDE](#icde)    |      |      |      |   7   |   7   |   4   |      |      |      |      |
+| [SIGKDD](#sigkdd)    |      |      |      |   10   |   11   |   13   |      |      |      |      |
+| [EuroSys](#eurosys)    |      |      |      |   5   |   3   |   4   |      |      |      |      |
 
 Some conferences to be added in the future:
 
@@ -34,7 +35,6 @@ Some conferences to be added in the future:
 - [NeurIPS](#neurips)
 - [ICML](#icml)
 - [WWW](#www)
-- [EuroSys](#eurosys)
 - [SoCC](#socc)
 - [INFOCOM](#infocom)
 - [SIGIR](#sigir)
@@ -1299,6 +1299,74 @@ Some conferences to be added in the future:
 13.	**Hierarchical Training: Scaling Deep Recommendation Models on Large CPU Clusters** SIGKDD 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
 
 	*Yuzhen Huang, Xiaohan Wei, Xing Wang, Jiyan Yang, Bor-Yiing Su, Shivam Bharuka, Dhruv Choudhary, Zewei Jiang, Hai Zheng, Jack Langman*
+
+### EuroSys
+
+#### 2019
+
+1.	**GRNN: Low-Latency and Scalable RNN Inference on GPUs** EuroSys 2019 ![](https://img.shields.io/badge/Inference-blue)
+
+	*Connor Holmes, Daniel Mawhirter, Yuxiong He, Feng Yan, Bo Wu*
+
+	Code: [https://github.com/cmikeh2/grnn](https://github.com/cmikeh2/grnn)
+
+2.	**Automating Dependence-Aware Parallelization of Machine Learning Training on Distributed Shared Memory** EuroSys 2019 ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Jinliang Wei, Garth A. Gibson, Phillip B. Gibbons, Eric P. Xing*
+
+3.	**Parallax: Sparsity-aware Data Parallel Training of Deep Neural Networks** EuroSys 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Soojeong Kim, Gyeong-In Yu, Hojin Park, Sungwoo Cho, Eunji Jeong, Hyeonmin Ha, Sanha Lee, Joo Seong Jeong, Byung-Gon Chun*
+
+	Code: [https://github.com/snuspl/parallax](https://github.com/snuspl/parallax)
+
+4.	**Fast Distributed Deep Learning over RDMA** EuroSys 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Jilong Xue, Youshan Miao, Cheng Chen, Ming Wu, Lintao Zhang, Lidong Zhou*
+
+5.	**μLayer: Low Latency On-Device Inference Using Cooperative Single-Layer Acceleration and Processor-Friendly Quantization** EuroSys 2019 ![](https://img.shields.io/badge/Inference-blue)
+
+	*Youngsok Kim, Joonsung Kim, Dongju Chae, Daehyun Kim, Jangwoo Kim*
+
+#### 2020
+
+1.	**Balancing efficiency and fairness in heterogeneous GPU clusters for deep learning** EuroSys 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Shubham Chaudhary, Ramachandran Ramjee, Muthian Sivathanu, Nipun Kwatra, Srinidhi Viswanatha*
+
+2.	**Subway: minimizing data transfer during out-of-GPU-memory graph processing** EuroSys 2020 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Amir Hossein Nodehi Sabet, Zhijia Zhao, Rajiv Gupta*
+
+	Code: [https://github.com/AutomataLab/Subway](https://github.com/AutomataLab/Subway)
+
+3.	**Peregrine: a pattern-aware graph mining system** EuroSys 2020 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Kasra Jamshidi, Rakesh Mahadasa, Keval Vora*
+
+	Code: [https://github.com/pdclab/peregrine](https://github.com/pdclab/peregrine)
+
+#### 2021
+
+1.	**FlexGraph: a flexible and efficient distributed framework for GNN training** EuroSys 2021 ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+	*Lei Wang, Qiang Yin, Chao Tian, Jianbang Yang, Rong Chen, Wenyuan Yu, Zihang Yao, Jingren Zhou*
+
+2.	**DGCL: an efficient communication library for distributed GNN training** EuroSys 2021 ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+	*Zhenkun Cai, Xiao Yan, Yidi Wu, Kaihao Ma, James Cheng, Fan Yu*
+
+	Code: [https://github.com/czkkkkkk/gccl](https://github.com/czkkkkkk/gccl)
+
+3.	**Accelerating graph sampling for graph machine learning using GPUs** EuroSys 2021 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Abhinav Jangda, Sandeep Polisetty, Arjun Guha, Marco Serafini*
+
+4.	**Tahoe: tree structure-aware high performance inference engine for decision tree ensemble on GPU** EuroSys 2021 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Zhen Xie, Wenqian Dong, Jiawen Liu, Hang Liu, Dong Li*
+
+	Code: [https://github.com/zhen-xie/Tahoe](https://github.com/zhen-xie/Tahoe)
 
 ## Contributors
 
