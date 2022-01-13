@@ -28,6 +28,7 @@ Currently, the listed papers are collected from the following conferences:
 | [ICDE](#icde)    |      |      |      |   7   |   7   |   4   |      |      |      |      |
 | [SIGKDD](#sigkdd)    |      |      |      |   10   |   11   |   13   |      |      |      |      |
 | [EuroSys](#eurosys)    |      |      |      |   5   |   3   |   4   |      |      |      |      |
+| [SoCC](#socc)    |      |      |      |   2   |   6   |   -   |      |      |      |      |
 
 Some conferences to be added in the future:
 
@@ -35,7 +36,6 @@ Some conferences to be added in the future:
 - [NeurIPS](#neurips)
 - [ICML](#icml)
 - [WWW](#www)
-- [SoCC](#socc)
 - [INFOCOM](#infocom)
 - [SIGIR](#sigir)
 
@@ -1367,6 +1367,44 @@ Some conferences to be added in the future:
 	*Zhen Xie, Wenqian Dong, Jiawen Liu, Hang Liu, Dong Li*
 
 	Code: [https://github.com/zhen-xie/Tahoe](https://github.com/zhen-xie/Tahoe)
+
+### SoCC
+
+#### 2019
+
+1.	**Training Deep Neural Networks Using Posit Number System** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Jinming Lu, Siyuan Lu, Zhisheng Wang, Chao Fang, Jun Lin, Zhongfeng Wang, Li Du*
+
+2.	**An Operation-Minimized FPGA Accelerator Design by Dynamically Exploiting Sparsity in CNN Winograd Transform** ![](https://img.shields.io/badge/Hardware-green)
+
+	*Xinkai Di, Haigang Yang, Zhihong Huang, Ning Mao*
+
+#### 2020
+
+1.	**A DNN Compression Framework for SOT-MRAM-based Processing-In-Memory Engine** ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Geng Yuan, Xiaolong Ma, Sheng Lin, Zhengang Li, Jieren Deng, Caiwen Ding*
+
+2.	**Cycle-to-cycle Variation Enabled Energy Efficient Privacy Preserving Technology in ANN** ![](https://img.shields.io/badge/Security-85144b)
+
+	*Jingyan Fu, Zhiheng Liao, Jinhui Wang*
+
+3.	**Improving the Performance of a NoC-based CNN Accelerator with Gather Support** ![](https://img.shields.io/badge/Hardware-green)
+
+	*Binayak Tiwari, Mei Yang, Xiaohang Wang, Yingtao Jiang, Venkatesan Muthukumar*
+
+4.	**Hardware Accelerator for Multi-Head Attention and Position-Wise Feed-Forward in the Transformer** ![](https://img.shields.io/badge/Hardware-green)
+
+	*Siyuan Lu, Meiqi Wang, Shuang Liang, Jun Lin, Zhongfeng Wang*
+
+5.	**Optimizing CNN Accelerator With Improved Roofline Model** ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Shaoxia Fang, Shulin Zeng, Yu Wang*
+
+6.	**AutoML for Multilayer Perceptron and FPGA Co-design** ![](https://img.shields.io/badge/AutoML-06046e) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Philip Colangelo, Oren Segal, Alexander Speicher, Martin Margala*
 
 ## Contributors
 
