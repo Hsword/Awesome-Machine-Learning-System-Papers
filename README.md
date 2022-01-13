@@ -1668,6 +1668,78 @@ Some conferences to be added in the future:
 
     *Chunhua Deng, Yang Sui, Siyu Liao, Xuehai Qian, Bo Yuan*
 
+### SysML
+
+#### 2018 (Talks only)
+
+1. **TVM: End-to-End Compilation Stack for Deep Learning** SysML 2018 ![](https://img.shields.io/badge/Compiler-206777)
+
+   *Tianqi Chen, Thierry Moreau, Ziheng Jiang, Haichen Shen, Eddie Yan, Leyuan Wang, Yuwei Hu, Luis Ceze, Carlos Guestrin, Arvind Krishnamurthy*
+
+2. **Robust Gradient Descent via Moment Encoding with LDPC Codes** SysML 2018 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Raj Kumar Maity, Ankit Singh Rawat, Arya Mazumdar*
+
+3. **Analog electronic deep networks for fast and efficient inference** SysML 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Jonathan Binas, Daniel Neil, Giacomo Indiveri, Shih-Chii Liu, Michael Pfeiffer*
+
+4. **YellowFin: Adaptive optimization for (A)synchronous systems** SysML 2018 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Jian Zhang, Ioannis Mitliagkas*
+
+5. **Understanding the Limitations of Current Energy-Efficient Design Approaches for Deep Neural Networks** SysML 2018 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Yu-Hsin Chen, Tien-Ju Yang, Joel Emer, Vivienne Sze*
+
+6. **"I Like the Way You Think!" - Inspecting the Internal Logic of Recurrent Neural  Networks** SysML 2018 ![](https://img.shields.io/badge/Others-gray)
+
+   *Thibault Sellam, Kevin Lin, Ian Yiran Huang, Carl Vondrick, Eugene Wu*
+
+### VLDB
+
+#### 2016
+
+~~*No information is available as the official VLDB 2016 website is not accessible.*~~
+
+#### 2017
+
+1. **MLog: Towards Declarative In-Database Machine Learning** VLDB 2017 ![](https://img.shields.io/badge/Compiler-206777)
+
+   *Xupeng Li, Bin Cui, Yiru Chen, Wentao Wu, Ce Zhang*
+
+   Code: https://github.com/DS3Lab/MLog
+
+2. **Towards Linear Algebra over Normalized Data** VLDB 2017 ![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Lingjiao Chen, Arun Kumar, Jeffrey Naughton, Jignesh M. Patel*
+
+3. **Distributed Join Algorithms on Thousands of Cores** VLDB 2017 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Claude Barthels, Ingo Müller, Timo Schneider, Gustavo Alonso, Torsten Hoefler*
+
+#### 2018
+
+1. **On Optimizing Operator Fusion Plans for Large-Scale Machine Learning in SystemML** VLDB 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Raj Kumar Maity, Ankit Singh Rawat, Arya MazumdarRaj Kumar Maity, Ankit Singh Rawat, Arya Mazumdar*
+
+   Code: https://github.com/apache/systemml
+
+2. **Helix: Accelerating Human-in-the-loop Machine Learning** VLDB 2018 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Doris Xin, Litian Ma, Jialin Liu, Stephen Macke, Shuchen Song, Aditya Parameswaran*
+
+3. **Ease.ml in action: towards multi-tenant declarative learning services** VLDB 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Bojan Karlaš, Ji Liu, Wentao Wu, Ce Zhang*
+
+4. **Learning Efficiently Over Heterogeneous Databases** VLDB 2018 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Jose Picado, Arash Termehchy, Sudhanshu Pathak*
+
+   
+
 ## Contributors
 
 Contributed by [Xupeng Miao](https://github.com/Hsword), [Zihao Yu](https://github.com/Hankpipi), [Chunan Shi](https://github.com/SpiritedAwayCN).
