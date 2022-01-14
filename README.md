@@ -781,7 +781,7 @@ Some conferences to be added in the future:
 
 
 	*Yang Liu, Wissam M. Sid-Lakhdar, Osni Marques, Xinran Zhu, Chang Meng, James Weldon Demmel, Xiaoye S. Li*
-
+	
 	Code: [https://github.com/gptune/GPTune](https://github.com/gptune/GPTune)
 
 6.	**I/O lower bounds for auto-tuning of convolutions in CNNs** PPoPP 2021 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Compiler-206777)
@@ -1714,7 +1714,198 @@ Some conferences to be added in the future:
 
    *Jose Picado, Arash Termehchy, Sudhanshu Pathak*
 
-   
+
+### SIGCOMM
+
+#### 2018
+
+1. **AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization** SIGCOMM 2018 ![](https://img.shields.io/badge/Others-gray)
+
+   *Li Chen, Justinas Lingys, Kai Chen, Feng Liu*
+
+### ICDE
+
+#### 2016
+
+1. **Being prepared in a sparse world: The case of KNN graph construction** ICDE 2016 ![](https://img.shields.io/badge/Graph-cc231e)
+
+   *Antoine Boutet, Anne-Marie Kermarrec, Nupur Mittal, François Taïani*
+
+2. **pSCAN: Fast and exact structural graph clustering** ICDE 2016 ![](https://img.shields.io/badge/Graph-cc231e)
+
+   *Lijun Chang, Wei Li, Xuemin Lin, Lu Qin, Wenjie Zhang*
+
+3. **Semantic proximity search on graphs with metagraph-based learning** ICDE 2016 ![](https://img.shields.io/badge/Graph-cc231e)![](https://img.shields.io/badge/Training-red)
+
+   *Yuan Fang, Wenqing Lin, Vincent Wenchen Zheng, Min Wu, Kevin Chen-Chuan Chang, Xiaoli Li*
+
+4. **Learning abstract snippet detectors with Temporal embedding in convolutional neural Networks** ISDE 2016 ![](https://img.shields.io/badge/Training-red)
+
+   *Jiajun Liu, Kun Zhao, Brano Kusy, Ji-rong Wen, Kai Zheng, Raja Jurdak*
+
+#### 2017
+
+1. **Scalable and Interactive Graph Clustering Algorithm on Multicore CPUs** ICDE 2017 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Son T. Mai, Martin Storgaard Dieu, Ira Assent, Jon Jacobsen, Jesper Kristensen, Mathias Birk*
+
+2. **Towards Unified Data and Lifecycle Management for Deep Learning** ICDE 2017 ![](https://img.shields.io/badge/Training-red)
+
+   *Hui Miao, Ang Li, Larry S. Davis, Amol Deshpande*
+
+3. **In-Memory Distributed Matrix Computation Processing and Optimization** ICDE 2017 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Hardware-green)
+
+   *Yongyang Yu, Mingjie Tang, Walid G. Aref, Qutaibah M. Malluhi, Mostafa M. Abbas, Mourad Ouzzani*
+
+   Code: https://github.com/yuyongyang800/SparkDistributedMatrix
+
+4. **Modeling Scalability of Distributed Machine Learning** ICDE 2017 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Inference-blue)
+
+   *Alexander Ulanov, Andrey Simanovsky, Manish Marwah*
+
+5. **ModelHub: Deep Learning Lifecycle Management** ICDE 2017 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Hui Miao, Ang Li, Larry S. Davis, Amol Deshpande*
+
+6. **TABOO: Detecting Unstructured Sensitive Information Using Recursive Neural Networks** ICDE 2017 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Jan Neerbeky, Ira Assentz, Peter Dolog*
+
+#### 2018
+
+1. **Deep Learning of Graphs with Ngram Convolutional Neural Networks** ICDE 2018 ![](https://img.shields.io/badge/Graph-cc231e)
+
+   *Zhiling Luo, Ling Liu, Jianwei Yin, Ying Li, Zhaohui Wu*
+
+2. **KNADIA: Enterprise KNowledge Assisted DIAlogue Systems Using Deep Learning** ICDE 2018 ![](https://img.shields.io/badge/Others-gray)
+
+   *Mahesh P. Singh, Puneet Agarwal, Ashish Chaudhary, Gautam Shroff, Prerna Khurana, Mayur Patidar, Vivek Bisht, Rachit Bansal, Prateek Sachan, Rohit Kumar*
+
+3. **Aurum: A Data Discovery System** ICDE 2018 ![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Raul Castro Fernandez, Ziawasch Abedjan, Famien Koko, Gina Yuan, Samuel Madden, Michael Stonebraker*
+
+### SIGKDD
+
+#### 2017
+
+1. **TFX: A TensorFlow-Based Production-Scale Machine Learning Platform** SIGKDD 2017 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Denis Baylor, Eric Breck, Heng-Tze Cheng, Noah Fiedel, Chuan Yu Foo, Zakaria Haque, Salem Haykal, Mustafa Ispir, Vihan Jain, Levent Koc, Chiu Yuen Koo, Lukasz Lew, Clemens Mewald, Akshay Naresh Modi, Neoklis Polyzotis, Sukriti Ramesh, Sudip Roy, Steven Euijong Whang, Martin Wicke, Jarek Wilkiewicz, Xin Zhang, Martin Zinkevich*
+
+2. **PPDsparse: A Parallel Primal-Dual Sparse Method for Extreme Classification** SIGKDD 2017 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+   *Ian E.H. Yen, Xiangru Huang, Wei Dai, Pradeep Ravikumar, Inderjit Dhillon, Eric Xing*
+
+3. **A Data Mining Framework for Valuing Large Portfolios of Variable Annuities** SIGKDD 2017 ![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Guojun Gan, Jimmy Xiangji Huang*
+
+4. **Google Vizier: A Service for Black-Box Optimization** SIGKDD 2017 ![](https://img.shields.io/badge/Debugging-orange)
+
+   *Daniel Golovin, Benjamin Solnik, Subhodeep Moitra, Greg Kochanski, John Karro, D. Sculley*
+
+5. **KunPeng: Parameter Server based Distributed Learning Systems and Its Applications in Alibaba and Ant Financial** SIGKDD 2017 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Jun Zhou, Xiaolong Li, Peilin Zhao, Chaochao Chen, Longfei Li, Xinxing Yang, Qing Cui, Jin Yu, Xu Chen, Yi Ding, Yuan Alan Qi*
+
+#### 2018
+
+1. **Deploying Machine Learning Models for Public Policy: A Framework** SIGKDD 2018 ![](https://img.shields.io/badge/Others-gray)
+
+   *Klaus Ackermann, Joe Walsh, Adolfo De Unánue, Hareem Naveed, Andrea Navarrete Rivera, Sun-Joo Lee, Jason Bennett, Michael Defoe, Crystal Cody, Lauren Haynes, Rayid Ghani *
+
+2. **Scalable Optimization for Embedding Highly-Dynamic and Recency-Sensitive Data** SIGKDD 2018 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Xumin Chen, Peng Cui, Lingling Yi, Shiqiang Yang*
+
+3. **Autotune: A Derivative-free Optimization Framework for Hyperparameter Tuning** SIGKDD 2018 ![](https://img.shields.io/badge/Debugging-orange)
+
+   *Patrick Koch, Oleg Golovidov, Steven Gardner, Brett Wujek, Joshua Griffin, Yan Xu*
+
+4. **Corpus Conversion Service: A Machine Learning Platform to Ingest Documents at Scale**  SIGKDD 2018 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Peter W J Staar, Michele Dolfi, Christoph Auer, Costas Bekas*
+
+5. **Variable Selection and Task Grouping for Multi-Task Learning** SIGKDD 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Jun-Yong Jeong, Chi-Hyuck Jun*
+
+### EuroSys
+
+#### 2016
+
+1. **STRADS: A Distributed Framework for Scheduled Model Parallel Machine Learning** EuroSys 2016 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Jin Kyu Kim, Qirong Ho, Seunghak Lee, Xun Zheng, Wei Dai, Garth A. Gibson, Eric P. Xing*
+
+2. **GeePS: Scalable Deep Learning on Distributed GPUs with a GPU-specialized Parameter Server** EuroSys 2016 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Henggang Cui, Hao Zhang, Gregory R. Ganger, Phillip B. Gibbons, Eric P. Xing*
+
+#### 2017
+
+1. **Proteus: Agile ML Elasticity Through Tiered Reliability in Dynamic Resource Markets** EuroSys 2017 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Aaron Harlap, Alexey Tumanov, Andrew Chung, Gregory R. Ganger, Phillip B. Gibbons*
+
+#### 2018
+
+1. **Optimus: An Efficient DynamicResource Scheduler for Deep Learning Clusters** EuroSys 2018 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Yangrui Chen, Yanghua Peng, Yixin Bao, Chuan Wu, Yibo Zhu, Chuanxiong Guo*
+
+2. **Dynamic Control Flow in Large-scale Machine Learning** EuroSys 2018 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Yuan Yu, Martín Abadi, Paul Barham, Eugene Brevdo, Mike Burrows, Andy Davis, Jeff Dean, Sanjay Ghemawat, Tim Harley, Peter Hawkins, Michael Isard, Manjunath Kudlur, Rajat Monga, Derek Murray, Xiaoqiang Zheng*
+
+3. **Improving the Expressiveness of Deep Learning Frameworks with Recursion** EuroSys 2018 ![](https://img.shields.io/badge/Training-red)
+
+   *Eunji Jeong, Joo Seong Jeong, Soojeong Kim, Gyeong-In Yu, Byung-Gon Chun*
+
+4. **Low Latency RNN Inference with Cellular Batching** EuroSys 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Pin Gao, Lingfan Yu, Yongwei Wu, Jinyang Li*
+
+### SoCC
+
+#### 2016
+
+1. **Ako: Decentralised Deep Learning with Partial Gradient Exchange** SoCC 2016 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Pijika Watcharapichat, Victoria Lopez Morales, Raul Castro Fernandez, Peter Pietzuch*
+
+2. **Addressing the straggler problem for iterative convergent parallel ML** SoCC 2016 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Aaron Harlap, Henggang Cui, Wei Dai, Jinliang Wei, Gregory R. Ganger, Phillip B. Gibbons, Garth A. Gibson, Eric P. Xing*
+
+#### 2017
+
+1. **SLAQ: quality-driven scheduling for distributed machine learning** SoCC 2017 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Haoyu Zhang, Logan Stafman, Andrew Or, Michael J. Freedman*
+
+2. **How good are machine learning clouds for binary classification with good features?: extended abstract** SoCC 2017 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Hantian Zhang, Luyuan Zeng, Wentao Wu, Ce Zhang*
+
+3. **SQML: large-scale in-database machine learning with pure SQL** SoCC 2017 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Umar Syed, Sergei Vassilvitskii*
+
+#### 2018
+
+1. **Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training** SoCC 2018 ![](https://img.shields.io/badge/Training-red)
+
+   *Liang Luo, Jacob Nelson, Luis Ceze, Amar Phanishayee, Arvind Krishnamurthy*
+
+2. **Scheduling CPU for GPU-based Deep Learning Jobs** SoCC 2018 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Wencong Xiao, Zhenhua Han, Hanyu Zhao, Xuan Peng, Quanlu Zhang, Fan Yang, Lidong Zhou*
+
+3. **SSD QoS Improvements through Machine Learning** SoCC 2018 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Chandranil Chakraborttii, Vikas Sinha, Heiner Litz*
 
 ## Contributors
 
