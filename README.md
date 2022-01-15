@@ -2,7 +2,7 @@
 
 **Awesome-Machine-Learning-System-Papers** is a curated list of *machine learning system* papers in recent years (since 2017). **Star** this repository, and then you can keep abreast of the latest developments of this booming research field. 
 
-Thanks to all the people who made contributions to this project. We strongly encourage the researchers to make **pull request** and help the others in this community!
+Thanks to all the people who made contributions to this project. We strongly encourage the researchers to make **pull request** (e.g., add missing papers, fix errors) and help the others in this community!
 
 <!-- omit in toc -->
 ## Conference
@@ -17,24 +17,25 @@ Currently, the listed papers are collected from the following conferences:
 | [SIGMOD](#sigmod)  |   2   |   4   |   3   |   4   |   8   |   16   |      |      |      |      |
 | [ASPLOS](#asplos)  |   -   |   3   |   3   |   9   |   4   |    5   |      |      |      |      |
 | [ATC](#atc)        |   -   |   2   |   3   |   5   |   8   |   8   |      |      |      |      |
-| [PPoPP](#ppopp)    |   -   |   3   |   5   |   2   |   1   |   15   |      |      |      |      |
-| [HPCA](#hpca)    |   -   |   3   |   4   |   4   |   1   | 12 |      |      |      |      |
-| [MICRO](#micro)    |   -   |   4   |   6   |   9   | 13 | 4 |      |      |      |      |
-| [SC](#sc)   |    5  |   -   |   9   |   6   | 14 | 15 |      |      |      |      |
-| [NSDI](#nsdi)    |   -   |    3  |   -   |   3   | - | 4 |      |      |      |      |
-| [ISCA](#isca)    |   -   |   6   |   11   |   7   | 13 | 18 |      |      |      |      |
+| [PPoPP](#ppopp)    |   -   |   2   |   4   |   2   |   1   |   15   |      |      |      |      |
+| [HPCA](#hpca)    |   -   |   3   |   4   |   4   |   1   |  12  |      |      |      |      |
+| [MICRO](#micro)    |   -   |   4   |   6   |   9   |  13  |  4   |      |      |      |      |
+| [SC](#sc)   |    5  |   -   |   9   |   6   |  14  |  15  |      |      |      |      |
+| [NSDI](#nsdi)    |   -   |    3  |   -   |   3   |      |      |      |      |      |      |
+| [ISCA](#isca)    |   -   |   6   |   11   |   7   |      |      |      |      |      |      |
+| [VLDB](#VLDB)    |      |      |      |   0   |   1   |   2   |      |      |      |      |
+| [SIGCOMM](#sigcomm)    |      |      |      |   3   |   2   |   2   |      |      |      |      |
+| [ICDE](#icde)    |      |      |      |   6   |   7   |   4   |      |      |      |      |
+| [SIGKDD](#sigkdd)    |      |      |      |   7   |   8   |   8   |      |      |      |      |
+| [EuroSys](#eurosys)    |      |      |      |   5   |   3   |   5   |      |      |      |      |
+| [SoCC](#socc)    |      |      |      |   2   |   6   |   -   |      |      |      |      |
+
 Some conferences to be added in the future:
 
 - [SysML](#sysml)
 - [NeurIPS](#neurips)
 - [ICML](#icml)
-- [VLDB](#vldb)
-- [SIGCOMM](#sigcomm)
-- [ICDE](#icde)
-- [SIGKDD](#sigkdd)
 - [WWW](#www)
-- [EuroSys](#eurosys)
-- [SoCC](#socc)
 - [INFOCOM](#infocom)
 - [SIGIR](#sigir)
 
@@ -1715,6 +1716,23 @@ Some conferences to be added in the future:
    *Jose Picado, Arash Termehchy, Sudhanshu Pathak*
 
 
+#### 2020
+
+1.	**Tunable Streaming Graph Embeddings at Scale** VLDB 2020 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Serafeim Papadias*
+
+#### 2021
+
+1.	**Towards a Unified Knowledge Graph Data Management System** VLDB 2021 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Baozhu Liu, Xin Wang, Pengkai Liu, Sizhuo Li*
+
+2.	**Exploiting Data Distribution in Distributed Learning of Deep Classification Models under the Parameter Server Architecture** VLDB 2021 ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Nikodimos Provatas*
+
+
 ### SIGCOMM
 
 #### 2018
@@ -1722,6 +1740,49 @@ Some conferences to be added in the future:
 1. **AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization** SIGCOMM 2018 ![](https://img.shields.io/badge/Others-gray)
 
    *Li Chen, Justinas Lingys, Kai Chen, Feng Liu*
+
+#### 2019
+
+1.	**Learning scheduling algorithms for data processing clusters** SIGCOMM 2019 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Hongzi Mao, Malte Schwarzkopf, Shaileshh Bojja Venkatakrishnan, Zili Meng, Mohammad Alizadeh*
+
+2.	**An Edge Computing Marketplace for Distributed Machine Learning** SIGCOMM 2019 ![](https://img.shields.io/badge/Platform-034d0f) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Susham Yerabolu, Samuel Gomena, Ehsan Aryafar, Carlee Joe-Wong*
+
+3.	**Challenging the generalization capabilities of Graph Neural Networks for network modeling** SIGCOMM 2019 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*José Suárez-Varela, Sergi Carol-Bosch, Krzysztof Rusek, Paul Almasan, Marta Arias, Pere Barlet-Ros, Albert Cabellos-Aparicio*
+
+	Code: [https://github.com/knowledgedefinednetworking/demo-routenet](https://github.com/knowledgedefinednetworking/demo-routenet)
+
+#### 2020
+
+1.	**Is Network the Bottleneck of Distributed Training?** SIGCOMM 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Zhen Zhang, Chaokun Chang, Haibin Lin, Yida Wang, Raman Arora, Xin Jin*
+
+	Code: [https://github.com/netx-repo/training-bottleneck](https://github.com/netx-repo/training-bottleneck)
+
+2.	**Challenges in Using ML for Networking Research: How to Label If You Must** SIGCOMM 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Yukhe Lavinia, Ramakrishnan Durairajan, Reza Rejaie, Walter Willinger*
+
+#### 2021
+
+1.	**Hoplite: efficient and fault-tolerant collective communication for task-based distributed systems** SIGCOMM 2021 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+	*Siyuan Zhuang, Zhuohan Li, Danyang Zhuo, Stephanie Wang, Eric Liang, Robert Nishihara, Philipp Moritz, Ion Stoica*
+
+	Code: [https://github.com/suquark/hoplite](https://github.com/suquark/hoplite)
+
+2.	**SiP-ML: high-bandwidth optical network interconnects for machine learning training** SIGCOMM 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+
+	*Mehrdad Khani Shirkoohi, Manya Ghobadi, Mohammad Alizadeh, Ziyi Zhu, Madeleine Glick, Keren Bergman, Amin Vahdat, Benjamin Klenk, Eiman Ebrahimi*
+
+	Code: [https://github.com/MLNetwork/rostam](https://github.com/MLNetwork/rostam)
 
 ### ICDE
 
@@ -1785,6 +1846,88 @@ Some conferences to be added in the future:
 
    *Raul Castro Fernandez, Ziawasch Abedjan, Famien Koko, Gina Yuan, Samuel Madden, Michael Stonebraker*
 
+#### 2019
+
+1.	**MLlib\*: Fast Training of GLMs Using Spark MLlib** ICDE 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Zhipeng Zhang, Jiawei Jiang, Wentao Wu, Ce Zhang, Lele Yu, Bin Cui*
+	
+2.	**Towards Explaining the Effects of Data Preprocessing on Machine Learning** ICDE 2019 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Carlos Vladimiro Gonzalez Zelaya*
+
+3.	**Learning Effective Embeddings From Crowdsourced Labels: An Educational Case Study** ICDE 2019 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Guowei Xu, Wenbiao Ding, Jiliang Tang, Songfan Yang, Gale Yan Huang, Zitao Liu*
+
+	Code: [https://github.com/tal-ai/Representation-Learning-with-crowdsourced-Labels](https://github.com/tal-ai/Representation-Learning-with-crowdsourced-Labels)
+
+4.	**CogLearn: A Cognitive Graph-Oriented Online Learning System** ICDE 2019 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Yang Pian, Yu Lu, Penghe Chen, Qinglong Duan*
+
+5.	**Don't Fear the REAPER: A Framework for Materializing and Reusing Deep-Learning Models** ICDE 2019 ![](https://img.shields.io/badge/Platform-034d0f)
+
+	*Melanie B. Sigl*
+
+6.	**Adaptive Deep Reuse: Accelerating CNN Training on the Fly** ICDE 2019 ![](https://img.shields.io/badge/Training-red)
+
+	*Lin Ning, Hui Guan, Xipeng Shen*
+
+#### 2020
+
+1.	**ColumnSGD: A Column-oriented Framework for Distributed Stochastic Gradient Descent** ICDE 2020 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Zhipeng Zhang, Wentao Wu, Jiawei Jiang, Lele Yu, Bin Cui, Ce Zhang*
+
+2.	**PSGraph: How Tencent trains extremely large-scale graphs with Spark** ICDE 2020 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Jiawei Jiang, Pin Xiao, Lele Yu, Xiaosen Li, Jiefeng Cheng, Xupeng Miao, Zhipeng Zhang, Bin Cui*
+	
+	Code: [https://github.com/Angel-ML/angel](https://github.com/Angel-ML/angel)
+	
+3.	**Efficient Diversity-Driven Ensemble for Deep Neural Networks** ICDE 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Wentao Zhang, Jiawei Jiang, Yingxia Shao, Bin Cui*
+
+4.	**HomoPAI: A Secure Collaborative Machine Learning Platform based on Homomorphic Encryption** ICDE 2020 ![](https://img.shields.io/badge/Platform-034d0f) ![](https://img.shields.io/badge/Security-85144b)
+
+	*Qifei Li, Zhicong Huang, Wen-jie Lu, Cheng Hong, Hunter Qu, Hui He, Weizhe Zhang*
+
+5.	**Machine Learning Meets Big Spatial Data** ICDE 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Ibrahim Sabek, Mohamed F. Mokbel*
+
+6.	**On the Integration of Machine Learning and Array Databases** ICDE 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Sebastián Villarroya, Peter Baumann*
+
+7.	**Fela: Incorporating Flexible Parallelism and Elastic Tuning to Accelerate Large-Scale DML** ICDE 2020 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+	*Jinkun Geng, Dan Li, Shuai Wang*
+
+#### 2021
+
+1.	**CuWide: Towards Efficient Flow-based Training for Sparse Wide Models on GPUs (Extended Abstract)** ICDE 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Xupeng Miao, Lingxiao Ma, Zhi Yang, Yingxia Shao, Bin Cui, Lele Yu, Jiawei Jiang*
+
+	Code: [https://github.com/DMALab/cuWide](https://github.com/DMALab/cuWide)
+
+2.	**CleanML: A Study for Evaluating the Impact of Data Cleaning on ML Classification Tasks** ICDE 2021 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Peng Li, Xi Rao, Jennifer Blase, Yue Zhang, Xu Chu, Ce Zhang*
+
+	Code: [https://github.com/chu-data-lab/CleanML](https://github.com/chu-data-lab/CleanML)
+
+3.	**MLCask: Efficient Management of Component Evolution in Collaborative Data Analytics Pipelines** ICDE 2021 ![](https://img.shields.io/badge/Platform-034d0f)
+
+	*Zhaojing Luo, Sai Ho Yeung, Meihui Zhang, Kaiping Zheng, Lei Zhu, Gang Chen, Feiyi Fan, Qian Lin, Kee Yuan Ngiam, Beng Chin Ooi*
+
+4.	**Ranking Data Slices for ML Model Validation: A Shapley Value Approach** ICDE 2021 ![](https://img.shields.io/badge/Debugging-orange)
+
+	*Eitan Farchi, Ramasuri Narayanam, Lokesh Nagalapatti*
+
 ### SIGKDD
 
 #### 2017
@@ -1831,6 +1974,120 @@ Some conferences to be added in the future:
 
    *Jun-Yong Jeong, Chi-Hyuck Jun*
 
+#### 2019
+
+1.	**FDML: A Collaborative Machine Learning Framework for Distributed Features** SIGKDD 2019 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Security-85144b) ![](https://img.shields.io/badge/Training-red)
+
+	*Yaochen Hu, Di Niu, Jianming Yang, Shengping Zhou*
+
+2.	**Machine Learning at Microsoft with ML.NET** SIGKDD 2019 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Zeeshan Ahmed, Saeed Amizadeh, Mikhail Bilenko, Rogan Carr, Wei-Sheng Chin, Yael Dekel, Xavier Dupré, Vadim Eksarevskiy, Senja Filipi, Tom Finley, Abhishek Goswami, Monte Hoover, Scott Inglis, Matteo Interlandi, Najeeb Kazmi, Gleb Krivosheev, Pete Luferenko, Ivan Matantsev, Sergiy Matusevych, Shahab Moradi, Gani Nazirov, Justin Ormont, Gal Oshri, Artidoro Pagnoni, Jignesh Parmar, Prabhat Roy, Mohammad Zeeshan Siddiqui, Markus Weimer, Shauheen Zahirazami, Yiwen Zhu*
+
+	Code: [https://github.com/dotnet/machinelearning](https://github.com/dotnet/machinelearning)
+
+3.	**Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks** SIGKDD 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Wei-Lin Chiang, Xuanqing Liu, Si Si, Yang Li, Samy Bengio, Cho-Jui Hsieh*
+
+	Code: [https://github.com/benedekrozemberczki/ClusterGCN](https://github.com/benedekrozemberczki/ClusterGCN)
+
+4.	**Training and Meta-Training Binary Neural Networks with Quantum Computing** SIGKDD 2019 ![](https://img.shields.io/badge/Training-red)
+
+	*Abdulah Fawaz, Paul Klein, Sebastien Piat, Simone Severini, Peter Mountney*
+
+5.	**A Generalized Framework for Population Based Training** SIGKDD 2019 ![](https://img.shields.io/badge/AutoML-06046e)
+
+	*Ang Li, Ola Spyra, Sagi Perel, Valentin Dalibard, Max Jaderberg, Chenjie Gu, David Budden, Tim Harley, Pramod Gupta*
+
+6.	**Large-Scale Training Framework for Video Annotation** SIGKDD 2019 ![](https://img.shields.io/badge/Training-red)
+
+	*Seong Jae Hwang, Joonseok Lee, Balakrishnan Varadarajan, Ariel Gordon, Zheng Xu, Apostol Natsev*
+
+7.	**OBOE: Collaborative Filtering for AutoML Model Selection** SIGKDD 2019 ![](https://img.shields.io/badge/AutoML-06046e)
+
+	*Chengrun Yang, Yuji Akimoto, Dae Won Kim, Madeleine Udell*
+	
+	Code: [https://github.com/udellgroup/oboe](https://github.com/udellgroup/oboe)
+
+#### 2020
+
+1.	**Building Continuous Integration Services for Machine Learning** SIGKDD 2020 ![](https://img.shields.io/badge/Debugging-orange) ![](https://img.shields.io/badge/Platform-034d0f)
+
+	*Bojan Karlas, Matteo Interlandi, Cédric Renggli, Wentao Wu, Ce Zhang, Deepak Mukunthu Iyappan Babu, Jordan Edwards, Chris Lauren, Andy Xu, Markus Weimer*
+
+2.	**An Empirical Analysis of Backward Compatibility in Machine Learning Systems** SIGKDD 2020 ![](https://img.shields.io/badge/Debugging-orange)
+
+	*Megha Srivastava, Besmira Nushi, Ece Kamar, Shital Shah, Eric Horvitz*
+
+3.	**FedFast: Going Beyond Average for Faster Training of Federated Recommender Systems** SIGKDD 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Security-85144b)
+
+	*Khalil Muhammad, Qinqin Wang, Diarmuid O'Reilly-Morgan, Elias Z. Tragos, Barry Smyth, Neil Hurley, James Geraci, Aonghus Lawlor*
+
+4.	**Minimal Variance Sampling with Provable Guarantees for Fast Training of Graph Neural Networks** SIGKDD 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Weilin Cong, Rana Forsati, Mahmut T. Kandemir, Mehrdad Mahdavi*
+
+5.	**GPT-GNN: Generative Pre-Training of Graph Neural Networks** SIGKDD 2020 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Ziniu Hu, Yuxiao Dong, Kuansan Wang, Kai-Wei Chang, Yizhou Sun*
+
+	Code: [https://github.com/acbull/GPT-GNN](https://github.com/acbull/GPT-GNN)
+
+6.	**Large-Scale Training System for 100-Million Classification at Alibaba** SIGKDD 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Liuyihan Song, Pan Pan, Kang Zhao, Hao Yang, Yiming Chen, Yingya Zhang, Yinghui Xu, Rong Jin*
+
+7.	**DeepLine: AutoML Tool for Pipelines Generation using Deep Reinforcement Learning and Hierarchical Actions Filtering** SIGKDD 2020 ![](https://img.shields.io/badge/AutoML-06046e)
+
+	*Yuval Heffetz, Roman Vainshtein, Gilad Katz, Lior Rokach*
+
+8.	**AutoML Pipeline Selection: Efficiently Navigating the Combinatorial Space** SIGKDD 2020 ![](https://img.shields.io/badge/AutoML-06046e)
+
+	*Chengrun Yang, Jicong Fan, Ziyang Wu, Madeleine Udell*
+
+	Code: [https://github.com/udellgroup/oboe](https://github.com/udellgroup/oboe)
+
+#### 2021
+
+1.	**DeGNN: Improving Graph Neural Networks with Graph Decomposition** SIGKDD 2021 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Xupeng Miao, Nezihe Merve Gürel, Wentao Zhang, Zhichao Han, Bo Li, Wei Min, Susie Xi Rao, Hansheng Ren, Yinan Shan, Yingxia Shao, Yujie Wang, Fan Wu, Hui Xue, Yaming Yang, Zitao Zhang, Yang Zhao, Shuai Zhang, Yujing Wang, Bin Cui, Ce Zhang*
+
+2.	**ROD: Reception-aware Online Distillation for Sparse Graphs** SIGKDD 2021 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Wentao Zhang, Yuezihan Jiang, Yang Li, Zeang Sheng, Yu Shen, Xupeng Miao, Liang Wang, Zhi Yang, Bin Cui*
+
+3.	**OpenBox: A Generalized Black-box Optimization Service** SIGKDD 2021 ![](https://img.shields.io/badge/AutoML-06046e)
+
+	*Yang Li, Yu Shen, Wentao Zhang, Yuanwei Chen, Huaijun Jiang, Mingchao Liu, Jiawei Jiang, Jinyang Gao, Wentao Wu, Zhi Yang, Ce Zhang, Bin Cui*
+
+	Code: [https://github.com/PKU-DAIR/open-box](https://github.com/PKU-DAIR/open-box)
+
+4.	**Amazon SageMaker Clarify: Machine Learning Bias Detection and Explainability in the Cloud** SIGKDD 2021 ![](https://img.shields.io/badge/Debugging-orange)
+
+	*Michaela Hardt, Xiaoguang Chen, Xiaoyi Cheng, Michele Donini, Jason Gelman, Satish Gollaprolu, John He, Pedro Larroy, Xinyu Liu, Nick McCarthy, Ashish Rathi, Scott Rees, Ankit A. Siva, ErhYuan Tsai, Keerthan Vasist, Pinar Yilmaz, Muhammad Bilal Zafar, Sanjiv Das, Kevin Haas, Tyler Hill, Krishnaram Kenthapadi*
+
+	Code: [https://github.com/aws/amazon-sagemaker-clarify](https://github.com/aws/amazon-sagemaker-clarify)
+
+5.	**AutoSmart: An Efficient and Automatic Machine Learning Framework for Temporal Relational Data** SIGKDD 2021 ![](https://img.shields.io/badge/AutoML-06046e) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Zhipeng Luo, Zhixing He, Jin Wang, Manqing Dong, Jianqiang Huang, Mingjian Chen, Bohang Zheng*
+
+	Code: [https://github.com/DeepBlueAI/AutoSmart](https://github.com/DeepBlueAI/AutoSmart)
+
+6.	**Global Neighbor Sampling for Mixed CPU-GPU Training on Giant Graphs** SIGKDD 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Jialin Dong, Da Zheng, Lin F. Yang, George Karypis*
+
+7.	**Training Recommender Systems at Scale: Communication-Efficient Model and Data Parallelism** SIGKDD 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Vipul Gupta, Dhruv Choudhary, Ping Tak Peter Tang, Xiaohan Wei, Xing Wang, Yuzhen Huang, Arun Kejariwal, Kannan Ramchandran, Michael W. Mahoney*
+
+8.	**Hierarchical Training: Scaling Deep Recommendation Models on Large CPU Clusters** SIGKDD 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Yuzhen Huang, Xiaohan Wei, Xing Wang, Jiyan Yang, Bor-Yiing Su, Shivam Bharuka, Dhruv Choudhary, Zewei Jiang, Hai Zheng, Jack Langman*
+
 ### EuroSys
 
 #### 2016
@@ -1866,6 +2123,77 @@ Some conferences to be added in the future:
 4. **Low Latency RNN Inference with Cellular Batching** EuroSys 2018 ![](https://img.shields.io/badge/Inference-blue)
 
    *Pin Gao, Lingfan Yu, Yongwei Wu, Jinyang Li*
+
+#### 2019
+
+1.	**GRNN: Low-Latency and Scalable RNN Inference on GPUs** EuroSys 2019 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Connor Holmes, Daniel Mawhirter, Yuxiong He, Feng Yan, Bo Wu*
+
+	Code: [https://github.com/cmikeh2/grnn](https://github.com/cmikeh2/grnn)
+
+2.	**Automating Dependence-Aware Parallelization of Machine Learning Training on Distributed Shared Memory** EuroSys 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Jinliang Wei, Garth A. Gibson, Phillip B. Gibbons, Eric P. Xing*
+
+3.	**Parallax: Sparsity-aware Data Parallel Training of Deep Neural Networks** EuroSys 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Soojeong Kim, Gyeong-In Yu, Hojin Park, Sungwoo Cho, Eunji Jeong, Hyeonmin Ha, Sanha Lee, Joo Seong Jeong, Byung-Gon Chun*
+
+	Code: [https://github.com/snuspl/parallax](https://github.com/snuspl/parallax)
+
+4.	**Fast Distributed Deep Learning over RDMA** EuroSys 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Hardware-green) 
+
+	*Jilong Xue, Youshan Miao, Cheng Chen, Ming Wu, Lintao Zhang, Lidong Zhou*
+
+5.	**μLayer: Low Latency On-Device Inference Using Cooperative Single-Layer Acceleration and Processor-Friendly Quantization** EuroSys 2019 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Youngsok Kim, Joonsung Kim, Dongju Chae, Daehyun Kim, Jangwoo Kim*
+
+#### 2020
+
+1.	**Balancing efficiency and fairness in heterogeneous GPU clusters for deep learning** EuroSys 2020 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Shubham Chaudhary, Ramachandran Ramjee, Muthian Sivathanu, Nipun Kwatra, Srinidhi Viswanatha*
+
+2.	**Subway: minimizing data transfer during out-of-GPU-memory graph processing** EuroSys 2020 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Amir Hossein Nodehi Sabet, Zhijia Zhao, Rajiv Gupta*
+
+	Code: [https://github.com/AutomataLab/Subway](https://github.com/AutomataLab/Subway)
+
+3.	**Peregrine: a pattern-aware graph mining system** EuroSys 2020 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Kasra Jamshidi, Rakesh Mahadasa, Keval Vora*
+
+	Code: [https://github.com/pdclab/peregrine](https://github.com/pdclab/peregrine)
+
+#### 2021
+
+1.	**FlexGraph: a flexible and efficient distributed framework for GNN training** EuroSys 2021 ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+	*Lei Wang, Qiang Yin, Chao Tian, Jianbang Yang, Rong Chen, Wenyuan Yu, Zihang Yao, Jingren Zhou*
+
+2.	**DGCL: an efficient communication library for distributed GNN training** EuroSys 2021 ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+	*Zhenkun Cai, Xiao Yan, Yidi Wu, Kaihao Ma, James Cheng, Fan Yu*
+
+	Code: [https://github.com/czkkkkkk/gccl](https://github.com/czkkkkkk/gccl)
+
+3.	**Accelerating graph sampling for graph machine learning using GPUs** EuroSys 2021 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Abhinav Jangda, Sandeep Polisetty, Arjun Guha, Marco Serafini*
+
+4.	**Tahoe: tree structure-aware high performance inference engine for decision tree ensemble on GPU** EuroSys 2021 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Zhen Xie, Wenqian Dong, Jiawen Liu, Hang Liu, Dong Li*
+
+	Code: [https://github.com/zhen-xie/Tahoe](https://github.com/zhen-xie/Tahoe)
+
+5. **Seastar: Vertex-Centric Programming for Graph Neural Networks** EuroSys 2021 ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Yidi Wu, Kaihao Ma, Zhenkun Cai, Tatiana Jin, Boyang Li, Chengguang Zheng, James Cheng, Fan Yu*
+
 
 ### SoCC
 
@@ -1907,6 +2235,42 @@ Some conferences to be added in the future:
 
    *Chandranil Chakraborttii, Vikas Sinha, Heiner Litz*
 
+#### 2019
+
+1.	**Training Deep Neural Networks Using Posit Number System** SoCC 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Jinming Lu, Siyuan Lu, Zhisheng Wang, Chao Fang, Jun Lin, Zhongfeng Wang, Li Du*
+
+2.	**An Operation-Minimized FPGA Accelerator Design by Dynamically Exploiting Sparsity in CNN Winograd Transform** SoCC 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Xinkai Di, Haigang Yang, Zhihong Huang, Ning Mao*
+
+#### 2020
+
+1.	**A DNN Compression Framework for SOT-MRAM-based Processing-In-Memory Engine** SoCC 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Geng Yuan, Xiaolong Ma, Sheng Lin, Zhengang Li, Jieren Deng, Caiwen Ding*
+
+2.	**Cycle-to-cycle Variation Enabled Energy Efficient Privacy Preserving Technology in ANN** SoCC 2020 ![](https://img.shields.io/badge/Security-85144b)
+
+	*Jingyan Fu, Zhiheng Liao, Jinhui Wang*
+
+3.	**Improving the Performance of a NoC-based CNN Accelerator with Gather Support** SoCC 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Binayak Tiwari, Mei Yang, Xiaohang Wang, Yingtao Jiang, Venkatesan Muthukumar*
+
+4.	**Hardware Accelerator for Multi-Head Attention and Position-Wise Feed-Forward in the Transformer** SoCC 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Siyuan Lu, Meiqi Wang, Shuang Liang, Jun Lin, Zhongfeng Wang*
+
+5.	**Optimizing CNN Accelerator With Improved Roofline Model** SoCC 2020 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Shaoxia Fang, Shulin Zeng, Yu Wang*
+
+6.	**AutoML for Multilayer Perceptron and FPGA Co-design** SoCC 2020 ![](https://img.shields.io/badge/AutoML-06046e) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Philip Colangelo, Oren Segal, Alexander Speicher, Martin Margala*
+
 ## Contributors
 
-Contributed by [Xupeng Miao](https://github.com/Hsword), [Zihao Yu](https://github.com/Hankpipi), [Chunan Shi](https://github.com/SpiritedAwayCN).
+Contributed by [Xupeng Miao](https://github.com/Hsword), [Zihao Yu](https://github.com/Hankpipi), [Chunan Shi](https://github.com/SpiritedAwayCN) and [Hetu](https://github.com/PKU-DAIR/Hetu) team members.
