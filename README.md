@@ -18,17 +18,18 @@ Currently, the listed papers are collected from the following conferences:
 | [ASPLOS](#asplos)  |   -   |   3   |   3   |   9   |   4   |    5   |      |      |      |      |
 | [ATC](#atc)        |   -   |   2   |   3   |   5   |   8   |   8   |      |      |      |      |
 | [PPoPP](#ppopp)    |   -   |   2   |   4   |   2   |   1   |   15   |      |      |      |      |
-| [HPCA](#hpca)    |   -   |   3   |   4   |   4   |   1   |      |      |      |      |      |
-| [MICRO](#micro)    |   -   |   4   |   6   |   9   |      |      |      |      |      |      |
-| [SC](#sc)   |    5  |   -   |   9   |   6   |      |      |      |      |      |      |
-| [NSDI](#nsdi)    |   -   |    3  |   -   |   3   |      |      |      |      |      |      |
-| [ISCA](#isca)    |   -   |   6   |   11   |   7   |      |      |      |      |      |      |
-| [VLDB](#VLDB)    |      |      |      |   0   |   1   |   2   |      |      |      |      |
-| [SIGCOMM](#sigcomm)    |      |      |      |   3   |   2   |   2   |      |      |      |      |
-| [ICDE](#icde)    |      |      |      |   6   |   7   |   4   |      |      |      |      |
-| [SIGKDD](#sigkdd)    |      |      |      |   7   |   8   |   8   |      |      |      |      |
-| [EuroSys](#eurosys)    |      |      |      |   5   |   3   |   5   |      |      |      |      |
-| [SoCC](#socc)    |      |      |      |   2   |   6   |   -   |      |      |      |      |
+| [HPCA](#hpca)    |   -   |   3   |   4   |   4   |   1   |  12  |      |      |      |      |
+| [MICRO](#micro)    |   -   |   4   |   6   |   9   |  13  |  4   |      |      |      |      |
+| [SC](#sc)   |    5  |   -   |   9   |   6   |  14  |  15  |      |      |      |      |
+| [NSDI](#nsdi)    |   -   |    3  |   -   |   3   | - | 4 |      |      |      |      |
+| [ISCA](#isca)    |   -   |   6   |   11   |   7   | 13 | 18 |      |      |      |      |
+| [VLDB](#VLDB)    | 1 | 3 | 4 |   0   |   1   |   2   |      |      |      |      |
+| [SIGCOMM](#sigcomm)    | - | - | 1 |   3   |   2   |   2   |      |      |      |      |
+| [ICDE](#icde)    | 4 | 6 | 3 |   6   |   7   |   4   |      |      |      |      |
+| [SIGKDD](#sigkdd)    | - | 5 | 5 |   7   |   8   |   8   |      |      |      |      |
+| [EuroSys](#eurosys)    | 2 | 1 | 4 |   5   |   3   |   5   |      |      |      |      |
+| [SoCC](#socc)    | 2 | 3 | 3 |   2   |   6   |   -   |      |      |      |      |
+| [SysML](#sysml)    | - | - | 6 |      |      |   -   |      |      |      |      |
 
 Some conferences to be added in the future:
 
@@ -276,7 +277,7 @@ Some conferences to be added in the future:
 3. **Random Walks on Huge Graphs at Cache Efficiency** SOSP 2021 ![](https://img.shields.io/badge/Graph-cc231e)
 
 	*Ke Yang, Xiaosong Ma, Saravanan Thirumuruganathan, Kang Chen, Yongwei Wu*
- 
+
 
 
 ### SIGMOD
@@ -782,7 +783,7 @@ Some conferences to be added in the future:
 
 
 	*Yang Liu, Wissam M. Sid-Lakhdar, Osni Marques, Xinran Zhu, Chang Meng, James Weldon Demmel, Xiaoye S. Li*
-
+	
 	Code: [https://github.com/gptune/GPTune](https://github.com/gptune/GPTune)
 
 6.	**I/O lower bounds for auto-tuning of convolutions in CNNs** PPoPP 2021 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Compiler-206777)
@@ -835,139 +836,888 @@ Some conferences to be added in the future:
 
 #### 2017
 
-1.	**Towards Pervasive and User Satisfactory CNN across GPU Microarchitectures** HPCA 2017
-2.	**PipeLayer: A Pipelined ReRAM-Based Accelerator for Deep Learning** HPCA 2017
-3.	**FlexFlow: A Flexible Dataflow Accelerator Architecture for Convolutional Neural Networks** HPCA 2017
+1. **Towards Pervasive and User Satisfactory CNN across GPU Microarchitectures** HPCA 2017 ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Resource-cc9e08) 
+
+   *Mingcong Song, Yang Hu, Huixiang Chen, Tao Li*
+
+2. **PipeLayer: A Pipelined ReRAM-Based Accelerator for Deep Learning** HPCA 2017 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Linghao Song, Xuehai Qian, Hai Li, Yiran Chen*
+
+3. **FlexFlow: A Flexible Dataflow Accelerator Architecture for Convolutional Neural Networks** HPCA 2017  ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Wenyan Lu, Guihai Yan, Jiajun Li, Shijun Gong, Yinhe Han, Xiaowei Li*
 
 #### 2018
 
-1.	**Towards Efficient Microarchitectural Design for Accelerating Unsupervised GAN-based Deep Learning** HPCA 2018
-	.	**Making Memristive Neural Network Accelerators Reliable** HPCA 2018
-	.	**Compressing DMA Engine: Leveraging Activation Sparsity for Training Deep Neural Networks** HPCA 2018
-	.	**In-situ AI: Towards Autonomous and Incremental Deep Learning for IoT Systems** HPCA 2018
+1. **Towards Efficient Microarchitectural Design for Accelerating Unsupervised GAN-based Deep Learning** HPCA 2018 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Mingcong Song, Jiaqi Zhang, Huixiang Chen, Tao Li*
+
+1.	**Making Memristive Neural Network Accelerators Reliable** HPCA 2018 ![](https://img.shields.io/badge/Hardware-green)
+	
+	*Ben Feinberg, Shibo Wang, Engin Ipek*
+	
+3. **Compressing DMA Engine: Leveraging Activation Sparsity for Training Deep Neural Networks** HPCA 2018 ![](https://img.shields.io/badge/Hardware-green)![](https://img.shields.io/badge/Training-red)
+
+   *Minsoo Rhu, Mike O'Connor, Niladrish Chatterjee, Jeff Pool, Youngeun Kwon, Stephen W. Keckler*
+
+4. **In-situ AI: Towards Autonomous and Incremental Deep Learning for IoT Systems** HPCA 2018![](https://img.shields.io/badge/Training-red)
+
+   *Mingcong Song, Kan Zhong, Jiaqi Zhang, Yang Hu, Duo Liu, Weigong Zhang, Jing Wang, Tao Li*
 
 #### 2019
 
-1.	**HyPar: Towards Hybrid Parallelism for Deep Learning Accelerator Array** HPCA 2019
-2.	**E-RNN: Design Optimization for Efficient Recurrent Neural Networks in FPGAs** HPCA 2019
-3.	**Bit Prudent In-Cache Acceleration of Deep Convolutional Neural Networks** HPCA 2019
-4.	**Shortcut Mining: Exploiting Cross-Layer Shortcut Reuse in DCNN Accelerators** HPCA 2019
+1. **HyPar: Towards Hybrid Parallelism for Deep Learning Accelerator Array** HPCA 2019 ![](https://img.shields.io/badge/Resource-cc9e08) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Linghao Song, Jiachen Mao, Youwei Zhuo, Xuehai Qian, Hai Li, Yiran Chen*
+
+2. **E-RNN: Design Optimization for Efficient Recurrent Neural Networks in FPGAs** HPCA 2019 ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Training-red)
+
+   *Zhe Li, Caiwen Ding, Siyue Wang, Wujie Wen, Youwei Zhuo, Chang Liu, Qinru Qiu, Wenyao Xu, Xue Lin, Xuehai Qian, Yanzhi Wang*
+
+   Code: https://github.com/lz1313/BlockCIrculantRNN
+
+3. **Bit Prudent In-Cache Acceleration of Deep Convolutional Neural Networks** HPCA 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Xiaowei Wang, Jiecao Yu, Charles Augustine†, Ravi Iyer†, Reetuparna Das*
+
+4. **Shortcut Mining: Exploiting Cross-Layer Shortcut Reuse in DCNN Accelerators** HPCA 2019 ![](https://img.shields.io/badge/Resource-cc9e08)![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Arash Azizimazreah, Lizhong Chen*
 
 #### 2020
 
-1.	**AccPar: Tensor Partitioning for Heterogeneous Deep Learning Accelerator Arrays** HPCA 2020
+1. **AccPar: Tensor Partitioning for Heterogeneous Deep Learning Accelerator Arrays** HPCA 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Linghao Song, Fan Chen, Youwei Zhuo, Xuehai Qian, Hai Li, Yiran Chen*
+
+#### 2021
+
+1. **A Computational Stack for Cross-Domain Acceleration** HPCA 2021 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Sean Kinzer, Joon Kyung Kim, Soroush Ghodrati, Brahmendra Yatham, Alric Althoff, Divya Mahajan, Sorin Lerner, Hadi Esmaeilzadeh*
+
+   Code: https://github.com/he-actlab/polymath
+
+2. **Heterogeneous Dataflow Accelerators for Multi-DNN Workloads** HPCA 2021 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Hyoukjun Kwon, Liangzhen Lai, Michael Pellauer, Tushar Krishna, Yu-Hsin Chen, Vikas Chandra*
+
+3. **SPAGHETTI: Streaming Accelerators for Highly Sparse GEMM on FPGAs** HPCA 2021 ![](https://img.shields.io/badge/Compiler-206777)
+
+   *Reza Hojabr, Ali Sedaghati, Amirali Sharifian, Ahmad Khonsari, Arrvindh Shriraman*
+
+   Code: https://github.com/sfu-arch/SPAGHETTI
+
+4. **SpAtten: Efficient Sparse Attention Architecture with Cascade Token and Head Pruning** HPCA 2021  ![](https://img.shields.io/badge/Hardware-green)
+
+   *Jiajun Li, Ahmed Louri, Avinash Karanth, Razvan Bunescu*
+
+5. **Mix and Match: A Novel FPGA-Centric Deep Neural Network Quantization Framework** HPCA 2021 ![](https://img.shields.io/badge/Others-gray)
+
+   *Sung-En Chang, Yanyu Li, Mengshu Sun, Runbin Shi, Hayden K.-H. So, Xuehai Qian, Yanzhi Wang, Xue Lin*
+
+6. **Revisiting HyperDimensional Learning for FPGA and Low-Power Architectures** HPCA 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Inference-blue)
+
+   *Mohsen Imani, Zhuowen Zou, Samuel Bosch, Sanjay Anantha Rao, Sahand Salamat, Venkatesh Kumar, Yeseong Kim, Tajana Rosing*
+
+7. **Tensor Casting: Co-Designing Algorithm-Architecture for Personalized Recommendation Training** HPCA 2021 ![](https://img.shields.io/badge/Training-red)
+
+   *Youngeun Kwon, Yunjae Lee, Minsoo Rhu*
+
+8. **GradPIM: A Practical Processing-in-DRAM Architecture for Gradient Descent** HPCA 2021 ![](https://img.shields.io/badge/Training-red)
+
+   *Heesu Kim, Hanmin Park, Taehyun Kim, Kwanheum Cho, Eojin Lee, Soojung Ryu, Hyuk-Jae Lee, Kiyoung Choi, Jinho Lee*
+
+9. **SpaceA: Sparse Matrix Vector Multiplication on Processing-in-Memory Accelerator** HPCA 2021 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Xinfeng Xie, Zheng Liang, Peng Gu, Abanti Basak, Lei Deng, Ling Liang, Xing Hu, Yuan Xie*
+
+10. **Layerweaver: Maximizing Resource Utilization of Neural Processing Units via Layer-Wise Scheduling** HPCA 2021 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+    *Young H. Oh, Seonghak Kim, Yunho Jin, Sam Son, Jonghyun Bae, Jongsung Lee, Yeonhong Park, Dong Uk Kim, Tae Jun Ham, Jae W. Lee*
+
+11. **Sentinel: Efficient Tensor Migration and Allocation on Heterogeneous Memory Systems for Deep Learning** HPCA 2021 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+    *Jie Ren, Jiaolin Luo, Kai Wu, Minjia Zhang, Hyeran Jeon, Dong Li*
+
+12. **CSCNN: Algorithm-hardware Co-design for CNN Accelerators using Centrosymmetric Filters** HPCA 2021 ![](https://img.shields.io/badge/Hardware-green)
+
+    *Jiajun Li, Ahmed Louri, Avinash Karanth, Razvan Bunescu*
 
 ### MICRO
 
 #### 2017
 
-1.	**Scale-Out Acceleration for Machine Learning** MICRO 2017
-2.	**Bit-Pragmatic Deep Neural Network Computing** MICRO 2017
-3.	**CirCNN: Accelerating and Compressing Deep Neural Networks Using Block-Circulant Weight Matrices** MICRO 2017
-4.	**DeftNN: Addressing Bottlenecks for DNN Execution on GPUs via Synapse Vector Elimination and Near-compute Data Fission** MICRO 2017
+1. **Scale-Out Acceleration for Machine Learning** MICRO 2017 ![](https://img.shields.io/badge/Others-gray)
+
+   *Jongse Park, Hardik Sharma, Divya Mahajan, Joon Kyung Kim, Preston Olds, Hadi Esmaeilzadeh*
+
+2. **Bit-Pragmatic Deep Neural Network Computing** MICRO 2017 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Jorge Albericio, Alberto Delmás, Patrick Judd, Sayeh Sharify, Gerard O'Leary, Roman Genov, Andreas Moshovos*
+
+3. **CirCNN: Accelerating and Compressing Deep Neural Networks Using Block-Circulant Weight Matrices** MICRO 2017 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Caiwen Ding, Siyu Liao, Yanzhi Wang, Zhe Li, Ning Liu, Youwei Zhuo, Chao Wang, Xuehai Qian, Yu Bai, Geng Yuan, Xiaolong Ma, Yipeng Zhang, Jian Tang, Qinru Qiu, Xue Lin, Bo Yuan*
+
+4. **DeftNN: Addressing Bottlenecks for DNN Execution on GPUs via Synapse Vector Elimination and Near-compute Data Fission** MICRO 2017 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Parker Hill, Animesh Jain, Mason Hill, Babak Zamirai, Chang-Hong Hsu, Michael A. Laurenzano, Scott Mahlke, Lingjia Tang, Jason Mars*
 
 #### 2018
 
-1.	**Addressing Irregularity in Sparse Neural Networks:A Cooperative Software/Hardware Approach** MICRO 2018
-2.	**Diffy: a Deja vu-Free Differential Deep Neural Network Accelerator** MICRO 2018
-3.	**Towards Memory Friendly Long-Short Term Memory Networks (LSTMs) on Mobile GPUs** MICRO 2018
-4.	**A Network-Centric Hardware/Algorithm Co-Design to Accelerate Distributed Training of Deep Neural Networks** MICRO 2018 
-5.	**PermDNN: Efficient Compressed Deep Neural Network Architecture with Permuted Diagonal Matrices** MICRO 2018 
-6.	**Processing-in-Memory for Energy-efficient Neural Network Training: A Heterogeneous Approach** MICRO 2018
+1. **Addressing Irregularity in Sparse Neural Networks:A Cooperative Software/Hardware Approach** MICRO 2018 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Xi Zeng, Tian Zhi, Xuda Zhou, Zidong Du, Qi Guo, Shaoli Liu, Bingrui Wang, Yuanbo Wen, Chao Wang, Xuehai Zhou, Ling Li, Tianshi Chen, Ninghui Sun, Yunji Chen*
+
+2. **Diffy: a Deja vu-Free Differential Deep Neural Network Accelerator** MICRO 2018 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Mostafa Mahmoud, Kevin Siu, Andreas Moshovos*
+
+3. **Towards Memory Friendly Long-Short Term Memory Networks (LSTMs) on Mobile GPUs** MICRO 2018 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Xingyao Zhang, Chenhao Xie, Jing Wang, Weidong Zhang, Xin Fu*
+
+4. **A Network-Centric Hardware/Algorithm Co-Design to Accelerate Distributed Training of Deep Neural Networks** MICRO 2018  ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Hardware-green)![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Youjie Li, Jongse Park, Mohammad Alian, Yifan Yuan, Zheng Qu, Peitian Pan, Ren Wang, Alexander Gerhard Schwing, Hadi Esmaeilzadeh, Nam Sung Kim*
+
+5. **PermDNN: Efficient Compressed Deep Neural Network Architecture with Permuted Diagonal Matrices** MICRO 2018 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Chunhua Deng, Siyu Liao, Yi Xie, Keshab K. Parhi, Xuehai Qian, Bo Yuan*
+
+6. **Processing-in-Memory for Energy-efficient Neural Network Training: A Heterogeneous Approach** MICRO 2018 ![](https://img.shields.io/badge/Training-red)
+
+   *Jiawen Liu, Hengyu Zhao, Matheus Almeida Ogleari, Dong Li, Jishen Zhao*
 
 #### 2019
 
-1.	**Wire-Aware Architecture and Dataflow for CNN Accelerators** MICRO 2019
-2.	**Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture** MICRO 2019
-3.	**ShapeShifter: Enabling Fine-Grain Data Width Adaptation in Deep Learning** MICRO 2019
-4.	**ZCOMP: Reducing DNN Cross-Layer Memory Footprint Using Vector Extensions** MICRO 2019
-5.	**Boosting the Performance of CNN Accelerators with Dynamic Fine-Grained Channel Gating** MICRO 2019
-6.	**SparTen: A Sparse Tensor Accelerator for Convolutional Neural Networks** MICRO 2019
-7.	**EDEN: Enabling Energy-Efficient, High-Performance Deep Neural Network Inference Using Approximate DRAM** MICRO 2019
-8.	**eCNN: A Block-Based and Highly-Parallel CNN Accelerator for Edge Inference** MICRO 2019
-9.	**Efficient SpMV Operation for Large and Highly Sparse Matrices using Scalable Multi-way Merge Parallelization** MICRO 2019
+1. **Wire-Aware Architecture and Dataflow for CNN Accelerators** MICRO 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Sumanth Gudaparthi, Surya Narayanan, Rajeev Balasubramonian, Edouard Giacomin, Hari Kambalasubramanyam, Pierre-Emmanuel Gaillardon*
+
+2. **Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture** MICRO 2019 ![](https://img.shields.io/badge/Inference-blue)![](https://img.shields.io/badge/Hardware-green)
+
+   *Yakun Sophia Shao, Jason Clemons, Rangharajan Venkatesan, Brian Zimmer, Matthew Fojtik, Nan Jiang, Ben Keller, Alicia Klinefelter, Nathaniel Pinckney, Priyanka Raina, Stephen G. Tell, Yanqing Zhang, William J. Dally, Joel Emer, C. Thomas Gray, Brucek Khailany, Stephen W. Keckler*
+
+3. **ShapeShifter: Enabling Fine-Grain Data Width Adaptation in Deep Learning** MICRO 2019 ![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Alberto DelmásLascorz, Sayeh Sharify, Isak Edo, Dylan Malone Stuart, Omar Mohamed Awad, Patrick Judd, Mostafa Mahmoud, Milos Nikolic, Kevin Siu, Zissis Poulos, Andreas Moshovos*
+
+4. **ZCOMP: Reducing DNN Cross-Layer Memory Footprint Using Vector Extensions** MICRO 2019 ![](https://img.shields.io/badge/Resource-cc9e08) ![](https://img.shields.io/badge/Hardware-green)
+
+   *Berkin Akin  , Zeshan A. Chishti, Alaa R. Alameldeen*
+
+5. **Boosting the Performance of CNN Accelerators with Dynamic Fine-Grained Channel Gating** MICRO 2019 ![](https://img.shields.io/badge/Others-gray)
+
+   *Weizhe Hua, Yuan Zhou, Christopher De Sa, Zhiru Zhang, G. Edward Suh*
+
+6. **SparTen: A Sparse Tensor Accelerator for Convolutional Neural Networks** MICRO 2019 ![](https://img.shields.io/badge/Training-red)![](https://img.shields.io/badge/Hardware-green) 
+
+   *Ashish Gondimalla, Noah Chesnut, Mithuna Thottethodi, T. N. Vijaykumar*
+
+7. **EDEN: Enabling Energy-Efficient, High-Performance Deep Neural Network Inference Using Approximate DRAM** MICRO 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Skanda Koppula, Lois Orosa, A. Giray Yağlıkçı, Roknoddin Azizi, Taha Shahroodi, Konstantinos Kanellopoulos, Onur Mutlu*
+
+8. **eCNN: A Block-Based and Highly-Parallel CNN Accelerator for Edge Inference** MICRO 2019 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Chao-Tsung Huang, Yu-Chun Ding, Huan-Ching Wang, Chi-Wen Weng, Kai-Ping Lin, Li-Wei Wang, Li-De Chen*
+
+9. **Efficient SpMV Operation for Large and Highly Sparse Matrices using Scalable Multi-way Merge Parallelization** MICRO 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Fazle Sadi, Joe Sweeney, Tze Meng Low, James C. Hoe, Larry Pileggi, Franz Franchetti*
+
+#### 2020
+
+1. **SuperNPU: An Extremely Fast Neural Processing Unit Using Superconducting Logic Devices** MICRO 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Koki Ishida, Ilkwon Byun, Ikki Nagaoka, Kosuke Fukumitsu, Masamitsu Tanaka, Satoshi Kawakami, Teruo Tanimoto, Takatsugu Ono, Jangwoo Kim, and Koji Inoue*
+
+2. **Printed Machine Learning Classifiers** MICRO 2020![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Inference-blue)
+
+   *Muhammad Husnain Mubarik ,Dennis D. Weller, Nathaniel Bleier, Matthew Tomei Jasmin Aghassi-Hagmann, Mehdi B. Tahoori and Rakesh Kumar*
+
+   Code: https://github.com/PrintedComputing
+
+3. **Look-Up Table based Energy Efficient Processing in Cache Support for Neural Network Acceleration** MICRO 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Akshay Krishna Ramanathan, Gurpreet S Kalsi, Srivatsa Srinivasa, Tarun Makesh Chandran, Kamlesh R Pillai, Om J Omer, Vijaykrishnan Narayanan, Sreenivas Subramoney*
+
+4. **ConfuciuX: Autonomous Hardware Resource Assignment for DNN Accelerators using Reinforcement Learning** MICRO 2020 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Sheng-Chun Kao, Geonhwa Jeong, Tushar Krishna*
+
+5. **VR-DANN: Real-Time Video Recognition via Decoder-Assisted Neural Network Acceleration** MICRO 2020 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Zhuoran Song, Feiyang Wu, Xueyuan Liu, Jing Ke, Naifeng Jing, Xiaoyao Liang*
+
+6. **Procrustes: A Dataflow and Accelerator for Sparse Deep Neural Network Training** MICRO 2020 ![](https://img.shields.io/badge/Training-red)
+
+   *Dingqing Yang, Amin Ghasemazar, Xiaowei Ren, Maximilian Golub, Guy Lemieux, Mieszko Lis*
+
+7. **Duplo: Lifting Redundant Memory Accesses of Deep Neural Networks for GPU Tensor Cores** MICRO 2020 ![](https://img.shields.io/badge/Resource-cc9e08) ![](https://img.shields.io/badge/Hardware-green)
+
+   *Hyeonjin Kim , Sungwoo Ahn , Yunho Oh† , Bogil Kim , Won Woo Ro , William J. Song*
+
+8. **DUET: Boosting Deep Neural Network Efficiency on Dual-Module Architecture** MICRO 2020 ![](https://img.shields.io/badge/Others-gray)
+
+   *Liu Liu, Zheng Qu, Lei Deng, Fengbin Tu, Shuangchen Li, Xing Hu, Zhenyu Gu, Yufei Ding, Yuan Xie*
+
+9. **TFE: Energy-Efficient Transferred Filter-Based Engine to Compress and Accelerate Convolutional Neural Networks** MICRO 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Huiyu Mo, Leibo Liu, Wenjing Hu, Wenping Zhu, Qiang Li, Ang Li, Shouyi Yin, Jian Chen, Xiaowei Jiang, Shaojun Wei*
+
+10. **MatRaptor: A Sparse-Sparse Matrix Multiplication Accelerator Based on Row-Wise Product** MICRO 2020![](https://img.shields.io/badge/Training-red)
+
+    *Nitish Srivastava, Hanchen Jin, Jie Liu, David Albonesi, Zhiru Zhang*
+
+11. **TensorDash: Exploiting Sparsity to Accelerate Deep Neural Network Training** MICRO 2020 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Training-red)
+
+    *Mostafa Mahmoud, Isak Edo, Ali Hadi Zadeh, Omar Mohamed Awad, Gennady Pekhimenko, Jorge Albericio, Andreas Moshovos*
+
+12. **SAVE: Sparsity-Aware Vector Engine for Accelerating DNN Training and Inference on CPUs** MICRO 2020 ![](https://img.shields.io/badge/Training-red)![](https://img.shields.io/badge/Inference-blue)
+
+    *Zhangxiaowen Gong, Houxiang Ji, Christopher W. Fletcher, Christopher J. Hughes, Sara Baghsorkhi, Josep Torrellas*
+
+13. **GOBO: Quantizing Attention-Based NLP Models for Low Latency and Energy Efficient Inference** MICRO 2020 ![](https://img.shields.io/badge/Hardware-green)![](https://img.shields.io/badge/Inference-blue)
+
+    *Ali Hadi Zadeh, Isak Edo, Omar Mohamed Awad, Andreas Moshovos*
+
+#### 2021
+
+1. **EdgeBERT: Sentence-Level Energy Optimizations for Latency-Aware Multi-Task NLP Inference** MICRO 2021 ![](https://img.shields.io/badge/Hardware-green)![](https://img.shields.io/badge/Inference-blue)
+
+   *Thierry Tambe, Coleman Hooper, Lillian Pentecost, Tianyu Jia, En-Yu Yang, Marco Donato, Victor Sanh, Paul Whatmough, Alexander M. Rush, David Brooks, Gu-Yeon Wei*
+
+   Code: https://github.com/harvard-acc/EdgeBERT
+
+2. **FPRaker: A Processing Element for Accelerating Neural Network Training** MICRO 2021 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Training-red)
+
+   *Omar Mohamed Awad, Mostafa Mahmoud, Isak Edo, Ali Hadi Zadeh, Ciaran Bannon, Anand Jayarajan, Gennady Pekhimenko, Andreas Moshovos*
+
+3. **RecPipe: Co-designing Models and Hardware to Jointly Optimize Recommendation Quality and Performance** MICRO 2021 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Inference-blue)
+
+   *Udit Gupta, Samuel Hsia, Jeff Zhang, Mark Wilkening, Javin Pombra, Hsien-Hsin Sean Lee, Gu-Yeon Wei, Carole-Jean Wu, David Brooks*
+
+   Code: https://github.com/harvard-acc/RecPipe
+
+4. **Shift-BNN: Highly-Efficient Probabilistic Bayesian Neural Network Training via Memory-Friendly Pattern Retrieving** MICRO 2021 ![](https://img.shields.io/badge/Training-red)
+
+   *Qiyu Wan, Haojun Xia, Xingyao Zhang, Lening Wang, Shuaiwen Leon Song, Xin Fu*
 
 ### SC
 
 #### 2016
 
-1.	**SERF: Efficient Scheduling for Fast Deep Neural Network Serving via Judicious Parallelism** SC 2016
-2.	**Optimizing Memory Efficiency for Deep Convolutional Neural Networks on GPUs** SC 2016
-3.	**dCUDA: Hardware Supported Overlap of Computation and Communication** SC 2016
-4.	**GreenLA: Green Linear Algebra Software for GPU-Accelerated Heterogeneous Computing** SC 2016
-5.	**Merge-Based Parallel Sparse Matrix-Vector Multiplication (SpMV)** SC 2016
+1. **SERF: Efficient Scheduling for Fast Deep Neural Network Serving via Judicious Parallelism** SC 2016 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Resource-cc9e08)![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Feng Yan, Olatunji Ruwase, Yuxiong He, Evgenia Smirni*
+
+2. **Optimizing Memory Efficiency for Deep Convolutional Neural Networks on GPUs** SC 2016 ![](https://img.shields.io/badge/Others-gray) 
+
+   *Chao Li, Yi Yang, Min Feng, Srimat Chakradhar, Huiyang Zhou*
+
+3. **dCUDA: Hardware Supported Overlap of Computation and Communication** SC 2016 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Tobias Gysi, Jeremia Bär, Torsten Hoefler*
+
+4. **GreenLA: Green Linear Algebra Software for GPU-Accelerated Heterogeneous Computing** SC 2016 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Jieyang Chen, Li Tan, Panruo Wu, Dingwen Tao, Hongbo Li, Xin Liang, Sihuan Li, Rong Ge, Laxmi Bhuyan, Zizhong Chen*
+
+5. **Merge-Based Parallel Sparse Matrix-Vector Multiplication (SpMV)** SC 2016 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Duane Merrill, Michael Garland*
+   
+   Code: https://github.com/dumerrill/mergespmv
 
 #### 2018
 
-1.	**Large-Scale Hierarchical K-Means for Heterogeneous Many-Core Supercomputers** SC 2018
-2.	**TriCore: Parallel Triangle Counting on GPUs** SC 2018
-3.	**Distributed-Memory Hierarchical Compression of Dense SPD Matrices** SC 2018
-4.	**HiCOO: Hierarchical Storage of Sparse Tensors** SC 2018
-5.	**Distributed Memory Sparse Inverse Covariance Matrix Estimation on High-Performance Computing Architectures** SC 2018
-6.	**PruneJuice: Pruning Trillion-Edge Graphs to a Precise Pattern-Matching Solution** SC 2018
-7.	**Exploring Flexible Communications for Streamlining DNN Ensemble Training Pipelines** SC 2018
-8.	**Anatomy of High-Performance Deep Learning Convolutions on SIMD Architectures** SC 2018
-9.	**Fault Tolerant One-Sided Matrix Decompositions on Heterogeneous Systems with GPUs** SC 2018
+1. **Large-Scale Hierarchical K-Means for Heterogeneous Many-Core Supercomputers** SC 2018 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Liandeng Li, Teng Yu, Wenlai Zhao, Haohuan Fu, Chenyu Wang, Li Tan, Guangwen Yang, John Thomson*
+
+2. **TriCore: Parallel Triangle Counting on GPUs** SC 2018 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Graph-cc231e)
+
+   *Yang Hu, Hang Liu, H. Howie Huang*
+
+3. **Distributed-Memory Hierarchical Compression of Dense SPD Matrices** SC 2018 ![](https://img.shields.io/badge/Hardware-green)![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Chenhan D. Yu, Severin Reiz, George Biros*
+
+4. **HiCOO: Hierarchical Storage of Sparse Tensors** SC 2018 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Jiajia Li, Jimeng Sun, Richard Vuduc*
+
+   Code: https://github.com/hpcgarage/ParTI.
+
+5. **Distributed Memory Sparse Inverse Covariance Matrix Estimation on High-Performance Computing Architectures** SC 2018 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Aryan Eftekhari, Matthias BollhöFer, Olaf Schenk*
+
+6. **PruneJuice: Pruning Trillion-Edge Graphs to a Precise Pattern-Matching Solution** SC 2018 ![](https://img.shields.io/badge/Graph-cc231e)
+
+   *Tahsin Reza, Matei Ripeanu, Nicolas Tripoul, Geoffrey Sanders, Roger Pearce*
+
+   Code: https://github.com/LLNL/havoqgt
+
+7. **Exploring Flexible Communications for Streamlining DNN Ensemble Training Pipelines** SC 2018 ![](https://img.shields.io/badge/Training-red)
+
+   *Randall Pittman, Hui Guan, Xipeng Shen, Seung-Hwan Lim, Robert M. Patton*
+
+8. **Anatomy of High-Performance Deep Learning Convolutions on SIMD Architectures** SC 2018 ![](https://img.shields.io/badge/Others-gray)
+
+   *Evangelos Georganas, Sasikanth Avancha, Kunal Banerjee, Dhiraj Kalamkar, Greg Henry, Hans Pabst, Alexander Heinecke*
+
+9. **Fault Tolerant One-Sided Matrix Decompositions on Heterogeneous Systems with GPUs** SC 2018 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Jieyang Chen, Hongbo Li, Sihuan Li, Xin Liang, Panruo Wu, Dingwen Tao, Kaiming Ouyang, Yuanlai Liu, Kai Zhao, Qiang Guan, Zizhong Chen*
 
 #### 2019
 
-1.	**Large-Batch Training for LSTM and Beyond** SC 2019
-2.	**Channel and Filter Parallelism for Large-Scale CNN Training** SC 2019
-3.	**SparCML: High-Performance Sparse Communication for Machine Learning** SC 2019
-4.	**PruneTrain: Fast Neural Network Training by Dynamic Sparse Model Reconfiguration** SC 2019
-5.	**Scalable Reinforcement-Learning-Based Neural Architecture Search for Cancer Deep Learning Research** SC 2019
-6.	**BSTC: A Novel Binarized-Soft-Tensor-Core Design for Accelerating Bit-Based Approximated Neural Nets** SC 2019
+1. **Large-Batch Training for LSTM and Beyond** SC 2019 ![](https://img.shields.io/badge/Training-red)
+
+   *Yang You, Jonathan Hseu, Chris Ying, James Demmel, Kurt Keutzer, Cho-Jui Hsieh*
+
+2. **Channel and Filter Parallelism for Large-Scale CNN Training** SC 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)![](https://img.shields.io/badge/Training-red)
+
+   *Nikoli Dryden, Naoya Maruyama, Tim Moon, Tom Benson, Marc Snir, Brian Van Essen*
+
+3. **SparCML: High-Performance Sparse Communication for Machine Learning** SC 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Cedric Renggli, Saleh Ashkboos, Mehdi Aghagolzadeh, Dan Alistarh, and Torsten Hoefler*
+
+4. **PruneTrain: Fast Neural Network Training by Dynamic Sparse Model Reconfiguration** SC 2019 ![](https://img.shields.io/badge/Training-red)
+
+   *Sangkug Lym, Esha Choukse, Siavash Zangeneh, Wei Wen, Sujay Sanghavi, Mattan Erez*
+
+5. **Scalable Reinforcement-Learning-Based Neural Architecture Search for Cancer Deep Learning Research** SC 2019 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Prasanna Balaprakash, Romain Egele, Misha Salim, Stefan Wild, Venkatram Vishwanath, Fangfang Xia, Tom Brettin, Rick Stevens*
+
+6. **BSTC: A Novel Binarized-Soft-Tensor-Core Design for Accelerating Bit-Based Approximated Neural Nets** SC 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Ang Li, Tong Geng, Tianqi Wang, Martin Herbordt, Shuaiwen Leon Song, Kevin Barker*
+   
+   Code: https://github.com/uuudown/SBNN
+
+#### 2020
+
+1. **A Parallel Framework for Constraint-Based Bayesian Network Learning via Markov Blanket Discovery** SC 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Ankit Srivastava, Sriram Chockalingam, Srinivas Aluru*
+
+   Code: https://github.com/asrivast28/ramBLe
+
+2. **Recurrent Neural Network Architecture Search for Geophysical Emulation** SC 2020 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Romit Maulik, Romain Egele, Bethany Lusch, Prasanna Balaprakash*
+
+   Code: https://github.com/rmjcs2020/Geophysical_NAS
+
+3. **Accelerating Sparse DNN Models without Hardware-Support via Tile-Wise Sparsity** SC 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Cong Guo, Bo Yang Hsueh, Jingwen Leng, Yuxian Qiu, Yue Guan, Zehuan Wang, Xiaoying Jia, Xipeng Li, Minyi Guo, Yuhao Zhu*
+
+   Code: https://github.com/clevercool/TileSparsity
+
+4. **Sparse GPU Kernels for Deep Learning** SC 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Trevor Gale, Matei Zaharia,Cliff Young, Erich Elsen*
+
+   Code: https://github.com/google-research/sputnik
+
+5. **Scaling Distributed Deep Learning Workloads beyond the Memory Capacity with KARMA** SC 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Mohamed Wahib, Haoyu Zhang, Truong Thao Nguyen, Aleksandr Drozd, Jens Domke, Lingqi Zhang, Ryousei Takano, Satoshi Matsuoka*
+
+   Code: https://github.com/wahibium/SC20-KARMA-AD-Appendix-Description-
+
+6. **ZeRO: Memory optimizations Toward Training Trillion Parameter Models** SC 2020 ![](https://img.shields.io/badge/Training-red)![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Samyam Rajbhandari, Jeff Rasley, Olatunji Ruwase, Yuxiong He*
+
+7. **Kraken: Memory-Efficient Continual Learning for Large-Scale Real-Time Recommendations** SC 2020 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Minhui Xie, Kai Ren, Youyou Lu, Guangxu Yang,Qingxing Xu, Bihai Wu, Jiazhen Lin, Hongbo Ao, Wanhong Xu, Jiwu Shu*
+
+   Code: https://github.com/adamadagradsgd/Kraken
+
+8. **Optimizing Deep Learning Recommender Systems Training on CPU Cluster Architectures** SC 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Dhiraj Kalamkar, Evangelos Georganas, Sudarshan Srinivasan, Jianping Chen, Mikhail Shiryaev, Alexander Heinecke*
+
+9. **Herring: Rethinking the Parameter Server at Scale for the Cloud** SC 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Indu Thangakrishnan, Derya Cavdar, Can Karakus, Piyush Ghai, Yauheni Selivonchyk, Cory Pruce*
+
+10. **GEMS: GPU-Enabled Memory-Aware Model-Parallelism System for Distributed DNN Training** SC 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+    *Arpan Jain, Ammar Ahmad Awan, Asmaa M. Aljuhani, Jahanzeb Maqbool Hashmi, Quentin G. Anthony, Hari Subramoni, Dhabaleswar K. Panda, Raghu Machiraju, Anil Parwani*
+
+11. **Newton-ADMM: A Distributed GPU-Accelerated Optimizer for Multiclass Classification Problems** SC 2020 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+    *Chih-Hao Fang, Sudhir B. Kylasa, Fred Roosta, Michael W. Mahoney, Ananth Grama*
+
+    Code: https://github.com/fang150/Newton_ADMM
+
+12. **Reducing Communication in Graph Neural Network Training** SC 2020 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Training-red)
+
+    *Alok Tripathy, Katherine Yelick, Aydın Buluç*
+
+    Code: https://github.com/PASSIONLab/CAGNET
+
+13. **FeatGraph: A Flexible and Efficient Backend for Graph Neural Network Systems** SC 2020 ![](https://img.shields.io/badge/Graph-cc231e)
+
+    *Yuwei Hu, Zihao Ye, Minjie Wang, Jiali Yu, Da Zheng, Mu Li, Zheng Zhang, Zhiru Zhang, Yida Wang*
+
+    Code: https://github.com/dglai/FeatGraph
+
+14. **GE-SpMM: General-Purpose Sparse Matrix-Matrix Multiplication on GPUs for Graph Neural Networks** ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Graph-cc231e)
+
+    *Guyue Huang, Guohao Dai, Yu Wang, Huazhong Yang*
+
+    Code: https://github.com/hgyhungry/ge-spmm
+
+#### 2021
+
+1. **KAISA: An Adaptive Second-Order Optimizer Framework for Deep Neural Networks** SC 2021 ![](https://img.shields.io/badge/Training-red)
+
+   *J. Gregory Pauloski, Qi Huang, Lei Huang, Shivaram Venkataraman, Kyle Chard, Ian Foster, Zhao Zhang*
+
+   Code: https://github.com/gpauloski/kfac_pytorch
+
+2. **Tensor Processing Primitives: A Programming Abstraction for Efficiency And Portability in Deep Learning Workloads** SC 2021 ![](https://img.shields.io/badge/Compiler-206777)
+
+   *Evangelos Georganas, Dhiraj Kalamkar, Sasikanth Avancha, Menachem Adelman, Cristina Anderson, Alexander Breuer, Jeremy Bruestle, Narendra Chaudhary, Abhisek Kundu, Denise Kutnick, Frank Laub, Vasimuddin Md, Sanchit Misra, Ramanarayan Mohanty, Hans Pabst, Barukh Ziv, Alexander Heinecke*
+
+3. **ET: Re-Thinking Self-Attention for Transformer Models on GPUs** SC 2021  ![](https://img.shields.io/badge/Training-red)
+
+   *Weihao Cui, Han Zhao, Quan Chen, Ningxin Zheng, Jingwen Leng, Jieru Zhao, Zhuo Song, Tao Ma, Yong Yang, Chao Li, Minyi Guo*
+
+   Code: https://github.com/cctry/SCpaper-2021/tree/aedab163f44bff8dfad3745d4f57972cb7640cda
+
+4. **Parallel Construction of Module Networks** SC 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Ankit Srivastava, Sriram P. Chockalingam, Maneesha Aluru, Srinivas Aluru*
+
+   Code: https://github.com/asrivast28/ParsiMoNe
+
+5. **Chimera: Efficiently Training Large-Scale Neural Networks with Bidirectional Pipelines** SC 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Shigang Li, Torsten Hoefler*
+
+   Code: https://github.com/Shigangli/Chimera
+
+6. **APNN-TC: Accelerating Arbitrary Precision Neural Networks on Ampere GPU Tensor Cores**  SC 2021 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Boyuan Feng, Yuke Wang, Tong Geng, Ang Li, Yufei Ding*
+
+   Code: https://github.com/BoyuanFeng/APNN-TC
+
+7. **Scalable Edge-based Hyperdimensional Learning System with Brain-like Neural Adaptation**  SC 2021 ![](https://img.shields.io/badge/Training-red)
+
+   *Zhuowen Zou, Yeseong Kim, Farhad Imani, Haleh Alimohamadi, Rosario Cammarota, Mohsen Imani*
+
+8. **Dr. Top-k: Delegate-Centric Top-k Computation on GPUs** SC 2021 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Anil Gaihre, Da Zheng, Scott Weitze, Lingda Li, Shuaiwen Leon Song, Caiwen Ding, Xiaoye S. Li, Hang Liu*
+
+9. **Distributed Multigrid Neural Solver on Megavoxel Domains** SC 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Aditya Balu, Sergio Botelho, Biswajit Khara, Vinay Rao, Soumik Sarkar, Chinmay Hegde, Adarsh Krishnamurthy, Santi Adavani, Baskar Ganapathysubramanian*
+
+10. **Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM** SC 2021 ![](https://img.shields.io/badge/Training-red)
+
+    *Deepak Narayanan, Mohammad Shoeybi, Jared Casper, Patrick LeGresley, Mostofa Patwary, Vijay Korthikanti, Dmitri Vainbrand, Prethvi Kashinkunti, Julie Bernauer, Bryan Catanzaro, Amar Phanishayee, Matei Zaharia*
+
+11. **ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning** SC 2021 ![](https://img.shields.io/badge/Hardware-green)
+
+    *Samyam Rajbhandari, Olatunji Ruwase, Jeff Rasley, Shaden Smith, Yuxiong He*
+
+12. **FedAT: A High-Performance and Communication-Efficient Federated Learning System with Asynchronous Tiers** SC 2021 ![](https://img.shields.io/badge/Training-red)
+
+    *Zheng Chai, Yujing Chen, Ali Anwar, Liang Zhao, Yue Cheng, Huzefa Rangwala*
+
+13. **DistGNN: Scalable Distributed Training for Large-Scale Graph Neural Networks** SC 2021 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Training-red)
+
+    *Vasimuddin Md, Sanchit Misra, Guixiang Ma, Ramanarayan Mohanty, Evangelos Georganas, Alexander Heinecke, Dhiraj Kalamkar, Nesreen K. Ahmed, Sasikanth Avancha*
+
+    Code: https://github.com/dmlc/dgl/pull/2914 (commit: cfb73e2)
+
+14. **Efficient Scaling of Dynamic Graph Neural Networks** SC 2021 ![](https://img.shields.io/badge/Graph-cc231e)
+
+    *Venkatesan T. Chakaravarthy, Shivmaran S. Pandian, Saurabh Raje, Yogish Sabharwal, Toyotaro Suzumura, Shashanka Ubaru*
+
+15. **Efficient Tensor Core-Based GPU Kernels for Structured Sparsity Under Reduced Precision** SC 2021![](https://img.shields.io/badge/Hardware-green)
+
+    *Zhaodong Chen, Zheng Qu, Liu Liu, Yufei Ding, Yuan Xie*
+
+    Code: https://github.com/apuaaChen/vectorSparse
 
 ### NSDI
 
 #### 2017
 
-1.	**Clipper: A Low-Latency Online Prediction Serving System** NSDI 2017
-2.	**Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds** NSDI 2017
-3.	**TUX2: Distributed Graph Computation for Machine Learning** NSDI 2017
+1. **Clipper: A Low-Latency Online Prediction Serving System** NSDI 2017 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Daniel Crankshaw, Xin Wang, Guilio Zhou, Michael J. Franklin, Joseph E. Gonzalez, Ion Stoica*
+
+2. **Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds** NSDI 2017 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Kevin Hsieh, Aaron Harlap, Nandita Vijaykumar, Dimitris Konomis, Gregory R. Ganger, and Phillip B. Gibbons, Onur Mutlu*
+
+3. **TUX2: Distributed Graph Computation for Machine Learning** NSDI 2017 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Wencong Xiao, Jilong Xue, Youshan Miao, Zhen Li, Cheng Chen, Ming Wu, Wei Li, Lidong Zhou*
 
 #### 2019
 
-1.	**Janus: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs** NSDI 2019
-2.	**BLAS-on-flash: An Efficient Alternative for Large Scale ML Training and Inference?** NSDI 2019
-3.	**Tiresias: A GPU Cluster Manager for Distributed Deep Learning** NSDI 2019
+1. **Janus: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs** NSDI 2019 ![](https://img.shields.io/badge/Training-red)
+
+   *Eunji Jeong, Sungwoo Cho, Gyeong-In Yu, Joo Seong Jeong, Dong-Jin Shin, and Byung-Gon Chun*
+
+2. **BLAS-on-flash: An Efficient Alternative for Large Scale ML Training and Inference?** NSDI 2019 ![](https://img.shields.io/badge/Training-red)
+
+   *Suhas Jayaram Subramanya and Harsha Vardhan Simhadri, Srajan Garg, Anil Kag and Venkatesh Balasubramanian*
+
+   Code: https://github.com/Microsoft/BLAS-on-flash
+
+3. **Tiresias: A GPU Cluster Manager for Distributed Deep Learning** NSDI 2019 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Juncheng Gu, Mosharaf Chowdhury, and Kang G. Shin, Yibo Zhu, Myeongjae Jeon, Junjie Qian, Hongqiang Liu, Chuanxiong Guo*
+
+   Code: https://github.com/SymbioticLab/Tiresias
+
+#### 2021
+
+1. **Elastic Resource Sharing for Distributed Deep Learning** NSDI 2021 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Changho Hwang and Taehyun Kim, Sunghyun Kim, Jinwoo Shin and KyoungSoo Park*
+
+2. **ATP: In-network Aggregation for Multi-tenant Learning** NSDI 2021 ![](https://img.shields.io/badge/Resource-cc9e08) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *ChonLam Lao, Yanfang Le and Kshiteej Mahajan, Yixi Chen and Wenfei Wu, Aditya Akella, Michael Swift*
+
+3. **On the Use of ML for Blackbox System Performance Prediction** NSDI 2021 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Silvery Fu, Saurabh Gupta and Radhika Mittal, Sylvia Ratnasamy*
+
+4. **Scaling Distributed Machine Learning with In-Network Aggregation** NSDI 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Amedeo Sapio, Marco Canini, Chen-Yu Ho, Jacob Nelson, Panos Kalnis, Changhoon Kim, Arvind Krishnamurthy, Masoud Moshref,  Dan Ports, Peter Richtarik*
 
 ### ISCA
 
 #### 2017
 
-1.	**In-Datacenter Performance Analysis of a Tensor Processing Unit** ISCA 2017
-2.	**SCALEDEEP: A Scalable Compute Architecture for Learning and Evaluating Deep Networks** ISCA 2017
-3.	**SCNN: An Accelerator for Compressed-sparse Convolutional Neural Networks** ISCA 2017
-4. **Maximizing CNN Accelerator Efficiency Through Resource Partitioning** ISCA 2017
-5.	**Scalpel: Customizing DNN Pruning to the Underlying Hardware Parallelism** ISCA 2017
-6.	**Understanding and Optimizing Asynchronous Low-Precision Stochastic Gradient Descent** ISCA 2017
+1. **In-Datacenter Performance Analysis of a Tensor Processing Unit** ISCA 2017 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Norman P. Jouppi, Cliff Young, Nishant Patil, David Patterson, Gaurav Agrawal, Raminder Bajwa, Sarah Bates, Suresh Bhatia, Nan Boden, Al Borchers, Rick Boyle, Pierre-luc Cantin, Clifford Chao, Chris Clark, Jeremy Coriell, Mike Daley, Matt Dau, Jeffrey Dean, Ben Gelb, Tara Vazir Ghaemmaghami, Rajendra Gottipati, William Gulland, Robert Hagmann, C. Richard Ho, Doug Hogberg, John Hu, Robert Hundt, Dan Hurt, Julian Ibarz, Aaron Jaffey, Alek Jaworski, Alexander Kaplan, Harshit Khaitan, Daniel Killebrew, Andy Koch, Naveen Kumar, Steve Lacy, James Laudon, James Law, Diemthu Le, Chris Leary, Zhuyuan Liu, Kyle Lucke, Alan Lundin, Gordon MacKean, Adriana Maggiore, Maire Mahony, Kieran Miller, Rahul Nagarajan, Ravi Narayanaswami, Ray Ni, Kathy Nix, Thomas Norrie, Mark Omernick, Narayana Penukonda, Andy Phelps, Jonathan Ross, Matt Ross, Amir Salek, Emad Samadiani, Chris Severn, Gregory Sizikov, Matthew Snelham, Jed Souter, Dan Steinberg, Andy Swing, Mercedes Tan, Gregory Thorson, Bo Tian, Horia Toma, Erick Tuttle, Vijay Vasudevan, Richard Walter, Walter Wang, Eric Wilcox, Doe Hyun Yoon*
+
+2. **SCALEDEEP: A Scalable Compute Architecture for Learning and Evaluating Deep Networks** ISCA 2017 ![](https://img.shields.io/badge/Training-red)
+
+   *Swagath Venkataramani, Ashish Ranjan, Subarno Banerjee, Dipankar Das, Sasikanth Avancha, Ashok Jagannathan, Ajaya Durg, Dheemanth Nagaraj, Bharat Kaul, Pradeep Dubey, Anand Raghunathan*
+
+3. **SCNN: An Accelerator for Compressed-sparse Convolutional Neural Networks** ISCA 2017 ![](https://img.shields.io/badge/Training-red)
+
+   *Angshuman Parashar, Minsoo Rhu, Anurag Mukkara, Antonio Puglielli, Rangharajan Venkatesan, Brucek Khailany, Joel Emer, Stephen W. Keckler, William J. Dally*
+
+4. **Maximizing CNN Accelerator Efficiency Through Resource Partitioning** ISCA 2017 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Yongming Shen, Michael Ferdman, Peter Milder*
+
+5. **Scalpel: Customizing DNN Pruning to the Underlying Hardware Parallelism** ISCA 2017 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Jiecao Yu, Andrew Lukefahr, David Palframan, Ganesh Dasika, Reetuparna Das, Scott Mahlke*
+
+6. **Understanding and Optimizing Asynchronous Low-Precision Stochastic Gradient Descent** ISCA 2017 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Christopher De Sa, Matthew Feldman, Christopher Ré, Kunle Olukotun*
 
 #### 2018
 
-1.	**PROMISE: An End-to-End Design of a Programmable Mixed-Signal Accelerator for Machine-Learning Algorithms** ISCA 2018
-2.	**Computation Reuse in DNNs by Exploiting Input Similarity** ISCA 2018
-3.	**GenAx: A Genome Sequencing Accelerator** ISCA 2018
-4.	**GANAX: A Unified MIMD-SIMD Acceleration for Generative Adversarial Networks** ISCA 2018
-5.	**SnaPEA: Predictive Early Activation for Reducing Computation in Deep Convolutional Neural Networks** ISCA 2018
-6.	**UCNN: Exploiting Computational Reuse in Deep Neural Networks via Weight Repetition** ISCA 2018
-7.	**Energy-Efficient Neural Network Accelerator Based on Outlier-Aware Low-Precision Computation** ISCA 2018
-8.	**Prediction based Execution on Deep Neural Networks** ISCA 2018
-9.	**Bit Fusion: Bit-Level Dynamically Composable Architecture for Accelerating Deep Neural Network** ISCA 2018
-10. **Gist: Efficient Data Encoding for Deep Neural Network Training** ISCA 2018
-11. **The Dark Side of DNN Pruning** ISCA 2018
+1. **PROMISE: An End-to-End Design of a Programmable Mixed-Signal Accelerator for Machine-Learning Algorithms** ISCA 2018 ![](https://img.shields.io/badge/Compiler-206777)
+
+   *Prakalp Srivastava, Mingu Kang, Sujan K. Gonugondla, Sungmin Lim, Jungwook Choi, Vikram Adve, Nam Sung Kim, Naresh   Shanbhag*
+
+2. **Computation Reuse in DNNs by Exploiting Input Similarity** ISCA 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Marc Riera, Jose-Maria Arnau, Antonio González*
+
+3. **GenAx: A Genome Sequencing Accelerator** ISCA 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Daichi Fujiki, Aran Subramaniyan, Tianjun Zhang, Yu Zeng, Reetuparna Das, David Blaauw, Satish Narayanasamy*
+
+4. **GANAX: A Unified MIMD-SIMD Acceleration for Generative Adversarial Networks** ISCA 2018 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+   *Amir Yazdanbakhsh, Kambiz Samadi, Nam Sung Kim, Hadi Esmaeilzadeh*
+
+5. **SnaPEA: Predictive Early Activation for Reducing Computation in Deep Convolutional Neural Networks** ISCA 2018 ![](https://img.shields.io/badge/Training-red)
+
+   *Vahideh Akhlaghi, Amir Yazdanbakhsh, Kambiz Samadi, Rajesh K. Gupta, Hadi Esmaeilzadeh*
+
+6. **UCNN: Exploiting Computational Reuse in Deep Neural Networks via Weight Repetition** ISCA 2018 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Hardware-green)
+
+   *Kartik Hegde, Jiyong Yu, Rohit Agrawal, Mengjia Yan, Michael Pellauer, Christopher W. Fletcher*
+
+7. **Energy-Efficient Neural Network Accelerator Based on Outlier-Aware Low-Precision Computation** ISCA 2018 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Eunhyeok Park, Dongyoung Kim, Sungjoo Yoo*
+
+8. **Prediction based Execution on Deep Neural Networks** ISCA 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Mingcong Song, Jiechen Zhao, Yang Hu, Jiaqi Zhang, Tao Li*
+
+9. **Bit Fusion: Bit-Level Dynamically Composable Architecture for Accelerating Deep Neural Network** ISCA 2018 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Hardik Sharma, Jongse Park, Naveen Suda, Liangzhen Lai, Benson Chau, Vikas Chandra, Hadi Esmaeilzadeh*
+
+10. **Gist: Efficient Data Encoding for Deep Neural Network Training** ISCA 2018 ![](https://img.shields.io/badge/Training-red)
+
+    *Animesh Jain, Amar Phanishayee, Jason Mars, Lingjia Tang, Gennady Pekhimenko*
+
+11. **The Dark Side of DNN Pruning** ISCA 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+    *Reza Yazdani, Marc Riera, Jose-Maria Arnau, Antonio González*
 
 #### 2019
 
-1.	**Sparse ReRAM Engine: Joint exploration of activation and weight sparsity on compressed neural network** ISCA 2019
-2.	**MnnFast: A Fast and Scalable System Architecture for Memory-Augmented Neural Networks** ISCA 2019
-3.	**TIE: Energy-efficient tensor train-based inference engine for deep neural network** ISCA 2019
-4.	**Accelerating Distributed Reinforcement Learning with In-Switch Computing** ISCA 2019
-5.	**Eager Pruning: Algorithm and Architecture Support for Fast Training of Deep Neural Networks** ISCA 2019
-6.	**Laconic Deep Learning Inference Acceleration** ISCA 2019
-7.	**DeepAttest: An End-to-End Attestation Framework for Deep Neural Networks** ISCA 2019
+1. **Sparse ReRAM Engine: Joint exploration of activation and weight sparsity on compressed neural network** ISCA 2019 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Tzu-Hsien Yang, Hsiang-Yun Cheng, Chia-Lin Yang, I-Ching Tseng, Han-Wen Hu, Hung-Sheng Chang, Hsiang-Pang Li*
+
+2. **MnnFast: A Fast and Scalable System Architecture for Memory-Augmented Neural Networks** ISCA 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Hanhwi Jang, Joonsung Kim, Jae-Eon Jo, Jaewon Lee, Jangwoo Kim*
+
+3. **TIE: Energy-efficient tensor train-based inference engine for deep neural network** ISCA 2019 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Chunhua Deng, Fangxuan Sun, Xuehai Qian, Jun Lin, Zhongfeng Wang, Bo Yuan*
+
+4. **Accelerating Distributed Reinforcement Learning with In-Switch Computing** ISCA 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Youjie Li, Iou-Jen Liu, Yifan Yuan, Deming Chen, Alexander Schwing, Jian Huang*
+
+5. **Eager Pruning: Algorithm and Architecture Support for Fast Training of Deep Neural Networks** ISCA 2019 ![](https://img.shields.io/badge/Training-red)
+
+   *Jiaqi Zhang, Xiangru Chen, Mingcong Song, Tao Li*
+
+6. **Laconic Deep Learning Inference Acceleration** ISCA 2019 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Sayeh Sharify, Alberto Delmas Lascorz, Mostafa Mahmoud, Milos Nikolic, Kevin Siu, Dylan Malone Stuart, Zissis Poulos, Andreas Moshovos*
+
+7. **DeepAttest: An End-to-End Attestation Framework for Deep Neural Networks** ISCA 2019 ![](https://img.shields.io/badge/Security-85144b)![](https://img.shields.io/badge/Training-red)
+
+   *Huili Chen, Cheng Fu, Bita Darvish Rouhani, Jishen Zhao, Farinaz Koushanfar*
+
+#### 2020
+
+1. **High-Performance Deep-Learning Coprocessor Integrated into x86 SoC with Server-Class CPUs** ISCA 2020 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Glenn Henry, Parviz Palangpour, Michael Thomson, J Scott Gardner, Bryce Arden, Kimble Houck, Jonathan Johnson, Kyle O'Brien, Scott Petersen, Benjamin Seroussi, Tyler Walker*
+
+2. **Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads**  ISCA 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Dennis Abts, Jonathan Ross, Jon Sparling, Mark Wong-VanHaren, Max Baker, Tom Hawkins, Andrew Bell, John Thompson, Teme Kahsai, Garrin Kimmell, Jennifer Hwang, Rebekah Leslie-Hurd, Michael Bye, Rogan Creswick, Matthew Boyd, Mahitha Venigalla, Evan Laforge, Jon Purdy, Utham Kamath, Dinesh Maheshwari, Michael Beidler, Geert Rosseel, Omar Ahmad, Gleb Gagarin, Rick Czekalski, Ashay Rane, Sahil Parmar*
+
+3. **Gorgon: Accelerating Machine Learning from Relational Data**  ISCA 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Matthew Vilim, Alexander Rucker, Yaqi Zhang, Sophia Liu, Kunle Olukotun*
+
+4. **SpinalFlow: An Architecture and Dataflow Tailored for Spiking Neural Networks** ISCA 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Surya Narayanan, Karl Taht, Rajeev Balasubramonian, Edouard Giacomin, Pierre-Emmanuel Gaillardon*
+
+5. **NEBULA: A Neuromorphic Spin-Based Ultra-Low Power Architecture for SNNs and ANNs** ISCA 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Sonali Singh, Anup Sarma, Nicholas Jao, Ashutosh Pattnaik, Sen Lu, Kezhou Yang, Abhronil Sengupta, Vijaykrishnan Narayanan, Chita R. Das*
+
+6. **uGEMM: Unary Computing Architecture for GEMM Applications** ISCA 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Di Wu, Jingjie Li, Ruokai Yin, Hsuan Hsiao, Younghyun Kim, Joshua San Miguel*
+
+7. **Buddy Compression: Enabling Larger Memory for Deep Learning and HPC Workloads on GPUs** ISCA 2020 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Hardware-green)
+
+   *Esha Choukse, Michael B. Sullivan, Mike O’Connor, Mattan Erez, Jeff Pool, David Nellans, Stephen W. Keckler*
+
+8. **A Multi-Neural Network Acceleration Architecture** ISCA 2020 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Eunjin Baek, Dongup Kwon, Jangwoo Kim*
+
+9. **SmartExchange: Trading Higher-Cost Memory Storage/Access for Lower-Cost Computation** ISCA 2020 ![](https://img.shields.io/badge/Inference-blue) 
+
+   *Yang Zhao, Xiaohan Chen, Yue Wang, Chaojian Li, Haoran You, Yonggan Fu, Yuan Xie, Zhangyang Wang, Yingyan Lin*
+
+10. **Centaur: A Chiplet-based, Hybrid Sparse-Dense Accelerator for Personalized Recommendations** ISCA 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+    *Ranggi Hwang, Taehun Kim, Youngeun Kwon, Minsoo Rhu*
+
+11. **DeepRecSys: A System for Optimizing End-to-End At-Scale Neural Recommendation Inference** ISCA 2020 ![](https://img.shields.io/badge/Inference-blue)
+
+    *Udit Gupta, Samuel Hsia, Vikram Saraph, Xiaodong Wang, Brandon Reagen, Gu-Yeon Wei, Hsien-Hsin S. Lee, David Brooks, Carole-Jean Wu*
+
+12. **An In-Network Architecture for Accelerating Shared-Memory Multiprocessor Collectives** ISCA 2020 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Hardware-green)
+
+    *Benjamin Klenk, Nan Jiang, Greg Thorson, Larry Dennison*
+
+13. **DRQ: Dynamic Region-Based Quantization for Deep Neural Network Acceleration** ISCA 2020 ![](https://img.shields.io/badge/Inference-blue)
+
+    *Zhuoran Song, Bangqi Fu, Feiyang Wu, Zhaoming Jiang, Li Jiang, Naifeng Jing, Xiaoyao Liang*
+
+#### 2021
+
+1. **RaPiD: AI Accelerator for Ultra-Low Precision Training and Inference** ISCA 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Inference-blue)
+
+   *Swagath Venkataramani, Vijayalakshmi Srinivasan, Wei Wang, Sanchari Sen, Jintao Zhang, Ankur Agrawal, Monodeep Kar, Shubham Jain, Alberto Mannari, Hoang Tran, Yulong Li, Eri Ogawa, Kazuaki Ishizaki, Hiroshi Inoue, Marcel Schaal, Mauricio Serrano, Jungwook Choi, Xiao Sun, Naigang Wang, Chia-Yu Chen, Allison Allain, James Bonano, Nianzheng Cao, Robert Casatuta, Matthew Cohen, Bruce Fleischer, Michael Guillorn, Howard Haynie, Jinwook Jung, Mingu Kang, Kyu-hyoun Kim, Siyu Koswatta, Saekyu Lee, Martin Lutz, Silvia Mueller, Jinwook Oh, Ashish Ranjan, Zhibin Ren, Scot Rider, Kerstin Schelm, Michael Scheuermann, Joel Silberman, Jie Yang, Vidhi Zalani, Xin Zhang, Ching Zhou, Matt Ziegler, Vinay Shah, Moriyoshi Ohara, Pong-Fei Lu, Brian Curran, Sunil Shukla, Leland Chang, Kailash Gopalakrishnan*
+
+2. **REDUCT: Keep It Close, Keep It Cool! - Scaling DNN Inference on Multi-Core CPUs with Near-Cache Compute** ISCA 2021 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Anant V. Nori, Rahul Bera, Shankar Balachandran, Joydeep Rakshit, Om J. Omer, Avishaii Abuhatzera, Belliappa Kuttanna, Sreenivas Subramoney*
+
+3. **Communication Algorithm-Architecture Co-Design for Distributed Deep Learning** ISCA 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Jiayi Huang, Pritam Majumder, Sungkeun Kim, Abdullah Muzahid, Ki Hwan Yum, Eun Jung Kim*
+
+4. **Hetero-ViTAL: A Virtualization Stack for Heterogeneous FPGA Clusters** ISCA 2021 ![](https://img.shields.io/badge/Compiler-206777)
+
+   *Yue Zha, Jing LiYue Zha, Jing Li*
+
+5. **Enabling Compute-Communication Overlap in Distributed Deep Learning Training Platforms** ISCA 2021 ![](https://img.shields.io/badge/Training-red)
+
+   *Saeed Rashidi, Matthew Denton, Srinivas Sridharan, Sudarshan Srinivasan, Amoghavarsha Suresh, Jade Nie, Tushar Krishna*
+
+6. **CoSA: Scheduling by Constrained Optimization for Spatial Accelerators** ISCA 2021 ![](https://img.shields.io/badge/Resource-cc9e08) ![](https://img.shields.io/badge/Compiler-206777)
+
+   *Qijing Huang, Aravind Kalaiah, Minwoo Kang, James Demmel, Grace Dinh, John Wawrzynek, Thomas Norell, Yakun Sophia Shao*
+
+7. **η-LSTM: Co-Designing Highly-Efficient Large LSTM Training via Exploiting Memory-Saving and Architectural Design Opportunities** ISCA 2021 ![](https://img.shields.io/badge/Training-red)
+
+   *Xingyao Zhang, Haojun Xia, Donglin Zhuang, Hao Sun, Xin Fu, Michael B. Taylor, Shuaiwen Leon Song*
+
+8. **SPACE: Locality-Aware Processing in Heterogeneous Memory for Personalized Recommendations** ISCA 2021 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Hongju Kal, Seokmin Lee, Gun Ko, Won Woo Ro*
+
+9. **ELSA: Hardware-Software Co-Design for Efficient, Lightweight Self-Attention Mechanism in Neural Networks** ISCA 2021 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Tae Jun Ham, Yejin Lee, Seong Hoon Seo, Soosung Kim, Hyunji Choi, Sung Jun Jung, Jae W. Lee*
+
+10. **Cambricon-Q: A Hybrid Architecture for Efficient Training** ISCA 2021 ![](https://img.shields.io/badge/Training-red)
+
+    *Yongwei Zhao, Chang Liu, Zidong Du, Qi Guo, Xing Hu, Yimin Zhuang, Zhenxing Zhang, Xinkai Song, Wei Li, Xishan Zhang, Ling Li, Zhiwei Xu, Tianshi Chen*
+
+11. **TENET: A Framework for Modeling Tensor Dataflow Based on Relation-Centric Notation** ISCA 2021 ![](https://img.shields.io/badge/Compiler-206777)
+
+    *Liqiang Lu, Naiqing Guan, Yuyue Wang, Liancheng Jia, Zizhang Luo, Jieming Yin, Jason Cong, Yun Liang*
+
+    Code: https://github.com/pku-liang/TENET
+
+12. **NASGuard: A Novel Accelerator Architecture for Robust Neural Architecture Search (NAS) Networks** ISCA 2021 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/AutoML-06046e)
+
+    *Xingbin Wang, Boyan Zhao, Rui Hou, Amro Awad, Zhihong Tian, Dan Meng*
+
+13. **NASA: Accelerating Neural Network Design with a NAS Processor** ISCA 2021 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Resource-cc9e08)![](https://img.shields.io/badge/AutoML-06046e) 
+
+    *Xiaohan Ma, Chang Si, Ying Wang, Cheng Liu, Lei Zhang*
+
+14. **NN-Baton: DNN Workload Orchestration and Chiplet Granularity Exploration for Multichip Accelerators** ISCA 2021 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+    *Zhanhong Tan, Hongyu Cai, Runpei Dong, Kaisheng Ma*
+
+15. **HASCO: Towards Agile Hardware and Software CO-design for Tensor Computation** ISCA 2021 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Platform-034d0f)
+
+    *Qingcheng Xiao, Size Zheng, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang*
+
+    Code: https://github.com/pku-liang/HASCO
+
+16. **Dual-Side Sparse Tensor Core** ISCA 2021 ![](https://img.shields.io/badge/Platform-034d0f)
+
+    *Yang Wang, Chen Zhang, Zhiqiang Xie, Cong Guo, Yunxin Liu, Jingwen Leng*
+
+17. **RingCNN: Exploiting Algebraically-Sparse Ring Tensors for Energy-Efficient CNN-Based Computational Imaging** ISCA 2021   ![](https://img.shields.io/badge/Hardware-green)
+
+    *Chao-Tsung Huang*
+
+18. **GoSPA: An Energy-Efficient High-Performance Globally Optimized SParse Convolutional Neural Network Accelerator** ISCA 2021 ![](https://img.shields.io/badge/Hardware-green)
+
+    *Chunhua Deng, Yang Sui, Siyu Liao, Xuehai Qian, Bo Yuan*
+
+### SysML
+
+#### 2018 (Session only)
+
+1. **TVM: End-to-End Compilation Stack for Deep Learning** SysML 2018 ![](https://img.shields.io/badge/Compiler-206777)
+
+   *Tianqi Chen, Thierry Moreau, Ziheng Jiang, Haichen Shen, Eddie Yan, Leyuan Wang, Yuwei Hu, Luis Ceze, Carlos Guestrin, Arvind Krishnamurthy*
+
+2. **Robust Gradient Descent via Moment Encoding with LDPC Codes** SysML 2018 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Raj Kumar Maity, Ankit Singh Rawat, Arya Mazumdar*
+
+3. **Analog electronic deep networks for fast and efficient inference** SysML 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Jonathan Binas, Daniel Neil, Giacomo Indiveri, Shih-Chii Liu, Michael Pfeiffer*
+
+4. **YellowFin: Adaptive optimization for (A)synchronous systems** SysML 2018 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Jian Zhang, Ioannis Mitliagkas*
+
+5. **Understanding the Limitations of Current Energy-Efficient Design Approaches for Deep Neural Networks** SysML 2018 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Yu-Hsin Chen, Tien-Ju Yang, Joel Emer, Vivienne Sze*
+
+6. **"I Like the Way You Think!" - Inspecting the Internal Logic of Recurrent Neural  Networks** SysML 2018 ![](https://img.shields.io/badge/Others-gray)
+
+   *Thibault Sellam, Kevin Lin, Ian Yiran Huang, Carl Vondrick, Eugene Wu*
 
 ### VLDB
+
+#### 2016
+
+1. **SystemML: Declarative Machine Learning on Spark** VLDB 2016 ![](https://img.shields.io/badge/Compiler-206777)
+
+   *Matthias Boehm, Michael W. Dusenberry, Deron Eriksson, Alexandre V. Evfimievski, Faraz Makari Manshadi, Niketan Pansare, Berthold Reinwald, Frederick R. Reiss, Prithviraj Sen, Arvind C. Surve, Shirish Tatikonda*
+
+#### 2017
+
+1. **MLog: Towards Declarative In-Database Machine Learning** VLDB 2017 ![](https://img.shields.io/badge/Compiler-206777)
+
+   *Xupeng Li, Bin Cui, Yiru Chen, Wentao Wu, Ce Zhang*
+
+   Code: https://github.com/DS3Lab/MLog
+
+2. **Towards Linear Algebra over Normalized Data** VLDB 2017 ![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Lingjiao Chen, Arun Kumar, Jeffrey Naughton, Jignesh M. Patel*
+
+3. **Distributed Join Algorithms on Thousands of Cores** VLDB 2017 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Claude Barthels, Ingo Müller, Timo Schneider, Gustavo Alonso, Torsten Hoefler*
+
+#### 2018
+
+1. **On Optimizing Operator Fusion Plans for Large-Scale Machine Learning in SystemML** VLDB 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Raj Kumar Maity, Ankit Singh Rawat, Arya MazumdarRaj Kumar Maity, Ankit Singh Rawat, Arya Mazumdar*
+
+   Code: https://github.com/apache/systemml
+
+2. **Helix: Accelerating Human-in-the-loop Machine Learning** VLDB 2018 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Doris Xin, Litian Ma, Jialin Liu, Stephen Macke, Shuchen Song, Aditya Parameswaran*
+
+3. **Ease.ml in action: towards multi-tenant declarative learning services** VLDB 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Bojan Karlaš, Ji Liu, Wentao Wu, Ce Zhang*
+
+4. **Learning Efficiently Over Heterogeneous Databases** VLDB 2018 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Jose Picado, Arash Termehchy, Sudhanshu Pathak*
+
 
 #### 2020
 
@@ -985,7 +1735,14 @@ Some conferences to be added in the future:
 
 	*Nikodimos Provatas*
 
+
 ### SIGCOMM
+
+#### 2018
+
+1. **AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization** SIGCOMM 2018 ![](https://img.shields.io/badge/Others-gray)
+
+   *Li Chen, Justinas Lingys, Kai Chen, Feng Liu*
 
 #### 2019
 
@@ -1027,10 +1784,70 @@ Some conferences to be added in the future:
 
 
 	*Mehrdad Khani Shirkoohi, Manya Ghobadi, Mohammad Alizadeh, Ziyi Zhu, Madeleine Glick, Keren Bergman, Amin Vahdat, Benjamin Klenk, Eiman Ebrahimi*
-
+	
 	Code: [https://github.com/MLNetwork/rostam](https://github.com/MLNetwork/rostam)
 
 ### ICDE
+
+#### 2016
+
+1. **Being prepared in a sparse world: The case of KNN graph construction** ICDE 2016 ![](https://img.shields.io/badge/Graph-cc231e)
+
+   *Antoine Boutet, Anne-Marie Kermarrec, Nupur Mittal, François Taïani*
+
+2. **pSCAN: Fast and exact structural graph clustering** ICDE 2016 ![](https://img.shields.io/badge/Graph-cc231e)
+
+   *Lijun Chang, Wei Li, Xuemin Lin, Lu Qin, Wenjie Zhang*
+
+3. **Semantic proximity search on graphs with metagraph-based learning** ICDE 2016 ![](https://img.shields.io/badge/Graph-cc231e)![](https://img.shields.io/badge/Training-red)
+
+   *Yuan Fang, Wenqing Lin, Vincent Wenchen Zheng, Min Wu, Kevin Chen-Chuan Chang, Xiaoli Li*
+
+4. **Learning abstract snippet detectors with Temporal embedding in convolutional neural Networks** ISDE 2016 ![](https://img.shields.io/badge/Training-red)
+
+   *Jiajun Liu, Kun Zhao, Brano Kusy, Ji-rong Wen, Kai Zheng, Raja Jurdak*
+
+#### 2017
+
+1. **Scalable and Interactive Graph Clustering Algorithm on Multicore CPUs** ICDE 2017 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Son T. Mai, Martin Storgaard Dieu, Ira Assent, Jon Jacobsen, Jesper Kristensen, Mathias Birk*
+
+2. **Towards Unified Data and Lifecycle Management for Deep Learning** ICDE 2017 ![](https://img.shields.io/badge/Training-red)
+
+   *Hui Miao, Ang Li, Larry S. Davis, Amol Deshpande*
+
+3. **In-Memory Distributed Matrix Computation Processing and Optimization** ICDE 2017 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Hardware-green)
+
+   *Yongyang Yu, Mingjie Tang, Walid G. Aref, Qutaibah M. Malluhi, Mostafa M. Abbas, Mourad Ouzzani*
+
+   Code: https://github.com/yuyongyang800/SparkDistributedMatrix
+
+4. **Modeling Scalability of Distributed Machine Learning** ICDE 2017 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Inference-blue)
+
+   *Alexander Ulanov, Andrey Simanovsky, Manish Marwah*
+
+5. **ModelHub: Deep Learning Lifecycle Management** ICDE 2017 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Hui Miao, Ang Li, Larry S. Davis, Amol Deshpande*
+
+6. **TABOO: Detecting Unstructured Sensitive Information Using Recursive Neural Networks** ICDE 2017 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Jan Neerbeky, Ira Assentz, Peter Dolog*
+
+#### 2018
+
+1. **Deep Learning of Graphs with Ngram Convolutional Neural Networks** ICDE 2018 ![](https://img.shields.io/badge/Graph-cc231e)
+
+   *Zhiling Luo, Ling Liu, Jianwei Yin, Ying Li, Zhaohui Wu*
+
+2. **KNADIA: Enterprise KNowledge Assisted DIAlogue Systems Using Deep Learning** ICDE 2018 ![](https://img.shields.io/badge/Others-gray)
+
+   *Mahesh P. Singh, Puneet Agarwal, Ashish Chaudhary, Gautam Shroff, Prerna Khurana, Mayur Patidar, Vivek Bisht, Rachit Bansal, Prateek Sachan, Rohit Kumar*
+
+3. **Aurum: A Data Discovery System** ICDE 2018 ![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Raul Castro Fernandez, Ziawasch Abedjan, Famien Koko, Gina Yuan, Samuel Madden, Michael Stonebraker*
 
 #### 2019
 
@@ -1115,6 +1932,50 @@ Some conferences to be added in the future:
 	*Eitan Farchi, Ramasuri Narayanam, Lokesh Nagalapatti*
 
 ### SIGKDD
+
+#### 2017
+
+1. **TFX: A TensorFlow-Based Production-Scale Machine Learning Platform** SIGKDD 2017 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Denis Baylor, Eric Breck, Heng-Tze Cheng, Noah Fiedel, Chuan Yu Foo, Zakaria Haque, Salem Haykal, Mustafa Ispir, Vihan Jain, Levent Koc, Chiu Yuen Koo, Lukasz Lew, Clemens Mewald, Akshay Naresh Modi, Neoklis Polyzotis, Sukriti Ramesh, Sudip Roy, Steven Euijong Whang, Martin Wicke, Jarek Wilkiewicz, Xin Zhang, Martin Zinkevich*
+
+2. **PPDsparse: A Parallel Primal-Dual Sparse Method for Extreme Classification** SIGKDD 2017 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+   *Ian E.H. Yen, Xiangru Huang, Wei Dai, Pradeep Ravikumar, Inderjit Dhillon, Eric Xing*
+
+3. **A Data Mining Framework for Valuing Large Portfolios of Variable Annuities** SIGKDD 2017 ![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Guojun Gan, Jimmy Xiangji Huang*
+
+4. **Google Vizier: A Service for Black-Box Optimization** SIGKDD 2017 ![](https://img.shields.io/badge/Debugging-orange)
+
+   *Daniel Golovin, Benjamin Solnik, Subhodeep Moitra, Greg Kochanski, John Karro, D. Sculley*
+
+5. **KunPeng: Parameter Server based Distributed Learning Systems and Its Applications in Alibaba and Ant Financial** SIGKDD 2017 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Jun Zhou, Xiaolong Li, Peilin Zhao, Chaochao Chen, Longfei Li, Xinxing Yang, Qing Cui, Jin Yu, Xu Chen, Yi Ding, Yuan Alan Qi*
+
+#### 2018
+
+1. **Deploying Machine Learning Models for Public Policy: A Framework** SIGKDD 2018 ![](https://img.shields.io/badge/Others-gray)
+
+   *Klaus Ackermann, Joe Walsh, Adolfo De Unánue, Hareem Naveed, Andrea Navarrete Rivera, Sun-Joo Lee, Jason Bennett, Michael Defoe, Crystal Cody, Lauren Haynes, Rayid Ghani *
+
+2. **Scalable Optimization for Embedding Highly-Dynamic and Recency-Sensitive Data** SIGKDD 2018 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Xumin Chen, Peng Cui, Lingling Yi, Shiqiang Yang*
+
+3. **Autotune: A Derivative-free Optimization Framework for Hyperparameter Tuning** SIGKDD 2018 ![](https://img.shields.io/badge/Debugging-orange)
+
+   *Patrick Koch, Oleg Golovidov, Steven Gardner, Brett Wujek, Joshua Griffin, Yan Xu*
+
+4. **Corpus Conversion Service: A Machine Learning Platform to Ingest Documents at Scale**  SIGKDD 2018 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Peter W J Staar, Michele Dolfi, Christoph Auer, Costas Bekas*
+
+5. **Variable Selection and Task Grouping for Multi-Task Learning** SIGKDD 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Jun-Yong Jeong, Chi-Hyuck Jun*
 
 #### 2019
 
@@ -1232,6 +2093,40 @@ Some conferences to be added in the future:
 
 ### EuroSys
 
+#### 2016
+
+1. **STRADS: A Distributed Framework for Scheduled Model Parallel Machine Learning** EuroSys 2016 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Jin Kyu Kim, Qirong Ho, Seunghak Lee, Xun Zheng, Wei Dai, Garth A. Gibson, Eric P. Xing*
+
+2. **GeePS: Scalable Deep Learning on Distributed GPUs with a GPU-specialized Parameter Server** EuroSys 2016 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Henggang Cui, Hao Zhang, Gregory R. Ganger, Phillip B. Gibbons, Eric P. Xing*
+
+#### 2017
+
+1. **Proteus: Agile ML Elasticity Through Tiered Reliability in Dynamic Resource Markets** EuroSys 2017 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Aaron Harlap, Alexey Tumanov, Andrew Chung, Gregory R. Ganger, Phillip B. Gibbons*
+
+#### 2018
+
+1. **Optimus: An Efficient DynamicResource Scheduler for Deep Learning Clusters** EuroSys 2018 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Yangrui Chen, Yanghua Peng, Yixin Bao, Chuan Wu, Yibo Zhu, Chuanxiong Guo*
+
+2. **Dynamic Control Flow in Large-scale Machine Learning** EuroSys 2018 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Yuan Yu, Martín Abadi, Paul Barham, Eugene Brevdo, Mike Burrows, Andy Davis, Jeff Dean, Sanjay Ghemawat, Tim Harley, Peter Hawkins, Michael Isard, Manjunath Kudlur, Rajat Monga, Derek Murray, Xiaoqiang Zheng*
+
+3. **Improving the Expressiveness of Deep Learning Frameworks with Recursion** EuroSys 2018 ![](https://img.shields.io/badge/Training-red)
+
+   *Eunji Jeong, Joo Seong Jeong, Soojeong Kim, Gyeong-In Yu, Byung-Gon Chun*
+
+4. **Low Latency RNN Inference with Cellular Batching** EuroSys 2018 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Pin Gao, Lingfan Yu, Yongwei Wu, Jinyang Li*
+
 #### 2019
 
 1.	**GRNN: Low-Latency and Scalable RNN Inference on GPUs** EuroSys 2019 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
@@ -1302,7 +2197,46 @@ Some conferences to be added in the future:
 
 	*Yidi Wu, Kaihao Ma, Zhenkun Cai, Tatiana Jin, Boyang Li, Chengguang Zheng, James Cheng, Fan Yu*
 
+
 ### SoCC
+
+#### 2016
+
+1. **Ako: Decentralised Deep Learning with Partial Gradient Exchange** SoCC 2016 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Pijika Watcharapichat, Victoria Lopez Morales, Raul Castro Fernandez, Peter Pietzuch*
+
+2. **Addressing the straggler problem for iterative convergent parallel ML** SoCC 2016 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Aaron Harlap, Henggang Cui, Wei Dai, Jinliang Wei, Gregory R. Ganger, Phillip B. Gibbons, Garth A. Gibson, Eric P. Xing*
+
+#### 2017
+
+1. **SLAQ: quality-driven scheduling for distributed machine learning** SoCC 2017 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Haoyu Zhang, Logan Stafman, Andrew Or, Michael J. Freedman*
+
+2. **How good are machine learning clouds for binary classification with good features?: extended abstract** SoCC 2017 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Hantian Zhang, Luyuan Zeng, Wentao Wu, Ce Zhang*
+
+3. **SQML: large-scale in-database machine learning with pure SQL** SoCC 2017 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Umar Syed, Sergei Vassilvitskii*
+
+#### 2018
+
+1. **Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training** SoCC 2018 ![](https://img.shields.io/badge/Training-red)
+
+   *Liang Luo, Jacob Nelson, Luis Ceze, Amar Phanishayee, Arvind Krishnamurthy*
+
+2. **Scheduling CPU for GPU-based Deep Learning Jobs** SoCC 2018 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Wencong Xiao, Zhenhua Han, Hanyu Zhao, Xuan Peng, Quanlu Zhang, Fan Yang, Lidong Zhou*
+
+3. **SSD QoS Improvements through Machine Learning** SoCC 2018 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Chandranil Chakraborttii, Vikas Sinha, Heiner Litz*
 
 #### 2019
 
@@ -1342,4 +2276,4 @@ Some conferences to be added in the future:
 
 ## Contributors
 
-Contributed by [Xupeng Miao](https://github.com/Hsword), [Zihao Yu](https://github.com/Hankpipi) and [Hetu](https://github.com/PKU-DAIR/Hetu) team members.
+Contributed by [Xupeng Miao](https://github.com/Hsword), [Zihao Yu](https://github.com/Hankpipi), [Chunan Shi](https://github.com/SpiritedAwayCN) and [Hetu](https://github.com/PKU-DAIR/Hetu) team members.
