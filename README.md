@@ -1728,7 +1728,7 @@ Some conferences to be added in the future:
 
 1. **PyTorch Distributed: Experiences on Accelerating Data Parallel Training** VLDB 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Compiler-206777)
 
-	*Shen Li, Yanli Zhao, Rohan Varma*, Omkar Salpekar, Pieter Noordhuis, Teng Li, Adam Paszke, Jeff Smith, Brian Vaughan, Pritam Damania, Soumith Chintala*
+	*Shen Li, Yanli Zhao, Rohan Varma, Omkar Salpekar, Pieter Noordhuis, Teng Li, Adam Paszke, Jeff Smith, Brian Vaughan, Pritam Damania, Soumith Chintala*
 
 
 2.	**Tunable Streaming Graph Embeddings at Scale** VLDB 2020 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4)
