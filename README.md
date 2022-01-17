@@ -1715,7 +1715,7 @@ Some conferences to be added in the future:
 
    *Jose Picado, Arash Termehchy, Sudhanshu Pathak*
    
-5. **MLBench: Benchmarking Machine Learning Services Against Human Experts** VLDB 2018 ![](https://img.shields.io/badge/Others-gray)
+5. **MLBench: Benchmarking Machine Learning Services Against Human Experts** VLDB 2018 ![](https://img.shields.io/badge/Debugging-orange)
 
    *Yu Liu, Hantian Zhang, Luyuan Zeng, Wentao Wu, Ce Zhang*
 
