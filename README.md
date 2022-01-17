@@ -23,8 +23,7 @@ Currently, the listed papers are collected from the following conferences:
 | [SC](#sc)   |    5  |   -   |   6   |   6   |  14  |  15  |      |      |      |      |
 | [NSDI](#nsdi)    |   -   |    3  |   -   |   3   | - | 4 |      |      |      |      |
 | [ISCA](#isca)    |   -   |   6   |   11   |   7   | 13 | 18 |      |      |      |      |
-| [VLDB](#VLDB)    | 1 | 3 | 4 |   -   |   4   |   3   |      |      |      |      |
-| [VLDB](#VLDB)    | 3 | 5 | 6 |   -   |   2   |   2   |      |      |      |      |
+| [VLDB](#VLDB)    | 3 | 5 | 6 |   -   |   4   |   3   |      |      |      |      |
 | [SIGCOMM](#sigcomm)    | - | - | - |   3   |   2   |   2   |      |      |      |      |
 | [ICDE](#icde)    | 2 | 5 | 1 |   6   |   7   |   4   |      |      |      |      |
 | [SIGKDD](#sigkdd)    | - | 5 | 4 |   7   |   8   |   8   |      |      |      |      |
