@@ -23,13 +23,13 @@ Currently, the listed papers are collected from the following conferences:
 | [SC](#sc)   |    5  |   -   |   6   |   6   |  14  |  15  |      |      |      |      |
 | [NSDI](#nsdi)    |   -   |    3  |   -   |   3   | - | 4 |      |      |      |      |
 | [ISCA](#isca)    |   -   |   6   |   11   |   7   | 13 | 18 |      |      |      |      |
-| [VLDB](#VLDB)    | 1 | 3 | 4 |   -   |   2   |   2   |      |      |      |      |
+| [VLDB](#VLDB)    | 3 | 5 | 6 |   -   |   2   |   2   |      |      |      |      |
 | [SIGCOMM](#sigcomm)    | - | - | - |   3   |   2   |   2   |      |      |      |      |
 | [ICDE](#icde)    | 2 | 5 | 1 |   6   |   7   |   4   |      |      |      |      |
 | [SIGKDD](#sigkdd)    | - | 5 | 4 |   7   |   8   |   8   |      |      |      |      |
 | [EuroSys](#eurosys)    | 2 | 1 | 4 |   5   |   3   |   5   |      |      |      |      |
 | [SoCC](#socc)    | 2 | 3 | 3 |   2   |   6   |   -   |      |      |      |      |
-| [SysML](#sysml)    | - | - | 6 |      |      |   -   |      |      |      |      |
+| [SysML](#sysml)    | - | - | 6 |      |      |      |      |      |      |      |
 
 Some conferences to be added in the future:
 
@@ -1660,6 +1660,14 @@ Some conferences to be added in the future:
 1. **SystemML: Declarative Machine Learning on Spark** VLDB 2016 ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Platform-034d0f) ![](https://img.shields.io/badge/Parallel-blueviolet)
 
    *Matthias Boehm, Michael W. Dusenberry, Deron Eriksson, Alexandre V. Evfimievski, Faraz Makari Manshadi, Niketan Pansare, Berthold Reinwald, Frederick R. Reiss, Prithviraj Sen, Arvind C. Surve, Shirish Tatikonda*
+   
+2. **Compressed linear algebra for large-scale machine learning** VLDB 2016 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Hardware-green)
+
+   *Ahmed Elgohary, Matthias Boehm, Peter J. Haas, Frederick R. Reiss, Berthold Reinwald*
+
+3. **dmapply: A functional primitive to express distributed machine learning algorithms in R** VLDB 2016 ![](https://img.shields.io/badge/Compiler-206777)
+
+   *Edward Ma, Vishrut Gupta, Meichun Hsu, Indrajit Roy*
 
 #### 2017
 
@@ -1676,6 +1684,16 @@ Some conferences to be added in the future:
 3. **Distributed Join Algorithms on Thousands of Cores** VLDB 2017 ![](https://img.shields.io/badge/Parallel-blueviolet)
 
    *Claude Barthels, Ingo Müller, Timo Schneider, Gustavo Alonso, Torsten Hoefler*
+   
+4. **Probabilistic demand forecasting at scale** VLDB 2017 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Joos-Hendrik Böse, Valentin Flunkert, Jan Gasthaus, Tim Januschowski, Dustin Lange, David Salinas, Sebastian Schelter, Matthias Seeger, Yuyang Wang*
+
+5. **Optimizing Deep CNN-Based Queries over Video Streams at Scale** VLDB 2017 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Daniel Kang, John Emmons, Firas Abuzaid, Peter Bailis, Matei Zaharia*
+
+   Code: https://github.com/stanford-futuredata/noscope
 
 #### 2018
 
@@ -1696,6 +1714,14 @@ Some conferences to be added in the future:
 4. **Learning Efficiently Over Heterogeneous Databases** VLDB 2018 ![](https://img.shields.io/badge/Data-ff69b4)
 
    *Jose Picado, Arash Termehchy, Sudhanshu Pathak*
+   
+5. **MLBench: Benchmarking Machine Learning Services Against Human Experts** VLDB 2018 ![](https://img.shields.io/badge/Others-gray)
+
+   *Yu Liu, Hantian Zhang, Luyuan Zeng, Wentao Wu, Ce Zhang*
+
+6. **Distributed Representations of Tuples for Entity Resolution** VLDB 2018 ![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Muhammad Ebraheem, Saravanan Thirumuruganathan, Shafiq Joty, Mourad Ouzzani, Nan Tang*
 
 
 #### 2020
