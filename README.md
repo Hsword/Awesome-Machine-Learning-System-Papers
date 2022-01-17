@@ -23,7 +23,7 @@ Currently, the listed papers are collected from the following conferences:
 | [SC](#sc)   |    5  |   -   |   6   |   6   |  14  |  15  |      |      |      |      |
 | [NSDI](#nsdi)    |   -   |    3  |   -   |   3   | - | 4 |      |      |      |      |
 | [ISCA](#isca)    |   -   |   6   |   11   |   7   | 13 | 18 |      |      |      |      |
-| [VLDB](#VLDB)    | 3 | 5 | 6 |   -   |   2   |   2   |      |      |      |      |
+| [VLDB](#VLDB)    | 3 | 5 | 6 |   -   |   4   |   3   |      |      |      |      |
 | [SIGCOMM](#sigcomm)    | - | - | - |   3   |   2   |   2   |      |      |      |      |
 | [ICDE](#icde)    | 2 | 5 | 1 |   6   |   7   |   4   |      |      |      |      |
 | [SIGKDD](#sigkdd)    | - | 5 | 4 |   7   |   8   |   8   |      |      |      |      |
@@ -1715,7 +1715,7 @@ Some conferences to be added in the future:
 
    *Jose Picado, Arash Termehchy, Sudhanshu Pathak*
    
-5. **MLBench: Benchmarking Machine Learning Services Against Human Experts** VLDB 2018 ![](https://img.shields.io/badge/Others-gray)
+5. **MLBench: Benchmarking Machine Learning Services Against Human Experts** VLDB 2018 ![](https://img.shields.io/badge/Debugging-orange)
 
    *Yu Liu, Hantian Zhang, Luyuan Zeng, Wentao Wu, Ce Zhang*
 
@@ -1726,23 +1726,37 @@ Some conferences to be added in the future:
 
 #### 2020
 
-1. **PyTorch Distributed: Experiences on Accelerating Data Parallel Training** VLDB 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Compiler-206777)
+1.	**SKCompress: compressing sparse and nonuniform gradient in distributed machine learning** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Jiawei Jiang, Fangcheng Fu, Tong Yang, Yingxia Shao, Bin Cui*
+
+2.	**PyTorch Distributed: Experiences on Accelerating Data Parallel Training** VLDB 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Compiler-206777)
 
 	*Shen Li, Yanli Zhao, Rohan Varma, Omkar Salpekar, Pieter Noordhuis, Teng Li, Adam Paszke, Jeff Smith, Brian Vaughan, Pritam Damania, Soumith Chintala*
 
 
-2.	**Tunable Streaming Graph Embeddings at Scale** VLDB 2020 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4)
+3.	**Tunable Streaming Graph Embeddings at Scale** VLDB 2020 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4)
 
 	*Serafeim Papadias*
+
+4.	**Snorkel: rapid training data creation with weak supervision** ![](https://img.shields.io/badge/Platform-034d0f) ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Alexander Ratner, Stephen H. Bach, Henry R. Ehrenberg, Jason A. Fries, Sen Wu, Christopher Ré*
+
+	Code: [https://github.com/snorkel-team/snorkel/](https://github.com/snorkel-team/snorkel/)
 
 
 #### 2021
 
-1.	**Towards a Unified Knowledge Graph Data Management System** VLDB 2021 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4)
+1.	**Model averaging in distributed machine learning: a case study with Apache Spark** ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+	*Yunyan Guo, Zhipeng Zhang, Jiawei Jiang, Wentao Wu, Ce Zhang, Bin Cui, Jianzhong Li*
+
+2.	**Towards a Unified Knowledge Graph Data Management System** VLDB 2021 ![](https://img.shields.io/badge/Graph-cc231e) ![](https://img.shields.io/badge/Data-ff69b4)
 
 	*Baozhu Liu, Xin Wang, Pengkai Liu, Sizhuo Li*
 
-2.	**Exploiting Data Distribution in Distributed Learning of Deep Classification Models under the Parameter Server Architecture** VLDB 2021 ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+3.	**Exploiting Data Distribution in Distributed Learning of Deep Classification Models under the Parameter Server Architecture** VLDB 2021 ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
 
 	*Nikodimos Provatas*
 
