@@ -30,14 +30,14 @@ Currently, the listed papers are collected from the following conferences:
 | [EuroSys](#eurosys)    | 2 | 1 | 4 |   5   |   3   |   5   |      |      |      |      |
 | [SoCC](#socc)    | 2 | 3 | 3 |   2   |   6   |   -   |      |      |      |      |
 | [SysML](#sysml)    | - | - | 6 |      |      |      |      |      |      |      |
+| [WWW](#www) | - | - | 1 | | | | | | | |
+| [INFOCOM](#infocom) | - | 2 | 4 | | | | | | | |
+| [SIGIR](#sigir) | - | - | - | | | | | | | |
 
 Some conferences to be added in the future:
 
 - [NeurIPS](#neurips)
 - [ICML](#icml)
-- [WWW](#www)
-- [INFOCOM](#infocom)
-- [SIGIR](#sigir)
 
 ## Category Keywords
 
@@ -2255,6 +2255,44 @@ Some conferences to be added in the future:
 6.	**AutoML for Multilayer Perceptron and FPGA Co-design** SoCC 2020 ![](https://img.shields.io/badge/AutoML-06046e) ![](https://img.shields.io/badge/Hardware-green)
 
 	*Philip Colangelo, Oren Segal, Alexander Speicher, Martin Margala*
+
+### WWW
+
+#### 2018
+
+1. **Sharing Deep Neural Network Models with Interpretation** WWW 2018 ![](https://img.shields.io/badge/Others-gray)
+
+   *Huijun Wu, Chen Wang, Jie Yin, Kai Lu, Liming Zhu*
+
+### INFOCOM
+
+#### 2017
+
+1. **AccurateML: Information-aggregation-based approximate processing for fast and accurate machine learning on MapReduce** INFOCOM 2017 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Rui Han, Fan Zhang, Zhentao Wang*
+
+2. **A Secure and Verifiable Outsourcing Scheme for Matrix Inverse Computation** INFOCOM 2017 ![](https://img.shields.io/badge/Security-85144b)
+
+   *Chunqiang Hu, Abdulrahman Alhothaily, Arwa Alrawais, Xiuzhen Cheng, Carl Sturtivant, Hang Liu*
+
+#### 2018
+
+1. **When Edge Meets Learning: Adaptive Control for Resource-Constrained Distributed Machine Learning**  INFOCOM 2018 ![](https://img.shields.io/badge/Training-red)
+
+   *Shiqiang Wang, Tiffany Tuor, Theodoros Salonidis, Kin K. Leung, Christian Makaya, Ting He, Kevin Chan*
+
+2. **Online Job Scheduling in Distributed Machine Learning Clusters**  INFOCOM 2018 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+   *Yixin Bao, Yanghua Peng, Chuan Wu, Zongpeng Li*
+
+3. **DeepDecision: A Mobile Deep Learning Framework for Edge Video Analytics** INFOCOM 2018 ![](https://img.shields.io/badge/Platform-034d0f) ![](https://img.shields.io/badge/Hardware-green)
+
+   *Xukan Ran, Haolianz Chen, Xiaodan Zhu, Zhenming Liu, Jiasi Chen*
+
+4. **FML: Fast Machine Learning for 5G mmWave Vehicular Communications** INFOCOM 2018 ![](https://img.shields.io/badge/Others-gray)
+
+   *Arash Asadi, Sabrina Müller, Gek Hong Sim, Anja Klein, Matthias Hollick*
 
 ## Contributors
 
