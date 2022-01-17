@@ -1726,7 +1726,7 @@ Some conferences to be added in the future:
 
 #### 2020
 
-1.	**SKCompress: compressing sparse and nonuniform gradient in distributed machine learning** ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Data-ff69b4)
+1.	**SKCompress: compressing sparse and nonuniform gradient in distributed machine learning** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Data-ff69b4)
 
 	*Jiawei Jiang, Fangcheng Fu, Tong Yang, Yingxia Shao, Bin Cui*
 
@@ -1748,7 +1748,7 @@ Some conferences to be added in the future:
 
 #### 2021
 
-1.	**Model averaging in distributed machine learning: a case study with Apache Spark** ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Parallel-blueviolet)
+1.	**Model averaging in distributed machine learning: a case study with Apache Spark** ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
 
 	*Yunyan Guo, Zhipeng Zhang, Jiawei Jiang, Wentao Wu, Ce Zhang, Bin Cui, Jianzhong Li*
 
