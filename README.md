@@ -23,13 +23,13 @@ Currently, the listed papers are collected from the following conferences:
 | [SC](#sc)   |    5  |   -   |   6   |   6   |  14  |  15  |      |      |      |      |
 | [NSDI](#nsdi)    |   -   |    3  |   -   |   3   | - | 4 |      |      |      |      |
 | [ISCA](#isca)    |   -   |   6   |   11   |   7   | 13 | 18 |      |      |      |      |
-| [VLDB](#VLDB)    | 1 | 3 | 4 |   -   |   4   |   3   |      |      |      |      |
+| [VLDB](#VLDB)    | 3 | 5 | 6 |   -   |   4   |   3   |      |      |      |      |
 | [SIGCOMM](#sigcomm)    | - | - | - |   3   |   2   |   2   |      |      |      |      |
 | [ICDE](#icde)    | 2 | 5 | 1 |   6   |   7   |   4   |      |      |      |      |
 | [SIGKDD](#sigkdd)    | - | 5 | 4 |   7   |   8   |   8   |      |      |      |      |
 | [EuroSys](#eurosys)    | 2 | 1 | 4 |   5   |   3   |   5   |      |      |      |      |
 | [SoCC](#socc)    | 2 | 3 | 3 |   2   |   6   |   -   |      |      |      |      |
-| [SysML](#sysml)    | - | - | 6 |      |      |   -   |      |      |      |      |
+| [SysML](#sysml)    | - | - | 6 |  32  |      |      |      |      |      |      |
 
 Some conferences to be added in the future:
 
@@ -1653,6 +1653,158 @@ Some conferences to be added in the future:
 
    *Thibault Sellam, Kevin Lin, Ian Yiran Huang, Carl Vondrick, Eugene Wu*
 
+#### 2019
+
+1.	**TicTac: Accelerating Distributed Deep Learning with Communication Scheduling** SysML 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Sayed Hadi Hashemi, Sangeetha Abdu Jyothi, Roy Campbell*
+
+	Code: [https://github.com/xldrx/tictac](https://github.com/xldrx/tictac)
+
+2.	**Priority-based Parameter Propagation for Distributed DNN Training** SysML 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Anand Jayarajan, Jinliang Wei, Garth Gibson, Alexandra Fedorova, Gennady Pekhimenko*
+
+3.	**BlueConnect: Decomposing All-Reduce for Deep Learning on Heterogeneous Network Hierarchy** SysML 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Minsik Cho, Ulrich Finkler, David Kung*
+
+4.	**Beyond Data and Model Parallelism for Deep Neural Networks** SysML 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Zhihao Jia, Matei Zaharia, Alex Aiken*
+
+5.	**ParMAC: Distributed Optimisation of Nested Functions, with Application to Learning Binary Autoencoders** SysML 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Miguel A Carreira-Perpinan, Mehdi Alizadeh*
+
+6.	**3LC: Lightweight and Effective Traffic Compression for Distributed Machine Learning** SysML 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Hyeontaek Lim, David G Andersen, Michael Kaminsky*
+
+7.	**Adaptive Communication Strategies to Achieve the Best Error-Runtime Trade-off in Local-Update SGD** SysML 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Jianyu Wang, Gauri Joshi*
+
+	Code: [https://github.com/meliketoy/wide-resnet.pytorch](https://github.com/meliketoy/wide-resnet.pytorch)
+
+8.	**YellowFin and the Art of Momentum Tuning** SysML 2019 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Jian Zhang, Ioannis Mitliagkas*
+
+9.	**AGGREGATHOR: Byzantine Machine Learning via Robust Gradient Aggregation** SysML 2019 ![](https://img.shields.io/badge/Security-85144b) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Georgios Damaskinos, El Mahdi El Mhamdi, Rachid Guerraoui, Arsany Guirguis, Sébastien Rouault*
+
+	Code: [https://github.com/LPD-EPFL/AggregaThor](https://github.com/LPD-EPFL/AggregaThor)
+
+10.	**Towards Federated Learning at Scale: System Design** SysML 2019 ![](https://img.shields.io/badge/Security-85144b) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Keith Bonawitz, Hubert Eichner, Wolfgang Grieskamp, Dzmitry Huba, Alex Ingerman, Vladimir Ivanov, Chloé Kiddon, Jakub Konečný, Stefano Mazzocchi, Brendan McMahan, Timon Van Overveldt, David Petrou, Daniel Ramage, Jason Roselander*
+
+11.	**Discrete Adversarial Attacks and Submodular Optimization with Applications to Text Classification** SysML 2019 ![](https://img.shields.io/badge/Security-85144b)
+
+	*Qi Lei, Lingfei Wu, Pin-Yu Chen, Alex Dimakis, Inderjit Dhillon, Michael J Witbrock*
+
+	Code: [https://github.com/cecilialeiqi/adversarial_text](https://github.com/cecilialeiqi/adversarial_text)
+
+12.	**To compress or not to compress: Understanding the Interactions between Adversarial Attacks and Neural Network Compression** SysML 2019 ![](https://img.shields.io/badge/Security-85144b)
+
+	*Ilia Shumailov, Yiren Zhao, Robert Mullins, Ross Anderson*
+
+13.	**Scaling Video Analytics on Constrained Edge Nodes** SysML 2019 ![](https://img.shields.io/badge/Others-gray)
+
+	*Christopher Canel, Thomas Kim, Giulio Zhou, Conglong Li, Hyeontaek Lim, David G Andersen, Michael Kaminsky, Subramanya R. Dulloor*
+
+14.	**CaTDet: Cascaded Tracked Detector for Efficient Object Detection from Video** SysML 2019 ![](https://img.shields.io/badge/Others-gray)
+
+	*Huizi Mao, Taeyoung Kong, William J. Dally*
+
+15.	**AdaScale: Towards Real-time Video Object Detection using Adaptive Scaling** SysML 2019 ![](https://img.shields.io/badge/Others-gray)
+
+	*Ting-Wu Chin, Ruizhou Ding, Diana Marculescu*
+
+16.	**FixyNN: Efficient Hardware for Mobile Computer Vision via Transfer Learning** SysML 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Paul Whatmough, Chuteng Zhou, Patrick Hansen, Shreyas Venkataramanaiah, Jae-sun Seo, Matthew Mattina*
+
+17.	**Serving Recurrent Neural Networks Efficiently with a Spatial Accelerator** SysML 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Tian Zhao, Yaqi Zhang, Kunle Olukotun*
+
+18.	**Restructuring Batch Normalization to Accelerate CNN Training** SysML 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Wonkyung Jung, Daejin Jung, Byeongho Kim, Sunjung Lee, Wonjong Rhee, Jung Ho Ahn*
+
+	Code: [https://github.com/scale-snu/caffe-bn-restructuring](https://github.com/scale-snu/caffe-bn-restructuring), [https://github.com/scale-snu/mkldnn-bn-restructuring](https://github.com/scale-snu/mkldnn-bn-restructuring)
+
+19.	**Bandana: Using Non-Volatile Memory for Storing Deep Learning Models** SysML 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Assaf Eisenman, Maxim Naumov, Darryl Gardner, Misha Smelyanskiy, Sergey Pupyrev, Kim Hazelwood, Asaf Cidon, Sachin Katti*
+
+20.	**Mini-batch Serialization: CNN Training with Inter-layer Data Reuse** SysML 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Sangkug Lym, Armand Behroozi, Wei Wen, Ge Li, Yongkee Kwon, Mattan Erez*
+
+21.	**Accurate and Efficient 2-bit Quantized Neural Networks** SysML 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Jungwook Choi, Swagath Venkataramani, Vijayalakshmi (Viji) Srinivasan, Kailash Gopalakrishnan, Zhuo Wang, Pierce Chuang*
+
+22.	**Full Deep Neural Network Training on a Pruned Weight Budget** SysML 2019 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Mieszko Lis, Maximilian Golub, Guy Lemieux*
+
+23.	**Continuous Integration of Machine Learning Models with ease.ml/ci: Towards a Rigorous Yet Practical Treatment** SysML 2019 ![](https://img.shields.io/badge/Debugging-orange)
+
+	*Cedric Renggli, Bojan Karlaš, Bolin Ding, Feng Liu, Kevin Schawinski, Wentao Wu, Ce Zhang*
+
+24.	**Data Validation for Machine Learning** SysML 2019 ![](https://img.shields.io/badge/Debugging-orange)
+
+	*Neoklis Polyzotis, Martin Zinkevich, Sudip Roy, Eric Breck, Steven Whang*
+
+	Code: [https://github.com/tensorflow/data-validation](https://github.com/tensorflow/data-validation)
+
+25.	**Kernel machines that adapt to GPUs for effective large batch training** SysML 2019 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Siyuan Ma, Mikhail Belkin*
+
+	Code: [https://github.com/EigenPro/EigenPro2](https://github.com/EigenPro/EigenPro2)
+
+26.	**Ternary Hybrid Neural-Tree Networks for Highly Constrained IoT Applications** SysML 2019 ![](https://img.shields.io/badge/Resource-cc9e08) 
+
+	*Dibakar Gope, Ganesh Dasika, Matthew Mattina*
+
+27.	**Optimizing DNN Computation with Relaxed Graph Substitutions** SysML 2019 ![](https://img.shields.io/badge/Others-gray)
+
+	*Zhihao Jia, James Thomas, Todd Warszawski, Mingyu Gao, Matei Zaharia, Alex Aiken*
+
+	Code: [https://github.com/jiazhihao/metaflow_sysml19](https://github.com/jiazhihao/metaflow_sysml19)
+
+28.	**Pytorch-BigGraph: A Large Scale Graph Embedding System** SysML 2019 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Adam Lerer, Ledell Wu, Jiajun Shen, Timothee Lacroix, Luca Wehrstedt, Abhijit Bose, Alex Peysakhovich*
+
+	Code: [https://github.com/facebookresearch/PyTorch-BigGraph](https://github.com/facebookresearch/PyTorch-BigGraph)
+
+29.	**RLgraph: Modular Computation Graphs for Deep Reinforcement Learning** SysML 2019 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Michael Schaarschmidt, Sven Mika, Kai Fricke, Eiko Yoneki*
+
+	Code: [https://github.com/rlgraph/rlgraph](https://github.com/rlgraph/rlgraph)
+
+30.	**TensorFlow Eager: A multi-stage, Python-embedded DSL for machine learning** SysML 2019 ![](https://img.shields.io/badge/Compiler-206777)
+ 
+	*Akshay Agrawal, Akshay Naresh Modi, Alexandre Passos, Allen Lavoie, Ashish Agarwal, Asim Shankar, Igor Ganichev, Josh Levenberg, Mingsheng Hong, Rajat Monga, Shanqing Cai*
+
+31.	**AutoGraph: Imperative-style Coding with Graph-based Performance** SysML 2019 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Dan Moldovan, James Decker, Fei Wang, Andrew Johnson, Brian Lee, Zack Nado, D Sculley, Tiark Rompf, Alexander B Wiltschko*
+
+	Code: [https://github.com/tensorflow/tensorflow/tree/master/tensorflow/python/autograph](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/python/autograph)
+
+32.	**TensorFlow.js: Machine Learning for the Web and Beyond** SysML 2019 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Daniel Smilkov, Nikhil Thorat, Yannick Assogba, Charles Nicholson, Nick Kreeger, Ping Yu, Shanqing Cai, Eric Nielsen, David Soegel, Stan Bileschi, Michael Terry, Ann Yuan, Kangyi Zhang, Sandeep Gupta, Sarah Sirajuddin, D Sculley, Rajat Monga, Greg Corrado, Fernanda Viegas, Martin M Wattenberg*
+
 ### VLDB
 
 #### 2016
@@ -1660,6 +1812,14 @@ Some conferences to be added in the future:
 1. **SystemML: Declarative Machine Learning on Spark** VLDB 2016 ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Platform-034d0f) ![](https://img.shields.io/badge/Parallel-blueviolet)
 
    *Matthias Boehm, Michael W. Dusenberry, Deron Eriksson, Alexandre V. Evfimievski, Faraz Makari Manshadi, Niketan Pansare, Berthold Reinwald, Frederick R. Reiss, Prithviraj Sen, Arvind C. Surve, Shirish Tatikonda*
+   
+2. **Compressed linear algebra for large-scale machine learning** VLDB 2016 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Hardware-green)
+
+   *Ahmed Elgohary, Matthias Boehm, Peter J. Haas, Frederick R. Reiss, Berthold Reinwald*
+
+3. **dmapply: A functional primitive to express distributed machine learning algorithms in R** VLDB 2016 ![](https://img.shields.io/badge/Compiler-206777)
+
+   *Edward Ma, Vishrut Gupta, Meichun Hsu, Indrajit Roy*
 
 #### 2017
 
@@ -1676,6 +1836,16 @@ Some conferences to be added in the future:
 3. **Distributed Join Algorithms on Thousands of Cores** VLDB 2017 ![](https://img.shields.io/badge/Parallel-blueviolet)
 
    *Claude Barthels, Ingo Müller, Timo Schneider, Gustavo Alonso, Torsten Hoefler*
+   
+4. **Probabilistic demand forecasting at scale** VLDB 2017 ![](https://img.shields.io/badge/Platform-034d0f)
+
+   *Joos-Hendrik Böse, Valentin Flunkert, Jan Gasthaus, Tim Januschowski, Dustin Lange, David Salinas, Sebastian Schelter, Matthias Seeger, Yuyang Wang*
+
+5. **Optimizing Deep CNN-Based Queries over Video Streams at Scale** VLDB 2017 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Daniel Kang, John Emmons, Firas Abuzaid, Peter Bailis, Matei Zaharia*
+
+   Code: https://github.com/stanford-futuredata/noscope
 
 #### 2018
 
@@ -1696,11 +1866,19 @@ Some conferences to be added in the future:
 4. **Learning Efficiently Over Heterogeneous Databases** VLDB 2018 ![](https://img.shields.io/badge/Data-ff69b4)
 
    *Jose Picado, Arash Termehchy, Sudhanshu Pathak*
+   
+5. **MLBench: Benchmarking Machine Learning Services Against Human Experts** VLDB 2018 ![](https://img.shields.io/badge/Debugging-orange)
+
+   *Yu Liu, Hantian Zhang, Luyuan Zeng, Wentao Wu, Ce Zhang*
+
+6. **Distributed Representations of Tuples for Entity Resolution** VLDB 2018 ![](https://img.shields.io/badge/Data-ff69b4)
+
+   *Muhammad Ebraheem, Saravanan Thirumuruganathan, Shafiq Joty, Mourad Ouzzani, Nan Tang*
 
 
 #### 2020
 
-1.	**SKCompress: compressing sparse and nonuniform gradient in distributed machine learning** ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Data-ff69b4)
+1.	**SKCompress: compressing sparse and nonuniform gradient in distributed machine learning** ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Data-ff69b4)
 
 	*Jiawei Jiang, Fangcheng Fu, Tong Yang, Yingxia Shao, Bin Cui*
 
@@ -1722,7 +1900,7 @@ Some conferences to be added in the future:
 
 #### 2021
 
-1.	**Model averaging in distributed machine learning: a case study with Apache Spark** ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Parallel-blueviolet)
+1.	**Model averaging in distributed machine learning: a case study with Apache Spark** ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
 
 	*Yunyan Guo, Zhipeng Zhang, Jiawei Jiang, Wentao Wu, Ce Zhang, Bin Cui, Jianzhong Li*
 
