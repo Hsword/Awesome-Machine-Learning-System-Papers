@@ -29,7 +29,7 @@ Currently, the listed papers are collected from the following conferences:
 | [SIGKDD](#sigkdd)    | - | 5 | 4 |   7   |   8   |   8   |      |      |      |      |
 | [EuroSys](#eurosys)    | 2 | 1 | 4 |   5   |   3   |   5   |      |      |      |      |
 | [SoCC](#socc)    | 2 | 3 | 3 |   2   |   6   |   -   |      |      |      |      |
-| [SysML](#sysml)    | - | - | 6 |      |      |      |      |      |      |      |
+| [SysML](#sysml)    | - | - | 6 |      |      | 52 |      |      |      |      |
 | [WWW](#www) | - | - | 1 | | | | | | | |
 | [INFOCOM](#infocom) | - | 2 | 4 | | | | | | | |
 | [SIGIR](#sigir) | - | - | - | | | | | | | |
@@ -1652,6 +1652,256 @@ Some conferences to be added in the future:
 6. **"I Like the Way You Think!" - Inspecting the Internal Logic of Recurrent Neural  Networks** SysML 2018 ![](https://img.shields.io/badge/Debugging-orange)
 
    *Thibault Sellam, Kevin Lin, Ian Yiran Huang, Carl Vondrick, Eugene Wu*
+
+
+
+#### 2021
+
+1. **Boveda: Building an On-Chip Deep Learning Memory Hierarchy Brick by Brick** SysML 2021 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Isak Edo Vivancos, Sayeh Sharify, Daniel Ly-Ma, Ameer Abdelhadi, Ciaran Bannon, Milos Nikolic, Mostafa Mahmoud, Alberto*
+
+2. **To Bridge Neural Network Design and Real-World Performance: A Behaviour Study for Neural Networks** SysML 2021 ![](https://img.shields.io/badge/Debugging-orange) ![](https://img.shields.io/badge/Hardware-green)
+
+   *Xiaohu Tang, Shihao Han, Li Lyna Zhang, Ting Cao, Yunxin Liu*
+
+3. **Cortex: A Compiler for Recursive Deep Learning Models** SysML 2021 ![](https://img.shields.io/badge/Compiler-206777)
+
+   *Pratik Fegade, Tianqi Chen, Phillip Gibbons, Todd Mowry*
+
+4. **Adaptive Gradient Communication via Critical Learning Regime Identification** SysML 2021 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+   *Saurabh Agarwal, Hongyi Wang, Kangwook Lee, Shivaram Venkataraman, Dimitris Papailiopoulos*
+
+   Code: https://github.com/uw-mad-dash/Accordion
+
+5. **EXPLORING THE LIMITS OF CONCURRENCY IN ML TRAINING ON GOOGLE TPUS** SysML 2021 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+   *Sameer Kumar, Yu Wang, Cliff Young, James Bradbury, Naveen Kumar, Dehao Chen, Andy Swing*
+
+6. **Lost in Pruning: The Effects of Pruning Neural Networks beyond Test Accuracy** SysML 2021 ![](https://img.shields.io/badge/Inference-blue)
+
+   *Lucas Liebenwein, Cenk Baykal, Brandon Carter, David Gifford, Daniela Rus*
+
+   Code: https://github.com/lucaslie/torchprune
+
+7. **Learning Fitness Functions for Machine Programming** SysML 2021 ![](https://img.shields.io/badge/Others-gray)
+
+   *Shantanu Mandal, Todd Anderson, Javier Turek, Justin Gottschlich, Shengtian Zhou, Abdullah Muzahid*
+
+8. **Accelerating SLIDE Deep Learning on Modern CPUs: Vectorization, Quantizations, Memory Optimizations, and More** SysML 2021 ![](https://img.shields.io/badge/Hardware-green)
+
+   *Shabnam Daghaghi, Nicholas Meisburger, Mengnan Zhao, Anshumali Shrivastava*
+
+9. **IOS: Inter-Operator Scheduler for CNN Acceleration** SysML 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+   *Yaoyao Ding, Ligeng Zhu, Zhihao Jia, Gennady Pekhimenko, Song Han*
+
+   Code: https://github.com/mit-han-lab/inter-operator-scheduler
+
+10. **A Deep Learning Based Cost Model for Automatic Code Optimization** SysML 2021 ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/AutoML-06046e)
+
+    *Riyadh Baghdadi, Massinissa Merouani, Mohamed-Hicham LEGHETTAS, Kamel Abdous, Taha Arbaoui, Karima BENATCHBA, Saman amarasinghe*
+
+11. **Don't Forget to Sign the Gradients!** SysML 2021 ![](https://img.shields.io/badge/Security-85144b)
+
+    *Omid Aramoon, Pin-Yu Chen, Gang Qu*
+
+12. **Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference** SysML 2021  ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Inference-blue)
+
+    *Haichen Shen, Jared Roesch, Zhi Chen, Wei Chen, Yong Wu, Mu Li, Vin Sharma, Zachary Tatlock, Yida Wang*
+
+13. **Rethinking Floating Point Overheads for Mixed Precision DNN Accelerators** SysML 2021 ![](https://img.shields.io/badge/Hardware-green)
+
+    *Hamzah Abdelaziz, ali shafiee, Jong Hoon Shin, Ardavan Pedram, Joseph Hassoun*
+
+14. **Swift for TensorFlow: A portable, flexible platform for deep learning** SysML 2021 ![](https://img.shields.io/badge/Platform-034d0f)
+
+    *Brennan Saeta, Denys Shabalin*
+
+    Code: t https://github.com/tensorflow/swift-models
+
+15. **Equality Saturation for Tensor Graph Superoptimization** SysML 2021 ![](https://img.shields.io/badge/Training-red)
+
+    *Yichen Yang, Phitchaya Phothilimthana, Yisu Wang, Max Willsey, Sudip Roy, Jacques Pienaar*
+
+16. **PipeMare: Asynchronous Pipeline Parallel DNN Training** SysML 2021 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+    *Bowen Yang, Jian Zhang, Jonathan Li, Christopher Re, Christopher Aberger, Christopher De Sa*
+
+17. **An Efficient Statistical-based Gradient Compression Technique for Distributed Training Systems** SysML 2021 ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+    *Ahmed M. Abdelmoniem, Ahmed Elzanaty, Mohamed-Slim Alouini , Marco Canini*
+
+    Code: t https://github.com/sands-lab/SIDCo
+
+18. **Value Learning for Throughput Optimization of Deep Learning Workloads** SysML 2021 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+    *Benoit Steiner, Chris Cummins, Horace He, Hugh Leather*
+
+19. **Scaling Distributed Training with Adaptive Summation** SysML 2021 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+    *Saeed Maleki, Madan Musuvathi, Todd Mytkowicz, Olli Saarikivi, Tianju Xu, Vadim Eksarevskiy, Jaliya Ekanayake, Emad Barsoum*
+
+20. **Learning on Distributed Traces for Data Center Storage Systems** SysML 2021 ![](https://img.shields.io/badge/Data-ff69b4) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+    *Giulio Zhou, Martin Maas*
+
+21. **Pufferfish: Communication-efficient Models At No Extra Cost** SysML 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+    *Hongyi Wang, Saurabh Agarwal, Dimitris Papailiopoulos*
+
+    Code: https://github.com/hwang595/Pufferfish
+
+22. **A Learned Performance Model for Tensor Processing Units** SysML 2021 ![](https://img.shields.io/badge/Hardware-green)
+
+    *Sam Kaufman, Phitchaya Phothilimthana, Yanqi Zhou, Charith Mendis, Sudip Roy, Amit Sabne, Mike Burrows*
+
+23. **Towards Scalable Distributed Training of Deep Learning on Public Cloud Clusters** SysML 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+    *Shaohuai Shi, Xianhao Zhou, Shutao Song, Xingyao Wang, Zilin Zhu, Xue Huang, Xinan Jiang, Feihu Zhou, Zhenyu Guo, Liqiang Xie, Rui Lan, Xianbin Ouyang, Yan Zhang, Jieqian Wei, Jing Gong, Weiliang Lin, Ping Gao, Peng Meng, Xiaomin Xu, Chenyang Guo, Bo Yang, Zhibo Chen, Yongjian Wu, Xiaowen Chu*
+
+24. **ModularNAS: Towards Modularized and Reusable Neural Architecture Search** SysML 2021 ![](https://img.shields.io/badge/AutoML-06046e)
+
+    *Yunfeng Lin, Guilin Li, Xing Zhang, Weinan Zhang, Bo Chen, Ruiming Tang, Zhenguo Li, Jiashi Feng, Yong Yu*
+
+    Code: https://github.com/huawei-noah/vega/tree/master/vega/algorithms/nas/modnas
+
+25. **FLAML: A Fast and Lightweight AutoML Library** SysML 2021 ![](https://img.shields.io/badge/AutoML-06046e)
+
+    *Chi Wang, Qingyun Wu, Markus Weimer, Erkang Zhu*
+
+    Code: https://github.com/microsoft/FLAML
+
+26. **TT-Rec: Tensor Train Compression for Deep Learning Recommendation Models** SysML 2021 D
+
+    *Chunxing Yin, Bilge Acun, Carole-Jean Wu, Xing Liu*
+
+    Code: https://github.com/facebookresearch/FBTT-Embedding
+
+27. **SUOD: Accelerating Large-Scale Unsupervised Heterogeneous Outlier Detection** SysML 2021 ![](https://img.shields.io/badge/Platform-034d0f)
+
+    *Yue Zhao, Xiyang Hu, Cheng Cheng, Cong Wang, Changlin Wan, Wen Wang, Jianing Yang, Haoping Bai, Zheng Li, Cao Xiao, Yunlong Wang, Zhi Qiao, Jimeng Sun, Leman Akoglu*
+
+    Code: https://github.com/yzhao062/SUOD
+
+28. **Pipelined Backpropagation at Scale: Training Large Models without Batches** SysML 2021 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+    *Atli Kosson, Vitaliy Chiley, Abhinav Venigalla, Joel Hestness, Urs Koster*
+
+29. **Fluid: Resource-aware Hyperparameter Tuning Engine** SysML 2021 ![](https://img.shields.io/badge/Debugging-orange) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+    *Peifeng Yu, Jiachen Liu, Mosharaf Chowdhury*
+
+30. **MicroNets: Neural Network Architectures for Deploying TinyML Applications on Commodity Microcontrollers** SysML 2021 ![](https://img.shields.io/badge/Others-gray)![](https://img.shields.io/badge/AutoML-06046e)
+
+    *Colby Banbury, Chuteng Zhou, Igor Fedorov, Ramon Matas, Urmish Thakker, Dibakar Gope, Vijay Janapa Reddi, Matthew Mattina, Paul Whatmough*
+
+    Code: https://github.com/ARM-software/ML-zoo
+
+31. **Doping: A technique for Extreme Compression of LSTM Models using Sparse Structured Additive Matrices** SysML 2021 ![](https://img.shields.io/badge/Hardware-green)
+
+    *Urmish Thakker, Paul Whatmough, ZHIGANG LIU, Matthew Mattina, Jesse Beu*
+
+32. **A Distributed Graph-Theoretic Framework for Automatic Parallelization in Multi-core Systems** SysML 2021 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Graph-cc231e)
+
+    *Guixiang Ma, Yao Xiao, Theodore Willke, Nesreen Ahmed, Shahin Nazarian, Paul Bogdan*
+
+33. **Bit Error Robustness for Energy-Efficient DNN Accelerators** SysML 2021 ![](https://img.shields.io/badge/Hardware-green)
+
+    *David Stutz, Nandhini Chandramoorthy, Matthias Hein, Bernt Schiele*
+
+34. **Horizontally Fused Training Array: An Effective Hardware Utilization Squeezer for Training Novel Deep Learning Models** SysML 2021 ![](https://img.shields.io/badge/Hardware-green) ![](https://img.shields.io/badge/Training-red)
+
+    *Shang Wang, Peiming Yang, Yuxuan Zheng, Xin Li, Gennady Pekhimenko*
+
+35. **Characterizing and Taming Model Instability Across Edge Devices** SysML 2021 ![](https://img.shields.io/badge/Debugging-orange)
+
+    *Eyal Cidon, Evgenya Pergament, Zain Asgar, Asaf Cidon, Sachin Katti*
+
+36. **Understanding and Improving Failure Tolerant Training for Deep Learning Recommendation with Partial Recovery** SysML 2021 ![](https://img.shields.io/badge/Training-red)
+
+    *Kiwan Maeng, Shivam Bharuka, Isabel Gao, Mark Jeffrey, Vikram Saraph, Bor-Yiing Su, Caroline Trippel, Jiyan Yang, Mike Rabbat, Brandon Lucia, Carole-Jean Wu*
+
+37. **FirePlace: Placing Firecraker Virtual Machines with Hindsight Imitation** SysML 2021 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+    *Bharathan Balaji, Christopher Kakovitch, Balakrishnan Narayanaswamy*
+
+38. **sensAI: ConvNets Decomposition via Class Parallelism for Fast Inference on Live Data** SysML 2021 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+    *Guanhua Wang, Zhuang Liu, Brandon Hsieh, Siyuan Zhuang, Joseph Gonzalez, Trevor Darrell, Ion Stoica*
+
+    Code: https://github.com/GuanhuaWang/sensAI
+
+39. **Larq Compute Engine: Design, Benchmark and Deploy State-of-the-Art Binarized Neural Networks** SysML 2021 ![](https://img.shields.io/badge/Inference-blue)
+
+    *Tom Bannink, Adam Hillier, Lukas Geiger, Tim de Bruin, Leon Overweel, Jelmer Neeven, Koen Helwegen*
+
+    Code: https://github.com/larq/compute-engine
+
+40. **Wavelet: Efficient DNN Training with Tick-Tock Scheduling** SysML 2021 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+    *Guanhua Wang, Kehan Wang, Kenan Jiang, XIANGJUN LI, Ion Stoica*
+
+41. **Data Movement Is All You Need** SysML 2021 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+    *Andrei Ivanov, Nikoli Dryden, Tal Ben-Nun, Shigang Li, Torsten Hoefler*
+
+    Code: https://github.com/spcl/substation
+
+42. **Scaling Polyhedral Neural Network Verification on GPUs** SysML 2021 ![](https://img.shields.io/badge/Debugging-orange)
+
+    *Christoph Müller , François Serre, Gagandeep Singh, Markus Püschel, Martin Vechev*
+
+    Code: https://github.com/eth-sri/eran
+
+43. **Accounting for Variance in Machine Learning Benchmarks** SysML 2021 ![](https://img.shields.io/badge/Others-gray)
+
+    *Xavier Bouthillier, Pierre Delaunay, Mirko Bronzi, Assya Trofimov, Brennan Nichyporuk, Justin Szeto, Nazanin Mohammadi Sepahvand, Edward Raff, Kanika Madan, Vikram Voleti, Samira Ebrahimi Kahou, Vincent Michalski, Tal Arbel, Chris Pal, Gael Varoquaux, Pascal Vincent*
+
+44. **Amazon SageMaker Debugger: A System for Real-Time Insights into Machine Learning Model Training** SysML 2021 ![](https://img.shields.io/badge/Debugging-orange)
+
+    *Nathalie Rauschmayr, Vikas Kumar, Rahul Huilgol, Andrea Olgiati, Satadal Bhattacharjee, Nihal Harish, Vandana Kannan, Amol Lele, Anirudh Acharya, Jared Nielsen, Lakshmi Ramakrishnan, Ishan Bhatt, Kohen Chia, Neelesh Dodda, Zhihan Li, Jiacheng Gu, Miyoung Choi, Balajee Nagarajan, Jeffrey Geevarghese, Denis Davydenko, Sifei Li, Lu Huang, Edward Kim, Tyler Hill, Krishnaram Kenthapadi*
+
+    Code: https://github.com/awslabs/sagemaker-debugger
+
+45. **RL-Scope: Cross-stack Profiling for Deep Reinforcement Learning Workloads** SysML 2021 ![](https://img.shields.io/badge/Debugging-orange)
+
+    *James Gleeson, Moshe Gabel, Gennady Pekhimenko, Eyal de Lara, Srivatsan Krishnan, Vijay Janapa Reddi*
+
+    Code: https://github.com/UofT-EcoSystem/rlscope
+
+46. **TensorFlow Lite Micro: Embedded Machine Learning for TinyML Systems** SysML 2021 ![](https://img.shields.io/badge/Inference-blue)
+
+    *Robert David, Jared Duke, Advait Jain, Vijay Janapa Reddi, Nat Jeffries, Jian Li, Nick Kreeger, Ian Nappier, Meghna Natraj, Tiezhen Wang, Pete Warden, Rocky Rhodes*
+
+47. **ByzShield: An Efficient and Robust System for Distributed Training** SysML 2021 ![](https://img.shields.io/badge/Parallel-blueviolet) ![](https://img.shields.io/badge/Training-red)
+
+    *Konstantinos Konstantinidis, Aditya Ramamoorthy*
+
+    Code: https://github.com/kkonstantinidis/ByzShield
+
+48. **In-network Aggregation for Shared Machine Learning Clusters** SysML 2021 ![](https://img.shields.io/badge/Training-red)
+
+    *Nadeen Gebara, Manya Ghobadi, Paolo Costa*
+
+49. **MicroRec: Efficient Recommendation Inference by Hardware and Data Structure Solutions** SysML 2021 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
+
+    *Wenqi Jiang, Zhenhao He, Shuai Zhang, Thomas B. Preußer, Kai Zeng, Liang Feng, Jiansong Zhang, Tongxuan Liu, Yong Li , Jingren Zhou, Ce Zhang, Gustavo Alonso*
+
+50. **Accelerate Inference of CNNs for Video Analysis While Preserving Exactness Exploiting Activation Sparsity** SysML 2021 ![](https://img.shields.io/badge/Inference-blue)
+
+    *Toshiaki Wakatsuki, Sekitoshi Kanai, Yasuhiro Fujiwara*
+
+51. **VS-Quant: Per-vector Scaled Quantization for Accurate Low-Precision Neural Network Inference** SysML 2021 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
+
+    *Steve Dai, Rangha Venkatesan, Mark Ren, Brian Zimmer, William Dally, Brucek Khailany*
+
+52. **CODE: Compiler-based Neuron-aware Ensemble training** SysML 2021 ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Training-red)
+
+    *Ettore M. G. Trainiti, Thanapon Noraset, David Demeter, Doug Downey, Simone Campanoni*
+
+
 
 ### VLDB
 
