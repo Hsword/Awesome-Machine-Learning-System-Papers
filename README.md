@@ -29,7 +29,7 @@ Currently, the listed papers are collected from the following conferences:
 | [SIGKDD](#sigkdd)    | - | 5 | 4 |   7   |   8   |   8   |      |      |      |      |
 | [EuroSys](#eurosys)    | 2 | 1 | 4 |   5   |   3   |   5   |      |      |      |      |
 | [SoCC](#socc)    | 2 | 3 | 3 |   2   |   6   |   -   |      |      |      |      |
-| [SysML](#sysml)    | - | - | 6 |  32  |      |      |      |      |      |      |
+| [SysML](#sysml)    | - | - | 6 |  32  |  34   |      |      |      |      |      |
 
 Some conferences to be added in the future:
 
@@ -1804,6 +1804,176 @@ Some conferences to be added in the future:
 32.	**TensorFlow.js: Machine Learning for the Web and Beyond** SysML 2019 ![](https://img.shields.io/badge/Compiler-206777)
 
 	*Daniel Smilkov, Nikhil Thorat, Yannick Assogba, Charles Nicholson, Nick Kreeger, Ping Yu, Shanqing Cai, Eric Nielsen, David Soegel, Stan Bileschi, Michael Terry, Ann Yuan, Kangyi Zhang, Sandeep Gupta, Sarah Sirajuddin, D Sculley, Rajat Monga, Greg Corrado, Fernanda Viegas, Martin M Wattenberg*
+
+#### 2020
+
+1.	**A System for Massively Parallel Hyperparameter Tuning** SysML 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Liam Li, Kevin Jamieson, Afshin Rostamizadeh, Ekaterina Gonina, Jonathan Ben-tzur, Moritz Hardt, Benjamin Recht, Ameet Talwalkar*
+
+	Code: [https://github.com/liamcli/darts_asha](https://github.com/liamcli/darts_asha)
+
+2.	**PLink: Discovering and Exploiting Locality for Accelerated Distributed Training on the public Cloud** SysML 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Liang Luo, Peter West, Jacob Nelson, Arvind Krishnamurthy, Luis Ceze*
+
+3.	**Federated Optimization in Heterogeneous Networks** SysML 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Tian Li, Anit Kumar Sahu, Manzil Zaheer, Maziar Sanjabi, Ameet Talwalkar, Virginia Smith*
+
+	Code: [https://github.com/litian96/FedProx](https://github.com/litian96/FedProx)
+
+4.	**BPPSA: Scaling Back-propagation by Parallel Scan Algorithm** SysML 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Shang Wang, Yifan Bai, Gennady Pekhimenko*
+
+	Code: [https://github.com/UofT-EcoSystem/BPPSA-open](https://github.com/UofT-EcoSystem/BPPSA-open)
+
+5.	**Distributed Hierarchical GPU Parameter Server for Massive Scale Deep Learning Ads Systems** SysML 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Weijie Zhao, Deping Xie, Ronglai Jia, Yulei Qian, Ruiquan Ding, Mingming Sun, Ping Li*
+
+6.	**Resource Elasticity in Distributed Deep Learning** SysML 2020 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Andrew Or, Haoyu Zhang, Michael Freedman*
+
+7.	**SLIDE : In Defense of Smart Algorithms over Hardware Acceleration for Large-Scale Deep Learning Systems** SysML 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Beidi Chen, Tharun Medini, James Farwell, sameh gobriel, Charlie Tai, Anshumali Shrivastava*
+
+	Code: [https://github.com/keroro824/HashingDeepLearning](https://github.com/keroro824/HashingDeepLearning)
+
+8.	**FLEET: Flexible Efficient Ensemble Training for Heterogeneous Deep Neural Networks** SysML 2020 ![](https://img.shields.io/badge/Training-red) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Hui Guan, Laxmikant Kishor Mokadam, Xipeng Shen, Seung-Hwan Lim, Robert Patton*
+
+9.	**Checkmate: Breaking the Memory Wall with Optimal Tensor Rematerialization** SysML 2020 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Paras Jain, Ajay Jain, Aniruddha Nrusimha, Amir Gholami, Pieter Abbeel, Joseph Gonzalez, Kurt Keutzer, Ion Stoica*
+
+	Code: [https://github.com/parasj/checkmate](https://github.com/parasj/checkmate)
+
+10.	**What is the State of Neural Network Pruning?** SysML 2020 ![](https://img.shields.io/badge/Training-red)
+
+	*Davis Blalock, Jose Javier Gonzalez Ortiz, Jonathan Frankle, John Guttag*
+
+	Code: [https://github.com/jjgo/shrinkbench](https://github.com/jjgo/shrinkbench)
+
+11.	**SkyNet: a Hardware-Efficient Method for Object Detection and Tracking on Embedded Systems** SysML 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Xiaofan Zhang, Haoming Lu, Cong Hao, Jiachen Li, Bowen Cheng, Yuhong Li, Kyle Rupnow, Jinjun Xiong, Thomas Huang, Honghui Shi, Wen-Mei Hwu, Deming Chen*
+
+12.	**MNN: A Universal and Efficient Inference Engine** SysML 2020 ![](https://img.shields.io/badge/Inference-blue)
+
+	*Xiaotang Jiang, Huan Wang, Yiliu Chen, Ziqi Wu, Lichuan Wang, Bin Zou, Yafeng Yang, Zongyang Cui, Yu Cai, Tianhang Yu, Chengfei Lyu, Zhihua Wu*
+
+	Code: [https://github.com/alibaba/MNN](https://github.com/alibaba/MNN)
+
+13.	**Willump: A Statistically-Aware End-to-end Optimizer for Machine Learning Inference** SysML 2020 ![](https://img.shields.io/badge/Inference-blue)
+
+	*Peter Kraft, Daniel Kang, Deepak Narayanan, Shoumik Palkar, Peter Bailis, Matei Zaharia*
+
+	Code: [https://github.com/stanford-futuredata/Willump](https://github.com/stanford-futuredata/Willump)
+
+14.	**Attention-based Learning for Missing Data Imputation in HoloClean** SysML 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Richard Wu, Aoqian Zhang, Ihab Ilyas, Theodoros Rekatsinas*
+
+15.	**Privacy-Preserving Bandits** SysML 2020 ![](https://img.shields.io/badge/Security-85144b)
+
+	*Mohammad Malekzadeh, Dimitrios Athanasakis, Hamed Haddadi, Ben Livshits*
+
+	Code: [https://github.com/mmalekzadeh/privacy-preserving-bandits](https://github.com/mmalekzadeh/privacy-preserving-bandits)
+
+16.	**Understanding the Downstream Instability of Word Embeddings** SysML 2020 ![](https://img.shields.io/badge/Data-ff69b4)
+
+	*Megan Leszczynski, Avner May, Jian Zhang, Sen Wu, Christopher Aberger, Christopher Re*
+
+	Code: [https://github.com/HazyResearch/anchor-stability](https://github.com/HazyResearch/anchor-stability)
+
+17.	**Model Assertions for Monitoring and Improving ML Models** SysML 2020 ![](https://img.shields.io/badge/Debugging-orange)
+
+	*Daniel Kang, Deepti Raghavan, Peter Bailis, Matei Zaharia*
+
+18.	**AutoPhase: Juggling HLS Phase Orderings in Random Forests with Deep Reinforcement Learning** SysML 2020 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Ameer Haj-Ali, Qijing (Jenny) Huang, John Xiang, William Moses, Krste Asanovic, John Wawrzynek, Ion Stoica*
+
+	Code: [https://github.com/ucb-bar/autophase](https://github.com/ucb-bar/autophase)
+
+19.	**Automatically batching control-intensive programs for modern accelerators** SysML 2020 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Alexey Radul, Brian Patton, Dougal Maclaurin, Matthew Hoffman, Rif A. Saurous*
+
+20.	**Predictive Precompute with Recurrent Neural Networks** SysML 2020 ![](https://img.shields.io/badge/Inference-blue)
+
+	*Hanson Wang, Zehui Wang, Yuanyuan Ma*
+
+21.	**Sense & Sensitivities: The Path to General-Purpose Algorithmic Differentiation** SysML 2020 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Mike Innes*
+
+22.	**Ordering Chaos: Memory-Aware Scheduling of Irregularly Wired Neural Networks for Edge Devices** SysML 2020 ![](https://img.shields.io/badge/Compiler-206777) ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Byung Hoon Ahn, Jinwon Lee, Jamie Menjay Lin, Hsin-Pai Cheng, Jilei Hou, Hadi Esmaeilzadeh*
+
+23.	**Fine-Grained GPU Sharing Primitives for Deep Learning Applications** SysML 2020 ![](https://img.shields.io/badge/Resource-cc9e08)
+
+	*Peifeng Yu, Mosharaf Chowdhury*
+
+	Code: [https://github.com/SymbioticLab/Salus](https://github.com/SymbioticLab/Salus)
+
+24.	**Improving the Accuracy, Scalability, and Performance of Graph Neural Networks with Roc** SysML 2020 ![](https://img.shields.io/badge/Graph-cc231e)
+
+	*Zhihao Jia, Sina Lin, Mingyu Gao, Matei Zaharia, Alex Aiken*
+
+25.	**OPTIMUS: OPTImized matrix MUltiplication Structure for Transformer neural network accelerator** SysML 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Junki Park, Hyunsung Yoon, Daehyun Ahn, Jungwook Choi, Jae-Joon Kim*
+
+26.	**PoET-BiN: Power Efficient Tiny Binary Neurons** SysML 2020 ![](https://img.shields.io/badge/Hardware-green)
+
+	*Sivakumar Chidambaram, Pierre Langlois, Jean-Pierre David*
+
+27.	**Memory-Driven Mixed Low Precision Quantization for Enabling Deep Network Inference on Microcontrollers** SysML 2020 ![](https://img.shields.io/badge/Inference-blue) ![](https://img.shields.io/badge/Hardware-green)
+
+	*Manuele Rusci, Alessandro Capotondi, Luca Benini*
+
+	Code: [https://github.com/mrusci/training-mixed-precision-quantized-networks](https://github.com/mrusci/training-mixed-precision-quantized-networks)
+
+28.	**Trained Quantization Thresholds for Accurate and Efficient Fixed-Point Inference of Deep Neural Networks** SysML 2020 ![](https://img.shields.io/badge/Inference-blue)
+
+	*Sambhav Jain, Albert Gural, Michael Wu, Chris Dick*
+
+	Code: [https://github.com/Xilinx/graffitist](https://github.com/Xilinx/graffitist)
+
+29.	**Riptide: Fast End-to-End Binarized Neural Networks** SysML 2020 ![](https://img.shields.io/badge/Compiler-206777)
+
+	*Joshua Fromm, Meghan Cowan, Matthai Philipose, Luis Ceze, Shwetak Patel*
+
+30.	**Searching for Winograd-aware Quantized Networks** SysML 2020 ![](https://img.shields.io/badge/Training-red)
+
+	*Javier Fernandez-Marques, Paul Whatmough, Andrew Mundy, Matthew Mattina*
+
+31.	**Blink: Fast and Generic Collectives for Distributed ML** SysML 2020 ![](https://img.shields.io/badge/Parallel-blueviolet)
+
+	*Guanhua Wang, Shivaram Venkataraman, Amar Phanishayee, Nikhil Devanur, Jorgen Thelin, Ion Stoica*
+
+32.	**A Systematic Methodology for Analysis of Deep Learning Hardware and Software Platforms** SysML 2020 ![](https://img.shields.io/badge/Debugging-orange)
+
+	*Yu Wang, Gu-Yeon Wei, David Brooks*
+
+	Code: [https://github.com/Emma926/paradnn](https://github.com/Emma926/paradnn)
+
+33.	**MotherNets: Rapid Deep Ensemble Learning** SysML 2020 ![](https://img.shields.io/badge/Training-red)
+
+	*Abdul Wasay, Brian Hentschel, Yuze Liao, Sanyuan Chen, Stratos Idreos*
+
+34.	**MLPerf Training Benchmark** SysML 2020 ![](https://img.shields.io/badge/Debugging-orange)
+
+	*Peter Mattson, Christine Cheng, Gregory Diamos, Cody Coleman, Paulius Micikevicius, David Patterson, Hanlin Tang, Gu-Yeon Wei, Peter Bailis, Victor Bittorf, David Brooks, Dehao Chen, Debo Dutta, Udit Gupta, Kim Hazelwood, Andy Hock, Xinyuan Huang, Daniel Kang, David Kanter, Naveen Kumar, Jeffery Liao, Deepak Narayanan, Tayo Oguntebi, Gennady Pekhimenko, Lillian Pentecost, Vijay Janapa Reddi, Taylor Robie, Tom St John, Carole-Jean Wu, Lingjie Xu, Cliff Young, Matei Zaharia*
+
+	Code: [https://github.com/mlcommons/training](https://github.com/mlcommons/training)
 
 ### VLDB
 
